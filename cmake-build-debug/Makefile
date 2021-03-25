@@ -131,125 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named Cpp_Study
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
+Cpp_Study: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Cpp_Study
+.PHONY : Cpp_Study
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
-
-Link_List_Use_1.o: Link_List_Use_1.cpp.o
-
-.PHONY : Link_List_Use_1.o
-
-# target to build an object file
-Link_List_Use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Link_List_Use_1.cpp.o
-.PHONY : Link_List_Use_1.cpp.o
-
-Link_List_Use_1.i: Link_List_Use_1.cpp.i
-
-.PHONY : Link_List_Use_1.i
-
-# target to preprocess a source file
-Link_List_Use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Link_List_Use_1.cpp.i
-.PHONY : Link_List_Use_1.cpp.i
-
-Link_List_Use_1.s: Link_List_Use_1.cpp.s
-
-.PHONY : Link_List_Use_1.s
-
-# target to generate assembly for a file
-Link_List_Use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Link_List_Use_1.cpp.s
-.PHONY : Link_List_Use_1.cpp.s
-
-Ram_Apply_1.o: Ram_Apply_1.cpp.o
-
-.PHONY : Ram_Apply_1.o
-
-# target to build an object file
-Ram_Apply_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Ram_Apply_1.cpp.o
-.PHONY : Ram_Apply_1.cpp.o
-
-Ram_Apply_1.i: Ram_Apply_1.cpp.i
-
-.PHONY : Ram_Apply_1.i
-
-# target to preprocess a source file
-Ram_Apply_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Ram_Apply_1.cpp.i
-.PHONY : Ram_Apply_1.cpp.i
-
-Ram_Apply_1.s: Ram_Apply_1.cpp.s
-
-.PHONY : Ram_Apply_1.s
-
-# target to generate assembly for a file
-Ram_Apply_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Ram_Apply_1.cpp.s
-.PHONY : Ram_Apply_1.cpp.s
-
-Ram_Apply_2.o: Ram_Apply_2.cpp.o
-
-.PHONY : Ram_Apply_2.o
-
-# target to build an object file
-Ram_Apply_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Ram_Apply_2.cpp.o
-.PHONY : Ram_Apply_2.cpp.o
-
-Ram_Apply_2.i: Ram_Apply_2.cpp.i
-
-.PHONY : Ram_Apply_2.i
-
-# target to preprocess a source file
-Ram_Apply_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Ram_Apply_2.cpp.i
-.PHONY : Ram_Apply_2.cpp.i
-
-Ram_Apply_2.s: Ram_Apply_2.cpp.s
-
-.PHONY : Ram_Apply_2.s
-
-# target to generate assembly for a file
-Ram_Apply_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Ram_Apply_2.cpp.s
-.PHONY : Ram_Apply_2.cpp.s
-
-Structure_Use_1.o: Structure_Use_1.cpp.o
-
-.PHONY : Structure_Use_1.o
-
-# target to build an object file
-Structure_Use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Structure_Use_1.cpp.o
-.PHONY : Structure_Use_1.cpp.o
-
-Structure_Use_1.i: Structure_Use_1.cpp.i
-
-.PHONY : Structure_Use_1.i
-
-# target to preprocess a source file
-Structure_Use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Structure_Use_1.cpp.i
-.PHONY : Structure_Use_1.cpp.i
-
-Structure_Use_1.s: Structure_Use_1.cpp.s
-
-.PHONY : Structure_Use_1.s
-
-# target to generate assembly for a file
-Structure_Use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Structure_Use_1.cpp.s
-.PHONY : Structure_Use_1.cpp.s
+Cpp_Study/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/build
+.PHONY : Cpp_Study/fast
 
 main.o: main.cpp.o
 
@@ -257,7 +149,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -266,7 +158,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -275,62 +167,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-quote.o: quote.cpp.o
-
-.PHONY : quote.o
-
-# target to build an object file
-quote.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/quote.cpp.o
-.PHONY : quote.cpp.o
-
-quote.i: quote.cpp.i
-
-.PHONY : quote.i
-
-# target to preprocess a source file
-quote.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/quote.cpp.i
-.PHONY : quote.cpp.i
-
-quote.s: quote.cpp.s
-
-.PHONY : quote.s
-
-# target to generate assembly for a file
-quote.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/quote.cpp.s
-.PHONY : quote.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.cpp.s
-.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -340,28 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Code"
-	@echo "... Link_List_Use_1.o"
-	@echo "... Link_List_Use_1.i"
-	@echo "... Link_List_Use_1.s"
-	@echo "... Ram_Apply_1.o"
-	@echo "... Ram_Apply_1.i"
-	@echo "... Ram_Apply_1.s"
-	@echo "... Ram_Apply_2.o"
-	@echo "... Ram_Apply_2.i"
-	@echo "... Ram_Apply_2.s"
-	@echo "... Structure_Use_1.o"
-	@echo "... Structure_Use_1.i"
-	@echo "... Structure_Use_1.s"
+	@echo "... Cpp_Study"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... quote.o"
-	@echo "... quote.i"
-	@echo "... quote.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 
