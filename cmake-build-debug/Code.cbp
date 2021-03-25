@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Link_List_Use_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Link_List_Use_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Link_List_Use_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link_List_Use_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link_List_Use_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Link_List_Use_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Link_List_Use_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Link_List_Use_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,25 +53,25 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link_List_Use_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link_List_Use_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Structure_Use_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Structure_Use_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Structure_Use_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -84,15 +84,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Structure_Use_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Structure_Use_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Structure_Use_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Structure_Use_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Structure_Use_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -105,15 +105,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Structure_Use_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Structure_Use_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="quote">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/quote" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/quote" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -126,15 +126,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 quote"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 quote"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="quote/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/quote" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/quote" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -147,15 +147,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 quote/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 quote/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ram_Apply_2">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Ram_Apply_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Ram_Apply_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -168,15 +168,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ram_Apply_2/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Ram_Apply_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Ram_Apply_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -189,25 +189,25 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ram_Apply_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Ram_Apply_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Ram_Apply_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -220,15 +220,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Ram_Apply_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Ram_Apply_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Ram_Apply_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -241,15 +241,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ram_Apply_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Code">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -262,15 +262,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Code/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option output="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -283,40 +283,40 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Link_List_Use_1.cpp">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/Link_List_Use_1.cpp">
 			<Option target="Link_List_Use_1"/>
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Ram_Apply_1.cpp">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/Ram_Apply_1.cpp">
 			<Option target="Ram_Apply_1"/>
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Ram_Apply_2.cpp">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/Ram_Apply_2.cpp">
 			<Option target="Ram_Apply_2"/>
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Structure_Use_1.cpp">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/Structure_Use_1.cpp">
 			<Option target="Structure_Use_1"/>
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/main.cpp">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/main.cpp">
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/quote.cpp">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/quote.cpp">
 			<Option target="quote"/>
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/test.cpp">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/test.cpp">
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/CMakeLists.txt">
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
