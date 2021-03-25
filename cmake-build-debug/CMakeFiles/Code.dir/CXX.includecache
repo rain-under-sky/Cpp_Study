@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aomsir/MyStudy/C++/Code/Link_List_Use_1.cpp
+iostream
+-
+
+/Users/aomsir/MyStudy/C++/Code/Ram_Apply_1.cpp
+iostream
+-
+
+/Users/aomsir/MyStudy/C++/Code/Ram_Apply_2.cpp
+iostream
+-
+
+/Users/aomsir/MyStudy/C++/Code/Structure_Use_1.cpp
+iostream
+-
+string
+-
+
+/Users/aomsir/MyStudy/C++/Code/quote.cpp
+iostream
+-
+
