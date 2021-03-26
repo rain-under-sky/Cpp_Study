@@ -156,6 +156,33 @@ Cpp_Study/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/build
 .PHONY : Cpp_Study/fast
 
+Function_Use_1.o: Function_Use_1.cpp.o
+
+.PHONY : Function_Use_1.o
+
+# target to build an object file
+Function_Use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/Function_Use_1.cpp.o
+.PHONY : Function_Use_1.cpp.o
+
+Function_Use_1.i: Function_Use_1.cpp.i
+
+.PHONY : Function_Use_1.i
+
+# target to preprocess a source file
+Function_Use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/Function_Use_1.cpp.i
+.PHONY : Function_Use_1.cpp.i
+
+Function_Use_1.s: Function_Use_1.cpp.s
+
+.PHONY : Function_Use_1.s
+
+# target to generate assembly for a file
+Function_Use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/Function_Use_1.cpp.s
+.PHONY : Function_Use_1.cpp.s
+
 Link_List_Use_1.o: Link_List_Use_1.cpp.o
 
 .PHONY : Link_List_Use_1.o
@@ -220,6 +247,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Cpp_Study"
 	@echo "... Link_List_Use_1"
+	@echo "... Function_Use_1.o"
+	@echo "... Function_Use_1.i"
+	@echo "... Function_Use_1.s"
 	@echo "... Link_List_Use_1.o"
 	@echo "... Link_List_Use_1.i"
 	@echo "... Link_List_Use_1.s"
