@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aomsir/MyStudy/C++/Code/Cpp_Study
+CMAKE_SOURCE_DIR = /Users/aomsir/MyStudy/C++/Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/CMakeFiles /Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -144,17 +144,30 @@ Link_List_Use_1/fast:
 .PHONY : Link_List_Use_1/fast
 
 #=============================================================================
-# Target rules for targets named Cpp_Study
+# Target rules for targets named Function_Use_1
 
 # Build rule for target.
-Cpp_Study: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Cpp_Study
-.PHONY : Cpp_Study
+Function_Use_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Function_Use_1
+.PHONY : Function_Use_1
 
 # fast build rule for target.
-Cpp_Study/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/build
-.PHONY : Cpp_Study/fast
+Function_Use_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/build
+.PHONY : Function_Use_1/fast
+
+#=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
 
 Function_Use_1.o: Function_Use_1.cpp.o
 
@@ -162,7 +175,7 @@ Function_Use_1.o: Function_Use_1.cpp.o
 
 # target to build an object file
 Function_Use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/Function_Use_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/Function_Use_1.cpp.o
 .PHONY : Function_Use_1.cpp.o
 
 Function_Use_1.i: Function_Use_1.cpp.i
@@ -171,7 +184,7 @@ Function_Use_1.i: Function_Use_1.cpp.i
 
 # target to preprocess a source file
 Function_Use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/Function_Use_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/Function_Use_1.cpp.i
 .PHONY : Function_Use_1.cpp.i
 
 Function_Use_1.s: Function_Use_1.cpp.s
@@ -180,7 +193,7 @@ Function_Use_1.s: Function_Use_1.cpp.s
 
 # target to generate assembly for a file
 Function_Use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/Function_Use_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/Function_Use_1.cpp.s
 .PHONY : Function_Use_1.cpp.s
 
 Link_List_Use_1.o: Link_List_Use_1.cpp.o
@@ -216,7 +229,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -225,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -234,35 +247,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-quote_use_1.o: quote_use_1.cpp.o
-
-.PHONY : quote_use_1.o
-
-# target to build an object file
-quote_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/quote_use_1.cpp.o
-.PHONY : quote_use_1.cpp.o
-
-quote_use_1.i: quote_use_1.cpp.i
-
-.PHONY : quote_use_1.i
-
-# target to preprocess a source file
-quote_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/quote_use_1.cpp.i
-.PHONY : quote_use_1.cpp.i
-
-quote_use_1.s: quote_use_1.cpp.s
-
-.PHONY : quote_use_1.s
-
-# target to generate assembly for a file
-quote_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/quote_use_1.cpp.s
-.PHONY : quote_use_1.cpp.s
 
 # Help Target
 help:
@@ -272,7 +258,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Cpp_Study"
+	@echo "... Code"
+	@echo "... Function_Use_1"
 	@echo "... Link_List_Use_1"
 	@echo "... Function_Use_1.o"
 	@echo "... Function_Use_1.i"
@@ -283,9 +270,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... quote_use_1.o"
-	@echo "... quote_use_1.i"
-	@echo "... quote_use_1.s"
 .PHONY : help
 
 

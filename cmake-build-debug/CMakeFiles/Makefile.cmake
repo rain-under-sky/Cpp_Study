@@ -53,5 +53,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Link_List_Use_1.dir/DependInfo.cmake"
-  "CMakeFiles/Cpp_Study.dir/DependInfo.cmake"
+  "CMakeFiles/Function_Use_1.dir/DependInfo.cmake"
+  "CMakeFiles/Code.dir/DependInfo.cmake"
   )
