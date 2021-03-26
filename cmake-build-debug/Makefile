@@ -144,6 +144,19 @@ Function_Use_1/fast:
 .PHONY : Function_Use_1/fast
 
 #=============================================================================
+# Target rules for targets named quote_point_1
+
+# Build rule for target.
+quote_point_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quote_point_1
+.PHONY : quote_point_1
+
+# fast build rule for target.
+quote_point_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_point_1.dir/build.make CMakeFiles/quote_point_1.dir/build
+.PHONY : quote_point_1/fast
+
+#=============================================================================
 # Target rules for targets named quote_use_1
 
 # Build rule for target.
@@ -223,6 +236,36 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+quote_point_1.o: quote_point_1.cpp.o
+
+.PHONY : quote_point_1.o
+
+# target to build an object file
+quote_point_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_point_1.dir/build.make CMakeFiles/quote_point_1.dir/quote_point_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/quote_point_1.cpp.o
+.PHONY : quote_point_1.cpp.o
+
+quote_point_1.i: quote_point_1.cpp.i
+
+.PHONY : quote_point_1.i
+
+# target to preprocess a source file
+quote_point_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_point_1.dir/build.make CMakeFiles/quote_point_1.dir/quote_point_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/quote_point_1.cpp.i
+.PHONY : quote_point_1.cpp.i
+
+quote_point_1.s: quote_point_1.cpp.s
+
+.PHONY : quote_point_1.s
+
+# target to generate assembly for a file
+quote_point_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_point_1.dir/build.make CMakeFiles/quote_point_1.dir/quote_point_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/quote_point_1.cpp.s
+.PHONY : quote_point_1.cpp.s
+
 quote_use_1.o: quote_use_1.cpp.o
 
 .PHONY : quote_use_1.o
@@ -260,6 +303,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Code"
 	@echo "... Function_Use_1"
+	@echo "... quote_point_1"
 	@echo "... quote_use_1"
 	@echo "... Function_Use_1.o"
 	@echo "... Function_Use_1.i"
@@ -267,6 +311,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... quote_point_1.o"
+	@echo "... quote_point_1.i"
+	@echo "... quote_point_1.s"
 	@echo "... quote_use_1.o"
 	@echo "... quote_use_1.i"
 	@echo "... quote_use_1.s"

@@ -74,6 +74,7 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/Function_Use_1.dir/all
+all: CMakeFiles/quote_point_1.dir/all
 all: CMakeFiles/quote_use_1.dir/all
 all: CMakeFiles/Code.dir/all
 
@@ -86,6 +87,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Function_Use_1.dir/clean
+clean: CMakeFiles/quote_point_1.dir/clean
 clean: CMakeFiles/quote_use_1.dir/clean
 clean: CMakeFiles/Code.dir/clean
 
@@ -98,7 +100,7 @@ clean: CMakeFiles/Code.dir/clean
 CMakeFiles/Function_Use_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Function_Use_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target Function_Use_1"
 .PHONY : CMakeFiles/Function_Use_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -119,13 +121,40 @@ CMakeFiles/Function_Use_1.dir/clean:
 .PHONY : CMakeFiles/Function_Use_1.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/quote_point_1.dir
+
+# All Build rule for target.
+CMakeFiles/quote_point_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_point_1.dir/build.make CMakeFiles/quote_point_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_point_1.dir/build.make CMakeFiles/quote_point_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target quote_point_1"
+.PHONY : CMakeFiles/quote_point_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/quote_point_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quote_point_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/quote_point_1.dir/rule
+
+# Convenience name for target.
+quote_point_1: CMakeFiles/quote_point_1.dir/rule
+
+.PHONY : quote_point_1
+
+# clean rule for target.
+CMakeFiles/quote_point_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_point_1.dir/build.make CMakeFiles/quote_point_1.dir/clean
+.PHONY : CMakeFiles/quote_point_1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/quote_use_1.dir
 
 # All Build rule for target.
 CMakeFiles/quote_use_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_use_1.dir/build.make CMakeFiles/quote_use_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_use_1.dir/build.make CMakeFiles/quote_use_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target quote_use_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target quote_use_1"
 .PHONY : CMakeFiles/quote_use_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -152,12 +181,12 @@ CMakeFiles/quote_use_1.dir/clean:
 CMakeFiles/Code.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Code"
 .PHONY : CMakeFiles/Code.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Code.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Code.dir/rule

@@ -1,5 +1,6 @@
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Function_Use_1.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/quote_point_1.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/quote_use_1.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir
