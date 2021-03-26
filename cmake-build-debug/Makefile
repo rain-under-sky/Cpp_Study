@@ -131,32 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Link_List_Use_1
-
-# Build rule for target.
-Link_List_Use_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Link_List_Use_1
-.PHONY : Link_List_Use_1
-
-# fast build rule for target.
-Link_List_Use_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Link_List_Use_1.dir/build.make CMakeFiles/Link_List_Use_1.dir/build
-.PHONY : Link_List_Use_1/fast
-
-#=============================================================================
-# Target rules for targets named Function_Use_1
-
-# Build rule for target.
-Function_Use_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Function_Use_1
-.PHONY : Function_Use_1
-
-# fast build rule for target.
-Function_Use_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/build
-.PHONY : Function_Use_1/fast
-
-#=============================================================================
 # Target rules for targets named Code
 
 # Build rule for target.
@@ -168,60 +142,6 @@ Code: cmake_check_build_system
 Code/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
 .PHONY : Code/fast
-
-Function_Use_1.o: Function_Use_1.cpp.o
-
-.PHONY : Function_Use_1.o
-
-# target to build an object file
-Function_Use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/Function_Use_1.cpp.o
-.PHONY : Function_Use_1.cpp.o
-
-Function_Use_1.i: Function_Use_1.cpp.i
-
-.PHONY : Function_Use_1.i
-
-# target to preprocess a source file
-Function_Use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/Function_Use_1.cpp.i
-.PHONY : Function_Use_1.cpp.i
-
-Function_Use_1.s: Function_Use_1.cpp.s
-
-.PHONY : Function_Use_1.s
-
-# target to generate assembly for a file
-Function_Use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Use_1.dir/build.make CMakeFiles/Function_Use_1.dir/Function_Use_1.cpp.s
-.PHONY : Function_Use_1.cpp.s
-
-Link_List_Use_1.o: Link_List_Use_1.cpp.o
-
-.PHONY : Link_List_Use_1.o
-
-# target to build an object file
-Link_List_Use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Link_List_Use_1.dir/build.make CMakeFiles/Link_List_Use_1.dir/Link_List_Use_1.cpp.o
-.PHONY : Link_List_Use_1.cpp.o
-
-Link_List_Use_1.i: Link_List_Use_1.cpp.i
-
-.PHONY : Link_List_Use_1.i
-
-# target to preprocess a source file
-Link_List_Use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Link_List_Use_1.dir/build.make CMakeFiles/Link_List_Use_1.dir/Link_List_Use_1.cpp.i
-.PHONY : Link_List_Use_1.cpp.i
-
-Link_List_Use_1.s: Link_List_Use_1.cpp.s
-
-.PHONY : Link_List_Use_1.s
-
-# target to generate assembly for a file
-Link_List_Use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Link_List_Use_1.dir/build.make CMakeFiles/Link_List_Use_1.dir/Link_List_Use_1.cpp.s
-.PHONY : Link_List_Use_1.cpp.s
 
 main.o: main.cpp.o
 
@@ -259,14 +179,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Code"
-	@echo "... Function_Use_1"
-	@echo "... Link_List_Use_1"
-	@echo "... Function_Use_1.o"
-	@echo "... Function_Use_1.i"
-	@echo "... Function_Use_1.s"
-	@echo "... Link_List_Use_1.o"
-	@echo "... Link_List_Use_1.i"
-	@echo "... Link_List_Use_1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
