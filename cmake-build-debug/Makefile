@@ -237,6 +237,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+quote_use_1.o: quote_use_1.cpp.o
+
+.PHONY : quote_use_1.o
+
+# target to build an object file
+quote_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/quote_use_1.cpp.o
+.PHONY : quote_use_1.cpp.o
+
+quote_use_1.i: quote_use_1.cpp.i
+
+.PHONY : quote_use_1.i
+
+# target to preprocess a source file
+quote_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/quote_use_1.cpp.i
+.PHONY : quote_use_1.cpp.i
+
+quote_use_1.s: quote_use_1.cpp.s
+
+.PHONY : quote_use_1.s
+
+# target to generate assembly for a file
+quote_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cpp_Study.dir/build.make CMakeFiles/Cpp_Study.dir/quote_use_1.cpp.s
+.PHONY : quote_use_1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -256,6 +283,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... quote_use_1.o"
+	@echo "... quote_use_1.i"
+	@echo "... quote_use_1.s"
 .PHONY : help
 
 

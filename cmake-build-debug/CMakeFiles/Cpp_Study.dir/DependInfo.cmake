@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aomsir/MyStudy/C++/Code/Cpp_Study/Function_Use_1.cpp" "/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/CMakeFiles/Cpp_Study.dir/Function_Use_1.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/Cpp_Study/main.cpp" "/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/CMakeFiles/Cpp_Study.dir/main.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/Cpp_Study/quote_use_1.cpp" "/Users/aomsir/MyStudy/C++/Code/Cpp_Study/cmake-build-debug/CMakeFiles/Cpp_Study.dir/quote_use_1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

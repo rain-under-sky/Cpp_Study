@@ -131,6 +131,9 @@
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/main.cpp">
 			<Option target="Cpp_Study"/>
 		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/quote_use_1.cpp">
+			<Option target="Cpp_Study"/>
+		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/Cpp_Study/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

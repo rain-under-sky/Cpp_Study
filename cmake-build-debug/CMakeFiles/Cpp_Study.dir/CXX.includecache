@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/aomsir/MyStudy/C++/Code/Cpp_Study/main.cpp
+/Users/aomsir/MyStudy/C++/Code/Cpp_Study/Function_Use_1.cpp
+iostream
+-
+
+/Users/aomsir/MyStudy/C++/Code/Cpp_Study/quote_use_1.cpp
 iostream
 -
 
