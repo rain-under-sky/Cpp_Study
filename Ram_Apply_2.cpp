@@ -1,3 +1,5 @@
+//动态内存分配实例
+
 #include <iostream>
 using namespace std;
 
