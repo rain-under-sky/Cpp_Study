@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void){
     int a = 12;
-    int *point = &;
+    int *point = &a;
     int *(&p) = point;
 
     cout<<*p<<endl;
