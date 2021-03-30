@@ -13,4 +13,6 @@ int main(void){
     struct stu stu1;
     stu1.name = "aomsir";
     cout<<stu1.name<<endl;
+
+    return 0;
 }
