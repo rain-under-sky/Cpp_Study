@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/class_use_3.dir/DependInfo.cmake"
   "CMakeFiles/Link_List_Use_1.dir/DependInfo.cmake"
   "CMakeFiles/Function_Default_use_1.dir/DependInfo.cmake"
   "CMakeFiles/class_use_2.dir/DependInfo.cmake"
