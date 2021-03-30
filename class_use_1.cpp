@@ -24,5 +24,5 @@ int main(void){
     delete no2;
 
     return 0;
-    
+
 }
