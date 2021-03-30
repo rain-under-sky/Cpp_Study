@@ -209,6 +209,19 @@ Function_Use_1/fast:
 .PHONY : Function_Use_1/fast
 
 #=============================================================================
+# Target rules for targets named class_use_1
+
+# Build rule for target.
+class_use_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_use_1
+.PHONY : class_use_1
+
+# fast build rule for target.
+class_use_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/build
+.PHONY : class_use_1/fast
+
+#=============================================================================
 # Target rules for targets named quote_use_1
 
 # Build rule for target.
@@ -378,6 +391,36 @@ Link_List_Use_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Link_List_Use_1.dir/build.make CMakeFiles/Link_List_Use_1.dir/Link_List_Use_1.cpp.s
 .PHONY : Link_List_Use_1.cpp.s
 
+class_use_1.o: class_use_1.cpp.o
+
+.PHONY : class_use_1.o
+
+# target to build an object file
+class_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.o
+.PHONY : class_use_1.cpp.o
+
+class_use_1.i: class_use_1.cpp.i
+
+.PHONY : class_use_1.i
+
+# target to preprocess a source file
+class_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.i
+.PHONY : class_use_1.cpp.i
+
+class_use_1.s: class_use_1.cpp.s
+
+.PHONY : class_use_1.s
+
+# target to generate assembly for a file
+class_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.s
+.PHONY : class_use_1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -476,6 +519,7 @@ help:
 	@echo "... Function_Overloading_use_1"
 	@echo "... Function_Use_1"
 	@echo "... Link_List_Use_1"
+	@echo "... class_use_1"
 	@echo "... quote_point_1"
 	@echo "... quote_use_1"
 	@echo "... Function_Build_in.o"
@@ -493,6 +537,9 @@ help:
 	@echo "... Link_List_Use_1.o"
 	@echo "... Link_List_Use_1.i"
 	@echo "... Link_List_Use_1.s"
+	@echo "... class_use_1.o"
+	@echo "... class_use_1.i"
+	@echo "... class_use_1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

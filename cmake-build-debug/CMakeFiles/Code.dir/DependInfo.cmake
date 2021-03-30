@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aomsir/MyStudy/C++/Code/Function_Build_in.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/Function_Build_in.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/Function_Default_use_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/Function_Default_use_1.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/Function_Overloading_use_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/Function_Overloading_use_1.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/class_use_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/class_use_1.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/main.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/main.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/quote_point_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/quote_point_1.cpp.o"
   )
