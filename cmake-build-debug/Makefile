@@ -157,6 +157,19 @@ Function_Default_use_1/fast:
 .PHONY : Function_Default_use_1/fast
 
 #=============================================================================
+# Target rules for targets named class_use_2
+
+# Build rule for target.
+class_use_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_use_2
+.PHONY : class_use_2
+
+# fast build rule for target.
+class_use_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_2.dir/build.make CMakeFiles/class_use_2.dir/build
+.PHONY : class_use_2/fast
+
+#=============================================================================
 # Target rules for targets named Function_Build_in
 
 # Build rule for target.
@@ -209,6 +222,19 @@ Function_Use_1/fast:
 .PHONY : Function_Use_1/fast
 
 #=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
+
+#=============================================================================
 # Target rules for targets named class_use_1
 
 # Build rule for target.
@@ -233,19 +259,6 @@ quote_use_1: cmake_check_build_system
 quote_use_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_use_1.dir/build.make CMakeFiles/quote_use_1.dir/build
 .PHONY : quote_use_1/fast
-
-#=============================================================================
-# Target rules for targets named Code
-
-# Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
-
-# fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
 
 Function_Build_in.o: Function_Build_in.cpp.o
 
@@ -397,8 +410,8 @@ class_use_1.o: class_use_1.cpp.o
 
 # target to build an object file
 class_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.o
 .PHONY : class_use_1.cpp.o
 
 class_use_1.i: class_use_1.cpp.i
@@ -407,8 +420,8 @@ class_use_1.i: class_use_1.cpp.i
 
 # target to preprocess a source file
 class_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.i
 .PHONY : class_use_1.cpp.i
 
 class_use_1.s: class_use_1.cpp.s
@@ -417,9 +430,39 @@ class_use_1.s: class_use_1.cpp.s
 
 # target to generate assembly for a file
 class_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_1.dir/build.make CMakeFiles/class_use_1.dir/class_use_1.cpp.s
 .PHONY : class_use_1.cpp.s
+
+class_use_2.o: class_use_2.cpp.o
+
+.PHONY : class_use_2.o
+
+# target to build an object file
+class_use_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_2.dir/build.make CMakeFiles/class_use_2.dir/class_use_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_2.cpp.o
+.PHONY : class_use_2.cpp.o
+
+class_use_2.i: class_use_2.cpp.i
+
+.PHONY : class_use_2.i
+
+# target to preprocess a source file
+class_use_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_2.dir/build.make CMakeFiles/class_use_2.dir/class_use_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_2.cpp.i
+.PHONY : class_use_2.cpp.i
+
+class_use_2.s: class_use_2.cpp.s
+
+.PHONY : class_use_2.s
+
+# target to generate assembly for a file
+class_use_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_2.dir/build.make CMakeFiles/class_use_2.dir/class_use_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_2.cpp.s
+.PHONY : class_use_2.cpp.s
 
 main.o: main.cpp.o
 
@@ -520,6 +563,7 @@ help:
 	@echo "... Function_Use_1"
 	@echo "... Link_List_Use_1"
 	@echo "... class_use_1"
+	@echo "... class_use_2"
 	@echo "... quote_point_1"
 	@echo "... quote_use_1"
 	@echo "... Function_Build_in.o"
@@ -540,6 +584,9 @@ help:
 	@echo "... class_use_1.o"
 	@echo "... class_use_1.i"
 	@echo "... class_use_1.s"
+	@echo "... class_use_2.o"
+	@echo "... class_use_2.i"
+	@echo "... class_use_2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
