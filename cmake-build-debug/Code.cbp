@@ -622,6 +622,9 @@
 			<Option target="class_use_5"/>
 			<Option target="Code"/>
 		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/class_use_6.cpp">
+			<Option target="Code"/>
+		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/main.cpp">
 			<Option target="Code"/>
 		</Unit>

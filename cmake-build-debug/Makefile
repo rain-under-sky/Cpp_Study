@@ -593,6 +593,33 @@ class_use_5.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_5.cpp.s
 .PHONY : class_use_5.cpp.s
 
+class_use_6.o: class_use_6.cpp.o
+
+.PHONY : class_use_6.o
+
+# target to build an object file
+class_use_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.o
+.PHONY : class_use_6.cpp.o
+
+class_use_6.i: class_use_6.cpp.i
+
+.PHONY : class_use_6.i
+
+# target to preprocess a source file
+class_use_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.i
+.PHONY : class_use_6.cpp.i
+
+class_use_6.s: class_use_6.cpp.s
+
+.PHONY : class_use_6.s
+
+# target to generate assembly for a file
+class_use_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.s
+.PHONY : class_use_6.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -728,6 +755,9 @@ help:
 	@echo "... class_use_5.o"
 	@echo "... class_use_5.i"
 	@echo "... class_use_5.s"
+	@echo "... class_use_6.o"
+	@echo "... class_use_6.i"
+	@echo "... class_use_6.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

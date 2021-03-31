@@ -1,4 +1,4 @@
-//构造函数初解
+//无参数构造函数初解
 #include <iostream>
 using namespace std;
 
