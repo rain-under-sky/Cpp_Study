@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named class_use_5
+
+# Build rule for target.
+class_use_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_use_5
+.PHONY : class_use_5
+
+# fast build rule for target.
+class_use_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_5.dir/build.make CMakeFiles/class_use_5.dir/build
+.PHONY : class_use_5/fast
+
+#=============================================================================
 # Target rules for targets named class_use_4
 
 # Build rule for target.
@@ -550,6 +563,36 @@ class_use_4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_4.cpp.s
 .PHONY : class_use_4.cpp.s
 
+class_use_5.o: class_use_5.cpp.o
+
+.PHONY : class_use_5.o
+
+# target to build an object file
+class_use_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_5.dir/build.make CMakeFiles/class_use_5.dir/class_use_5.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_5.cpp.o
+.PHONY : class_use_5.cpp.o
+
+class_use_5.i: class_use_5.cpp.i
+
+.PHONY : class_use_5.i
+
+# target to preprocess a source file
+class_use_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_5.dir/build.make CMakeFiles/class_use_5.dir/class_use_5.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_5.cpp.i
+.PHONY : class_use_5.cpp.i
+
+class_use_5.s: class_use_5.cpp.s
+
+.PHONY : class_use_5.s
+
+# target to generate assembly for a file
+class_use_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_5.dir/build.make CMakeFiles/class_use_5.dir/class_use_5.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_5.cpp.s
+.PHONY : class_use_5.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -652,6 +695,7 @@ help:
 	@echo "... class_use_2"
 	@echo "... class_use_3"
 	@echo "... class_use_4"
+	@echo "... class_use_5"
 	@echo "... quote_point_1"
 	@echo "... quote_use_1"
 	@echo "... Function_Build_in.o"
@@ -681,6 +725,9 @@ help:
 	@echo "... class_use_4.o"
 	@echo "... class_use_4.i"
 	@echo "... class_use_4.s"
+	@echo "... class_use_5.o"
+	@echo "... class_use_5.i"
+	@echo "... class_use_5.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
