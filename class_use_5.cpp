@@ -1,3 +1,4 @@
+//构造函数初解
 #include <iostream>
 using namespace std;
 
@@ -10,8 +11,8 @@ public:
 };
 
 int main(void){
-    student stu1;
-    cout<<stu1.a<<endl;
+    student stu1;  //申请普通栈区对象
+    cout<<stu1.a<<endl;  //申请指针对象
 
     student *stu2 = new student;
     cout<<stu2->a<<endl;
