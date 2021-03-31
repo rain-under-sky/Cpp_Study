@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named class_use_5
 
 # Build rule for target.
@@ -763,6 +776,36 @@ quote_use_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/quote_use_1.dir/build.make CMakeFiles/quote_use_1.dir/quote_use_1.cpp.s
 .PHONY : quote_use_1.cpp.s
 
+test.o: test.c.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -786,6 +829,7 @@ help:
 	@echo "... class_use_7"
 	@echo "... quote_point_1"
 	@echo "... quote_use_1"
+	@echo "... test"
 	@echo "... Function_Build_in.o"
 	@echo "... Function_Build_in.i"
 	@echo "... Function_Build_in.s"
@@ -831,6 +875,9 @@ help:
 	@echo "... quote_use_1.o"
 	@echo "... quote_use_1.i"
 	@echo "... quote_use_1.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

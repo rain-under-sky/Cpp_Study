@@ -1,3 +1,4 @@
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/test.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/class_use_5.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/class_use_4.dir
