@@ -12,4 +12,5 @@
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Function_Use_1.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/class_use_1.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/class_use_6.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/quote_use_1.dir

@@ -287,6 +287,19 @@ class_use_1/fast:
 .PHONY : class_use_1/fast
 
 #=============================================================================
+# Target rules for targets named class_use_6
+
+# Build rule for target.
+class_use_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_use_6
+.PHONY : class_use_6
+
+# fast build rule for target.
+class_use_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_6.dir/build.make CMakeFiles/class_use_6.dir/build
+.PHONY : class_use_6/fast
+
+#=============================================================================
 # Target rules for targets named quote_use_1
 
 # Build rule for target.
@@ -600,6 +613,7 @@ class_use_6.o: class_use_6.cpp.o
 # target to build an object file
 class_use_6.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_6.dir/build.make CMakeFiles/class_use_6.dir/class_use_6.cpp.o
 .PHONY : class_use_6.cpp.o
 
 class_use_6.i: class_use_6.cpp.i
@@ -609,6 +623,7 @@ class_use_6.i: class_use_6.cpp.i
 # target to preprocess a source file
 class_use_6.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_6.dir/build.make CMakeFiles/class_use_6.dir/class_use_6.cpp.i
 .PHONY : class_use_6.cpp.i
 
 class_use_6.s: class_use_6.cpp.s
@@ -618,6 +633,7 @@ class_use_6.s: class_use_6.cpp.s
 # target to generate assembly for a file
 class_use_6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_6.dir/build.make CMakeFiles/class_use_6.dir/class_use_6.cpp.s
 .PHONY : class_use_6.cpp.s
 
 main.o: main.cpp.o
@@ -723,6 +739,7 @@ help:
 	@echo "... class_use_3"
 	@echo "... class_use_4"
 	@echo "... class_use_5"
+	@echo "... class_use_6"
 	@echo "... quote_point_1"
 	@echo "... quote_use_1"
 	@echo "... Function_Build_in.o"

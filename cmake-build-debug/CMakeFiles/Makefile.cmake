@@ -64,5 +64,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Function_Use_1.dir/DependInfo.cmake"
   "CMakeFiles/Code.dir/DependInfo.cmake"
   "CMakeFiles/class_use_1.dir/DependInfo.cmake"
+  "CMakeFiles/class_use_6.dir/DependInfo.cmake"
   "CMakeFiles/quote_use_1.dir/DependInfo.cmake"
   )
