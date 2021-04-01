@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/class_use_5.cpp.o"
   "CMakeFiles/Code.dir/class_use_6.cpp.o"
   "CMakeFiles/Code.dir/class_use_7.cpp.o"
+  "CMakeFiles/Code.dir/class_use_8.cpp.o"
   "CMakeFiles/Code.dir/main.cpp.o"
   "CMakeFiles/Code.dir/quote_point_1.cpp.o"
   "CMakeFiles/Code.dir/test.c.o"
