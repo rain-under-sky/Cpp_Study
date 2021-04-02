@@ -10,11 +10,10 @@ public:
     }
 };
 int main(void){
-    student stu1;
+    student stu1;     //这里就已经构造对象并且调用了构造函数，所以下面的引用不会再次调用构造函数进行打印内容
     student &stu2 = stu1;   //声明stu2去引用stu1
 
 
-    stu2;
 
     return 0;
 

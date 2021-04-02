@@ -22,9 +22,9 @@ public:
 };
 
 int main(){
-    student stu1;
+    student stu1;   //构造对象stu1，同时调用构造函数
 
-    stu1.printf();
-    //stu1;
+    stu1.printf();   //stu1对象最后一次被使用，即生命的周期，语句结束后就直接调用析构函数
+
     return 0;
 }
