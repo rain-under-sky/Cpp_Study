@@ -2,11 +2,20 @@
 #include <math.h>
 int main()
 {
-    int height ;
-    int t ;
-    scanf("%d",&t);
-    height = (1/2) * 10 * pow(t,2);
-    printf("height = %d\n" , height);
+    int year;
+    scanf("%d",&year);
+
+    if(year % 4 == 0 && year % 100 != 0){
+        printf("");
+    }
+
+    else if(year % 100 == 0 || year % 400 != 0){
+        printf("");
+    }
+
+    else{
+        printf("");
+    }
 
     return 0;
 }
