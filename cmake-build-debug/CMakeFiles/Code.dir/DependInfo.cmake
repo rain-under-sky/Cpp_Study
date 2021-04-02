@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aomsir/MyStudy/C++/Code/class_use_6.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/class_use_6.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/class_use_7.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/class_use_7.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/class_use_8.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/class_use_8.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/class_use_9.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/class_use_9.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/main.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/main.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/quote_point_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/quote_point_1.cpp.o"
   )

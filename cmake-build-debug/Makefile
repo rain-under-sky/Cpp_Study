@@ -235,6 +235,19 @@ class_use_2/fast:
 .PHONY : class_use_2/fast
 
 #=============================================================================
+# Target rules for targets named class_use_9
+
+# Build rule for target.
+class_use_9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_use_9
+.PHONY : class_use_9
+
+# fast build rule for target.
+class_use_9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_9.dir/build.make CMakeFiles/class_use_9.dir/build
+.PHONY : class_use_9/fast
+
+#=============================================================================
 # Target rules for targets named Function_Build_in
 
 # Build rule for target.
@@ -735,6 +748,36 @@ class_use_8.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_8.cpp.s
 .PHONY : class_use_8.cpp.s
 
+class_use_9.o: class_use_9.cpp.o
+
+.PHONY : class_use_9.o
+
+# target to build an object file
+class_use_9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_9.dir/build.make CMakeFiles/class_use_9.dir/class_use_9.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_9.cpp.o
+.PHONY : class_use_9.cpp.o
+
+class_use_9.i: class_use_9.cpp.i
+
+.PHONY : class_use_9.i
+
+# target to preprocess a source file
+class_use_9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_9.dir/build.make CMakeFiles/class_use_9.dir/class_use_9.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_9.cpp.i
+.PHONY : class_use_9.cpp.i
+
+class_use_9.s: class_use_9.cpp.s
+
+.PHONY : class_use_9.s
+
+# target to generate assembly for a file
+class_use_9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_use_9.dir/build.make CMakeFiles/class_use_9.dir/class_use_9.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_9.cpp.s
+.PHONY : class_use_9.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -871,6 +914,7 @@ help:
 	@echo "... class_use_6"
 	@echo "... class_use_7"
 	@echo "... class_use_8"
+	@echo "... class_use_9"
 	@echo "... quote_point_1"
 	@echo "... quote_use_1"
 	@echo "... test"
@@ -913,6 +957,9 @@ help:
 	@echo "... class_use_8.o"
 	@echo "... class_use_8.i"
 	@echo "... class_use_8.s"
+	@echo "... class_use_9.o"
+	@echo "... class_use_9.i"
+	@echo "... class_use_9.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
