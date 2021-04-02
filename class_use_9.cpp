@@ -13,7 +13,7 @@ int main(void){
     student stu1;
     student &stu2 = stu1;   //声明stu2去引用stu1
 
-    stu1;
+
     stu2;
 
     return 0;

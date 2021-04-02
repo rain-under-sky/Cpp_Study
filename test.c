@@ -1,21 +1,6 @@
 #include <stdio.h>
-#include <math.h>
-int main()
+int main(void)
 {
-    int year;
-    scanf("%d",&year);
-
-    if(year % 4 == 0 && year % 100 != 0){
-        printf("");
-    }
-
-    else if(year % 100 == 0 || year % 400 != 0){
-        printf("");
-    }
-
-    else{
-        printf("");
-    }
-
+    printf("hello c3~\n");
     return 0;
 }

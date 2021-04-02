@@ -62,6 +62,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/class_use_2.dir/DependInfo.cmake"
   "CMakeFiles/class_use_9.dir/DependInfo.cmake"
   "CMakeFiles/Function_Build_in.dir/DependInfo.cmake"
+  "CMakeFiles/class_function_use_1.dir/DependInfo.cmake"
   "CMakeFiles/class_use_8.dir/DependInfo.cmake"
   "CMakeFiles/Function_Overloading_use_1.dir/DependInfo.cmake"
   "CMakeFiles/quote_point_1.dir/DependInfo.cmake"

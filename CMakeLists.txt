@@ -3,7 +3,7 @@ project(Code)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Code main.cpp quote_point_1.cpp Function_Overloading_use_1.cpp Function_Default_use_1.cpp Function_Build_in.cpp class_use_1.cpp class_use_2.cpp class_use_3.cpp class_use_4.cpp class_use_5.cpp class_use_6.cpp class_use_7.cpp test.c class_use_8.cpp class_use_9.cpp)
+add_executable(Code main.cpp quote_point_1.cpp Function_Overloading_use_1.cpp Function_Default_use_1.cpp Function_Build_in.cpp class_use_1.cpp class_use_2.cpp class_use_3.cpp class_use_4.cpp class_use_5.cpp class_use_6.cpp class_use_7.cpp test.c class_use_8.cpp class_use_9.cpp class_function_use_1.cpp)
 add_executable(Function_Use_1 Function_Use_1.cpp)
 add_executable(quote_use_1 quote_use_1.cpp)
 add_executable(quote_point_1 quote_point_1.cpp)
@@ -21,3 +21,4 @@ add_executable(class_use_7 class_use_7.cpp)
 add_executable(test test.c)
 add_executable(class_use_8 class_use_8.cpp)
 add_executable(class_use_9 class_use_9.cpp)
+add_executable(class_function_use_1 class_function_use_1.cpp)
