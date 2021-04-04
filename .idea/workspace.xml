@@ -14,6 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_copy_function_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/class_copy_function_1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <workItem from="1617375074747" duration="24000" />
       <workItem from="1617375140922" duration="212000" />
       <workItem from="1617413472977" duration="4090000" />
-      <workItem from="1617465965723" duration="5001000" />
+      <workItem from="1617465965723" duration="6398000" />
     </task>
     <servers />
   </component>
