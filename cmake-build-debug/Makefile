@@ -280,6 +280,33 @@ class_copy_function_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.s
 .PHONY : class_copy_function_1.cpp.s
 
+class_copy_function_2.o: class_copy_function_2.cpp.o
+
+.PHONY : class_copy_function_2.o
+
+# target to build an object file
+class_copy_function_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.o
+.PHONY : class_copy_function_2.cpp.o
+
+class_copy_function_2.i: class_copy_function_2.cpp.i
+
+.PHONY : class_copy_function_2.i
+
+# target to preprocess a source file
+class_copy_function_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.i
+.PHONY : class_copy_function_2.cpp.i
+
+class_copy_function_2.s: class_copy_function_2.cpp.s
+
+.PHONY : class_copy_function_2.s
+
+# target to generate assembly for a file
+class_copy_function_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.s
+.PHONY : class_copy_function_2.cpp.s
+
 class_function_use_1.o: class_function_use_1.cpp.o
 
 .PHONY : class_function_use_1.o
@@ -708,6 +735,9 @@ help:
 	@echo "... class_copy_function_1.o"
 	@echo "... class_copy_function_1.i"
 	@echo "... class_copy_function_1.s"
+	@echo "... class_copy_function_2.o"
+	@echo "... class_copy_function_2.i"
+	@echo "... class_copy_function_2.s"
 	@echo "... class_function_use_1.o"
 	@echo "... class_function_use_1.i"
 	@echo "... class_function_use_1.s"
