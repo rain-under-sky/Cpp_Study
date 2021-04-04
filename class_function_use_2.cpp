@@ -1,3 +1,5 @@
+/*清理属性有指针变量*/
+
 #include <iostream>
 #include <string>
 using namespace std;
