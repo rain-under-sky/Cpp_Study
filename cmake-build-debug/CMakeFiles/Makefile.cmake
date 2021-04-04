@@ -52,9 +52,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/Code.dir/DependInfo.cmake"
   "CMakeFiles/class_function_use_2.dir/DependInfo.cmake"
   "CMakeFiles/test_2.dir/DependInfo.cmake"
+  "CMakeFiles/class_this_use_1.dir/DependInfo.cmake"
   "CMakeFiles/class_copy_function_1.dir/DependInfo.cmake"
   "CMakeFiles/class_copy_function_2.dir/DependInfo.cmake"
   )

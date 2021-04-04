@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/class_copy_function_1.cpp.o"
   "CMakeFiles/Code.dir/class_copy_function_2.cpp.o"
   "CMakeFiles/Code.dir/class_function_use_1.cpp.o"
+  "CMakeFiles/Code.dir/class_this_use_1.cpp.o"
   "CMakeFiles/Code.dir/class_use_1.cpp.o"
   "CMakeFiles/Code.dir/class_use_10.cpp.o"
   "CMakeFiles/Code.dir/class_use_2.cpp.o"
