@@ -30,7 +30,7 @@ public:
 
 };
 int main(){
-    student stu1((string *) "aomsir", 19);
+    student stu1("aomsir",19);
     student stu2(stu1);
     stu1.print();
     stu2.print();
