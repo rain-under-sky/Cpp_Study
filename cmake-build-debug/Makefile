@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named class_copy_function_1
+
+# Build rule for target.
+class_copy_function_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_copy_function_1
+.PHONY : class_copy_function_1
+
+# fast build rule for target.
+class_copy_function_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/build
+.PHONY : class_copy_function_1/fast
+
+#=============================================================================
 # Target rules for targets named class_function_use_2
 
 # Build rule for target.
@@ -243,6 +256,7 @@ class_copy_function_1.o: class_copy_function_1.cpp.o
 
 # target to build an object file
 class_copy_function_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.o
 .PHONY : class_copy_function_1.cpp.o
 
@@ -252,6 +266,7 @@ class_copy_function_1.i: class_copy_function_1.cpp.i
 
 # target to preprocess a source file
 class_copy_function_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.i
 .PHONY : class_copy_function_1.cpp.i
 
@@ -261,6 +276,7 @@ class_copy_function_1.s: class_copy_function_1.cpp.s
 
 # target to generate assembly for a file
 class_copy_function_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.s
 .PHONY : class_copy_function_1.cpp.s
 
@@ -678,6 +694,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Code"
+	@echo "... class_copy_function_1"
 	@echo "... class_function_use_2"
 	@echo "... Function_Build_in.o"
 	@echo "... Function_Build_in.i"

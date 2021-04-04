@@ -8,17 +8,19 @@ private:
     int age;
 
 public:
-    student(string *pname,int page){
-        name = *pname;
+    student(string pname,int page){
+        name = pname;
         age = page;
     }
 
     void print(){
         cout<<name<<' '<<endl;
-        cout<<name<<' '<<endl;
+        cout<<age<<' '<<endl;
     }
 
-    ~student(){};
+    ~student(){
+
+    };
 };
 
 int main(){
@@ -26,6 +28,8 @@ int main(){
     student stu2(stu1);
     stu1.print();
     stu2.print();
+
+
 
     return 0;
 }
