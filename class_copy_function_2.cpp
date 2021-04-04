@@ -25,14 +25,16 @@ public:
     }
 
     void print(){
-        cout<<name<<' '<<*age;
+        cout<<name<<' '<<*age<<endl;
     }
 
 };
 int main(){
-    student stu1(19);
+    int ppage = 19;
+    student stu1(&ppage);
     student stu2(stu1);
     stu1.print();
     stu2.print();
+    cout<<&ppage<<endl;
     return 0;
 }
