@@ -4,33 +4,33 @@ using namespace std;
 
 class student{
 private:
-    string *name;
-    int age;
+    string name;
+    int *age;
 
 public:
-    student(string *pname, int page){
-        name = new string;
-        *name = *pname;
-        age = page;
+    student(int *page){
+        name = "aomsir";
+        age = new int;
+        *age = *page;
     }
 
     ~student(){
-        delete name;
+        delete age;
     }
 
     student(const student& stu){
-        name = new string;
+        age = new int;
         name = stu.name;
         age = stu.age;
     }
 
     void print(){
-        cout<<*name<<' '<<age;
+        cout<<name<<' '<<*age;
     }
 
 };
 int main(){
-    student stu1("aomsir",19);
+    student stu1(19);
     student stu2(stu1);
     stu1.print();
     stu2.print();
