@@ -52,24 +52,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/test.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_5.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_4.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_3.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_7.dir/DependInfo.cmake"
-  "CMakeFiles/Link_List_Use_1.dir/DependInfo.cmake"
-  "CMakeFiles/Function_Default_use_1.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_2.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_9.dir/DependInfo.cmake"
-  "CMakeFiles/Function_Build_in.dir/DependInfo.cmake"
-  "CMakeFiles/class_function_use_1.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_8.dir/DependInfo.cmake"
-  "CMakeFiles/Function_Overloading_use_1.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_10.dir/DependInfo.cmake"
-  "CMakeFiles/quote_point_1.dir/DependInfo.cmake"
-  "CMakeFiles/Function_Use_1.dir/DependInfo.cmake"
+  "CMakeFiles/class_function_use_2.dir/DependInfo.cmake"
   "CMakeFiles/Code.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_1.dir/DependInfo.cmake"
-  "CMakeFiles/class_use_6.dir/DependInfo.cmake"
-  "CMakeFiles/quote_use_1.dir/DependInfo.cmake"
   )
