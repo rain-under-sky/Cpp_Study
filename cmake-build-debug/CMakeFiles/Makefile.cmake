@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Code.dir/DependInfo.cmake"
   "CMakeFiles/class_function_use_2.dir/DependInfo.cmake"
+  "CMakeFiles/test_2.dir/DependInfo.cmake"
   "CMakeFiles/class_copy_function_1.dir/DependInfo.cmake"
   "CMakeFiles/class_copy_function_2.dir/DependInfo.cmake"
   )

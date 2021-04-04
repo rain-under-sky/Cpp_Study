@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/main.cpp.o"
   "CMakeFiles/Code.dir/quote_point_1.cpp.o"
   "CMakeFiles/Code.dir/test.c.o"
+  "CMakeFiles/Code.dir/test_2.cpp.o"
   "Code"
   "Code.pdb"
 )

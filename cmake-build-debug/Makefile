@@ -157,6 +157,19 @@ class_function_use_2/fast:
 .PHONY : class_function_use_2/fast
 
 #=============================================================================
+# Target rules for targets named test_2
+
+# Build rule for target.
+test_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_2
+.PHONY : test_2
+
+# fast build rule for target.
+test_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_2.dir/build.make CMakeFiles/test_2.dir/build
+.PHONY : test_2/fast
+
+#=============================================================================
 # Target rules for targets named class_copy_function_1
 
 # Build rule for target.
@@ -728,6 +741,36 @@ test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.c.s
 .PHONY : test.c.s
 
+test_2.o: test_2.cpp.o
+
+.PHONY : test_2.o
+
+# target to build an object file
+test_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_2.dir/build.make CMakeFiles/test_2.dir/test_2.cpp.o
+.PHONY : test_2.cpp.o
+
+test_2.i: test_2.cpp.i
+
+.PHONY : test_2.i
+
+# target to preprocess a source file
+test_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_2.dir/build.make CMakeFiles/test_2.dir/test_2.cpp.i
+.PHONY : test_2.cpp.i
+
+test_2.s: test_2.cpp.s
+
+.PHONY : test_2.s
+
+# target to generate assembly for a file
+test_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_2.dir/build.make CMakeFiles/test_2.dir/test_2.cpp.s
+.PHONY : test_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -740,6 +783,7 @@ help:
 	@echo "... class_copy_function_1"
 	@echo "... class_copy_function_2"
 	@echo "... class_function_use_2"
+	@echo "... test_2"
 	@echo "... Function_Build_in.o"
 	@echo "... Function_Build_in.i"
 	@echo "... Function_Build_in.s"
@@ -800,6 +844,9 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... test_2.o"
+	@echo "... test_2.i"
+	@echo "... test_2.s"
 .PHONY : help
 
 
