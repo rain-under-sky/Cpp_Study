@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/Function_Overloading_use_1.cpp.o"
   "CMakeFiles/Code.dir/class_function_use_1.cpp.o"
   "CMakeFiles/Code.dir/class_use_1.cpp.o"
+  "CMakeFiles/Code.dir/class_use_10.cpp.o"
   "CMakeFiles/Code.dir/class_use_2.cpp.o"
   "CMakeFiles/Code.dir/class_use_3.cpp.o"
   "CMakeFiles/Code.dir/class_use_4.cpp.o"
