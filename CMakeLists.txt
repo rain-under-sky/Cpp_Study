@@ -8,3 +8,4 @@ add_executable(Code main.cpp quote_point_1.cpp Function_Overloading_use_1.cpp Fu
 
 add_executable(class_function_use_2 class_function_use_2.cpp)
 add_executable(class_copy_function_1 class_copy_function_1.cpp)
+add_executable(class_copy_function_2 class_copy_function_2.cpp)

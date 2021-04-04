@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named class_copy_function_1
+# Target rules for targets named Code
 
 # Build rule for target.
-class_copy_function_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_copy_function_1
-.PHONY : class_copy_function_1
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
 
 # fast build rule for target.
-class_copy_function_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/build
-.PHONY : class_copy_function_1/fast
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
 
 #=============================================================================
 # Target rules for targets named class_function_use_2
@@ -157,17 +157,30 @@ class_function_use_2/fast:
 .PHONY : class_function_use_2/fast
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named class_copy_function_1
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
+class_copy_function_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_copy_function_1
+.PHONY : class_copy_function_1
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
+class_copy_function_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/build
+.PHONY : class_copy_function_1/fast
+
+#=============================================================================
+# Target rules for targets named class_copy_function_2
+
+# Build rule for target.
+class_copy_function_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_copy_function_2
+.PHONY : class_copy_function_2
+
+# fast build rule for target.
+class_copy_function_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/build
+.PHONY : class_copy_function_2/fast
 
 Function_Build_in.o: Function_Build_in.cpp.o
 
@@ -256,8 +269,8 @@ class_copy_function_1.o: class_copy_function_1.cpp.o
 
 # target to build an object file
 class_copy_function_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o
 .PHONY : class_copy_function_1.cpp.o
 
 class_copy_function_1.i: class_copy_function_1.cpp.i
@@ -266,8 +279,8 @@ class_copy_function_1.i: class_copy_function_1.cpp.i
 
 # target to preprocess a source file
 class_copy_function_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.i
 .PHONY : class_copy_function_1.cpp.i
 
 class_copy_function_1.s: class_copy_function_1.cpp.s
@@ -276,8 +289,8 @@ class_copy_function_1.s: class_copy_function_1.cpp.s
 
 # target to generate assembly for a file
 class_copy_function_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.s
 .PHONY : class_copy_function_1.cpp.s
 
 class_copy_function_2.o: class_copy_function_2.cpp.o
@@ -287,6 +300,7 @@ class_copy_function_2.o: class_copy_function_2.cpp.o
 # target to build an object file
 class_copy_function_2.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/class_copy_function_2.cpp.o
 .PHONY : class_copy_function_2.cpp.o
 
 class_copy_function_2.i: class_copy_function_2.cpp.i
@@ -296,6 +310,7 @@ class_copy_function_2.i: class_copy_function_2.cpp.i
 # target to preprocess a source file
 class_copy_function_2.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/class_copy_function_2.cpp.i
 .PHONY : class_copy_function_2.cpp.i
 
 class_copy_function_2.s: class_copy_function_2.cpp.s
@@ -305,6 +320,7 @@ class_copy_function_2.s: class_copy_function_2.cpp.s
 # target to generate assembly for a file
 class_copy_function_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/class_copy_function_2.cpp.s
 .PHONY : class_copy_function_2.cpp.s
 
 class_function_use_1.o: class_function_use_1.cpp.o
@@ -722,6 +738,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Code"
 	@echo "... class_copy_function_1"
+	@echo "... class_copy_function_2"
 	@echo "... class_function_use_2"
 	@echo "... Function_Build_in.o"
 	@echo "... Function_Build_in.i"

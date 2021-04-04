@@ -73,9 +73,10 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/class_copy_function_1.dir/all
-all: CMakeFiles/class_function_use_2.dir/all
 all: CMakeFiles/Code.dir/all
+all: CMakeFiles/class_function_use_2.dir/all
+all: CMakeFiles/class_copy_function_1.dir/all
+all: CMakeFiles/class_copy_function_2.dir/all
 
 .PHONY : all
 
@@ -85,11 +86,66 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/class_copy_function_1.dir/clean
-clean: CMakeFiles/class_function_use_2.dir/clean
 clean: CMakeFiles/Code.dir/clean
+clean: CMakeFiles/class_function_use_2.dir/clean
+clean: CMakeFiles/class_copy_function_1.dir/clean
+clean: CMakeFiles/class_copy_function_2.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Code.dir
+
+# All Build rule for target.
+CMakeFiles/Code.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target Code"
+.PHONY : CMakeFiles/Code.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Code.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Code.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Code.dir/rule
+
+# Convenience name for target.
+Code: CMakeFiles/Code.dir/rule
+
+.PHONY : Code
+
+# clean rule for target.
+CMakeFiles/Code.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/clean
+.PHONY : CMakeFiles/Code.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/class_function_use_2.dir
+
+# All Build rule for target.
+CMakeFiles/class_function_use_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target class_function_use_2"
+.PHONY : CMakeFiles/class_function_use_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/class_function_use_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/class_function_use_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/class_function_use_2.dir/rule
+
+# Convenience name for target.
+class_function_use_2: CMakeFiles/class_function_use_2.dir/rule
+
+.PHONY : class_function_use_2
+
+# clean rule for target.
+CMakeFiles/class_function_use_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/clean
+.PHONY : CMakeFiles/class_function_use_2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/class_copy_function_1.dir
@@ -119,58 +175,31 @@ CMakeFiles/class_copy_function_1.dir/clean:
 .PHONY : CMakeFiles/class_copy_function_1.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/class_function_use_2.dir
+# Target rules for target CMakeFiles/class_copy_function_2.dir
 
 # All Build rule for target.
-CMakeFiles/class_function_use_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target class_function_use_2"
-.PHONY : CMakeFiles/class_function_use_2.dir/all
+CMakeFiles/class_copy_function_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target class_copy_function_2"
+.PHONY : CMakeFiles/class_copy_function_2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/class_function_use_2.dir/rule: cmake_check_build_system
+CMakeFiles/class_copy_function_2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/class_function_use_2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/class_copy_function_2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/class_function_use_2.dir/rule
+.PHONY : CMakeFiles/class_copy_function_2.dir/rule
 
 # Convenience name for target.
-class_function_use_2: CMakeFiles/class_function_use_2.dir/rule
+class_copy_function_2: CMakeFiles/class_copy_function_2.dir/rule
 
-.PHONY : class_function_use_2
-
-# clean rule for target.
-CMakeFiles/class_function_use_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/clean
-.PHONY : CMakeFiles/class_function_use_2.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Code.dir
-
-# All Build rule for target.
-CMakeFiles/Code.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target Code"
-.PHONY : CMakeFiles/Code.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 20
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Code.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Code.dir/rule
-
-# Convenience name for target.
-Code: CMakeFiles/Code.dir/rule
-
-.PHONY : Code
+.PHONY : class_copy_function_2
 
 # clean rule for target.
-CMakeFiles/Code.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/clean
-.PHONY : CMakeFiles/Code.dir/clean
+CMakeFiles/class_copy_function_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/clean
+.PHONY : CMakeFiles/class_copy_function_2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
