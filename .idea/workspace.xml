@@ -7,8 +7,8 @@
       <config projectName="Code" targetName="class_copy_function_2" />
       <config projectName="Code" targetName="class_copy_function_1" />
       <config projectName="Code" targetName="class_function_use_2" />
-      <config projectName="Code" targetName="class_this_use_1" />
       <config projectName="Code" targetName="test" />
+      <config projectName="Code" targetName="class_this_use_1" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -19,7 +19,9 @@
   <component name="ChangeListManager">
     <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/class_copy_function_1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/class_copy_function_1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="CMake 应用程序.class_copy_function_1">
     <configuration name="Code" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="Code">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,6 +136,8 @@
       <workItem from="1617626886442" duration="11052000" />
       <workItem from="1617684340516" duration="1841000" />
       <workItem from="1617711541101" duration="254000" />
+      <workItem from="1617856512459" duration="659000" />
+      <workItem from="1617874974349" duration="2000" />
     </task>
     <servers />
   </component>
@@ -168,12 +167,18 @@
           <line>53</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/class_copy_function_1.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="a1" />
-        <watch expression="2" language="ObjectiveC" />
+        <watch expression="a1" language="ObjectiveC" />
+        <watch expression="123" language="ObjectiveC" />
+        <watch expression="21111" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
