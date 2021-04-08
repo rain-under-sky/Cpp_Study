@@ -1,4 +1,6 @@
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/number.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Ram_Apply_2.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/test.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir
