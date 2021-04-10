@@ -144,19 +144,6 @@ number/fast:
 .PHONY : number/fast
 
 #=============================================================================
-# Target rules for targets named Ram_Apply_2
-
-# Build rule for target.
-Ram_Apply_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ram_Apply_2
-.PHONY : Ram_Apply_2
-
-# fast build rule for target.
-Ram_Apply_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ram_Apply_2.dir/build.make CMakeFiles/Ram_Apply_2.dir/build
-.PHONY : Ram_Apply_2/fast
-
-#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -168,6 +155,19 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named Ram_Apply_2
+
+# Build rule for target.
+Ram_Apply_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ram_Apply_2
+.PHONY : Ram_Apply_2
+
+# fast build rule for target.
+Ram_Apply_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ram_Apply_2.dir/build.make CMakeFiles/Ram_Apply_2.dir/build
+.PHONY : Ram_Apply_2/fast
 
 #=============================================================================
 # Target rules for targets named Code
@@ -859,6 +859,7 @@ test.o: test.c.o
 
 # target to build an object file
 test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.c.o
 .PHONY : test.c.o
 
@@ -868,6 +869,7 @@ test.i: test.c.i
 
 # target to preprocess a source file
 test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.c.i
 .PHONY : test.c.i
 
@@ -877,35 +879,9 @@ test.s: test.c.s
 
 # target to generate assembly for a file
 test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test.c.s
 .PHONY : test.c.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
 
 test_2.o: test_2.cpp.o
 
@@ -1020,9 +996,6 @@ help:
 	@echo "... quote_point_1.o"
 	@echo "... quote_point_1.i"
 	@echo "... quote_point_1.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
