@@ -1,56 +1,36 @@
-#include <iostream>
-
+#include<iostream>
+#include<string>
 using namespace std;
-
-class Line
+int main()
 {
-public:
-    int getLength( void );
-    Line( int len );             // 简单的构造函数
-    Line( const Line &obj);      // 拷贝构造函数
-    ~Line();                     // 析构函数
+    int i,j;
+    long A;
+    struct student
+    {
+        long num;
+        string name;
+        string major;
+        int math;
+        int c;
+        int cc;
+    };
+    struct student a[5];
+    cout << "请输入学生信息。";
+    a[0]={00000,"wangcan","jsj",100,100,100};
 
-private:
-    int *ptr;
-};
-
-// 成员函数定义，包括构造函数
-Line::Line(int len)
-{
-    cout << "调用构造函数" << endl;
-    // 为指针分配内存
-    ptr = new int;
-    *ptr = len;
-}
-
-Line::Line(const Line &obj)
-{
-    cout << "调用拷贝构造函数并为指针 ptr 分配内存" << endl;
-    ptr = new int;
-    *ptr = *obj.ptr; // 拷贝值
-}
-
-Line::~Line(void)
-{
-    cout << "释放内存" << endl;
-    delete ptr;
-}
-int Line::getLength( void )
-{
-    return *ptr;
-}
-
-void display(Line obj)
-{
-    cout << "line 大小 : " << obj.getLength() <<endl;
-}
-
-// 程序的主函数
-int main( )
-{
-    Line line(10);
-
-    display(line);
-
+    cout<<"请输入要删除的同学学号"<<endl;
+    cin >> A;
+    //for (i = 0; i < 5; i++)
+       // if (A == a[i].num)
+        {
+          //  for (j = 4 - i; j != 0; j--)
+           // {
+            //    a[i] = a[i + 1];
+             //   i++; break;  }
+        }
+   for (i = 0; i < 4; i++) {
+       cout << a[i].num << a[i].name << a[i].major << a[i].math << a[i].c << a[i].cc << endl;
+   }
     return 0;
+
 }

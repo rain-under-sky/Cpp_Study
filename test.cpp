@@ -1,54 +1,41 @@
-#include <iostream>
+#include<iostream>
+#include<string.h>
 using namespace std;
-
-class A{
-public:
-    A(){};   //声明构造函数
-    A(const A&){};   //声明复制构造函数
-    A(A&){};         //声明构造函数的重载函数，参数参入类A的引用
-    ~A(){};   //声明析构函数
+struct student
+{
+    long num;
+    string name;
+    string major;
+    int math;
+    int c;
+    int cc;
 };
 
-//A(class)是一个数据类型，和int一样，所以可以传入类的引用以及下面自定义函数可以把返回值设置为类
+int main()
+{
+    int i,j;
+    long A;
 
-A fun1(){
-    A a;
-    return a;
-}
-
-A fun2(A a){
-    A a2 = a;
-    return a2;
-}
-
-A fun3(A& a){
-    return a;
-}
-
-A& fun4(A& a){
-    return a;
-}
-
-int main(){
-
-    //第一次函数调用
-    A a1 = fun1();   //构造一个对象a1，调用fun1函数，在函数fun1内构造对象a(调用了类A的构造函数)，然后将a的值返回给对象a1(调用了类A的复制构造函数)，因为后续没有用到过对象a，所以将值给a1后就自动调用了类A的析构函数
-    cout << endl;
-
-    //第二次函数调用
-    A a2 = fun2(a1);  //构造一个对象a2，将对象a1作为形参传进fun2函数，在fun2函数内部构造一个a2对象，并将a1的值复制给a2对象(调用了类A的复制构造函数)，因为函数里面的a2对象是局部的，所以在返回后就自动调用了析构函数清理了
-
-    //第三次函数调用
-    A a2_2;  //构造对象a2_2，并(调用类A的构造函数)
-    a2_2 = fun2(a1);   //将对象a1作为形参传进fun2函数，这里同第二步
-    cout << endl;
-
-    //第四次函数调用
-    A a3 = fun3(a1);   //构造对象a3，将对象a1的引用作为形参传进fun3函数，返回给a3(调用类A的复制构造函数),然后调用了(类A的析构函数)对对象a3进行清理
-    cout << endl;
-
-    //第五次函数调用
-    A& a4 = fun4(a1);   //构造a4对象引用，调用fun4函数，将a1的引用作为形参传进函数fun4，将a1的引用返回给a4引用，所以没有调用复制构造函数，只是相当于给a1起了个别名，然后调用(类A的析构函数)对对象a1进行清理
-    cout << endl;
+    struct student a[5];
+    cout << "请输入学生信息。";
+    a[5] = { {00000,"wangcan","jsj",100,100,100},
+        {11111,"wangyun","jsj",100,100,100},
+        {22222,"zhangshan","jsj",100,100,100},
+        {33333,"lishi","jsj",100,100,100},
+        {44444,"gongyunhang","jsj",100,100,100} };
+    cout<<"请输入要删除的同学学号"<<endl;
+    cin >> A;
+    for (i = 0; i < 5; i++)
+        if (A == a[i].num)
+        {
+            for (j = 4 - i; j != 0; j--)
+            {
+                a[i] = a[i + 1];
+                i++; break;
+            }
+        }
+    for (i = 0; i < 4; i++)
+        cout << a[i].num << a[i].name << a[i].major << a[i].math << a[i].c << a[i].cc << endl;
+    return 0;
 
 }
