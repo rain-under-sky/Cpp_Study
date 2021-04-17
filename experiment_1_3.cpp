@@ -23,8 +23,8 @@ int main(){
 
 void change(char *p){
     int i;
-    int temp1,temp2;
-    char temp3;
+    //int temp1,temp2;
+    //char temp3;
     for(i=0;i<30;i++)
     {
         if (*(p + i) >= 48 && *(p + i) <= 57) {
