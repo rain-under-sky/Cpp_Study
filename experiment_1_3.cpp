@@ -1,19 +1,45 @@
 #include <iostream>
 #include <string>
 using namespace std;
-void change(char a[100]);
+void change(char *p);
 
 int main(){
-    char b[100];
+    char b[30];
+    int i;
     cout<<"请输入您的字符：";
-    cin>>b[100];
-    change(b[100]);
+    //for(i=0;i<30;i++)
+    //{
+    //    cin>>b[i];
+    // }
+    cin>>b;
+    change(b);
 
+    //for(i= 0;i < 30;i++)
+    //{
+    //    cout<<b[i];
+    //}
+    cout<<b;
 }
 
-void change(char a[100]){
+void change(char *p){
     int i;
-    for(i=0,i<100,i++){
-        if(a[i]   )
+    int temp1,temp2;
+    char temp3;
+    for(i=0;i<30;i++)
+    {
+        if (*(p + i) >= 48 && *(p + i) <= 57) {
+            *(p+i) = (57-*(p+i)) + 48;  //57-*(p+i)代表该字符(数字)的十进制由9-x，然后再在十进制的基础上加48(数字0代表的ACII十进制)
+        }
+
+        else if(*(p + i) >= 65 && *(p + i) <= 90)
+        {
+            *(p+i) = *(p+i) + 32;
+        }
+
+        else if(*(p + i) >= 97 && *(p + i) <= 122)
+        {
+            *(p+i) = *(p + i) - 32;
+        }
     }
 }
+

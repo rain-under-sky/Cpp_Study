@@ -3,9 +3,9 @@
 using namespace std;
 
 int main(){
-    char a[30];
-    cin>>a[30];
-    cout<<a[30];
+    char a;
+    a = '1';
+    cout<<int(a);
 
     return 0;
 }
