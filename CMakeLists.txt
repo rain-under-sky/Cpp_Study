@@ -16,3 +16,5 @@ add_executable(number number.c)
 add_executable(test test.cpp)
 
 add_executable(experiment_1_3 experiment_1_3.cpp)
+add_executable(experiment_1_2 experiment_1_2.cpp)
+add_executable(experiment_1_1 experiment_1_1.cpp)

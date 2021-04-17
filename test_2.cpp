@@ -4,8 +4,9 @@ using namespace std;
 
 int main(){
     char a;
-    a = '1';
-    cout<<int(a);
+    a = 'a';
+    a = a - 24;
+    cout<<a;
 
     return 0;
 }
