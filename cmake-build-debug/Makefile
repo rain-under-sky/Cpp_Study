@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -144,6 +144,19 @@ number/fast:
 .PHONY : number/fast
 
 #=============================================================================
+# Target rules for targets named experiment_1_3
+
+# Build rule for target.
+experiment_1_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_1_3
+.PHONY : experiment_1_3
+
+# fast build rule for target.
+experiment_1_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_3.dir/build.make CMakeFiles/experiment_1_3.dir/build
+.PHONY : experiment_1_3/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -183,6 +196,19 @@ Code/fast:
 .PHONY : Code/fast
 
 #=============================================================================
+# Target rules for targets named class_this_use_1
+
+# Build rule for target.
+class_this_use_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_this_use_1
+.PHONY : class_this_use_1
+
+# fast build rule for target.
+class_this_use_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/build
+.PHONY : class_this_use_1/fast
+
+#=============================================================================
 # Target rules for targets named class_function_use_2
 
 # Build rule for target.
@@ -207,19 +233,6 @@ test_2: cmake_check_build_system
 test_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_2.dir/build.make CMakeFiles/test_2.dir/build
 .PHONY : test_2/fast
-
-#=============================================================================
-# Target rules for targets named class_this_use_1
-
-# Build rule for target.
-class_this_use_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 class_this_use_1
-.PHONY : class_this_use_1
-
-# fast build rule for target.
-class_this_use_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/build
-.PHONY : class_this_use_1/fast
 
 #=============================================================================
 # Target rules for targets named class_copy_function_1
@@ -769,6 +782,90 @@ class_use_9.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_9.cpp.s
 .PHONY : class_use_9.cpp.s
 
+experiment_1_1.o: experiment_1_1.cpp.o
+
+.PHONY : experiment_1_1.o
+
+# target to build an object file
+experiment_1_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_1.cpp.o
+.PHONY : experiment_1_1.cpp.o
+
+experiment_1_1.i: experiment_1_1.cpp.i
+
+.PHONY : experiment_1_1.i
+
+# target to preprocess a source file
+experiment_1_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_1.cpp.i
+.PHONY : experiment_1_1.cpp.i
+
+experiment_1_1.s: experiment_1_1.cpp.s
+
+.PHONY : experiment_1_1.s
+
+# target to generate assembly for a file
+experiment_1_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_1.cpp.s
+.PHONY : experiment_1_1.cpp.s
+
+experiment_1_2.o: experiment_1_2.cpp.o
+
+.PHONY : experiment_1_2.o
+
+# target to build an object file
+experiment_1_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_2.cpp.o
+.PHONY : experiment_1_2.cpp.o
+
+experiment_1_2.i: experiment_1_2.cpp.i
+
+.PHONY : experiment_1_2.i
+
+# target to preprocess a source file
+experiment_1_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_2.cpp.i
+.PHONY : experiment_1_2.cpp.i
+
+experiment_1_2.s: experiment_1_2.cpp.s
+
+.PHONY : experiment_1_2.s
+
+# target to generate assembly for a file
+experiment_1_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_2.cpp.s
+.PHONY : experiment_1_2.cpp.s
+
+experiment_1_3.o: experiment_1_3.cpp.o
+
+.PHONY : experiment_1_3.o
+
+# target to build an object file
+experiment_1_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_3.dir/build.make CMakeFiles/experiment_1_3.dir/experiment_1_3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_3.cpp.o
+.PHONY : experiment_1_3.cpp.o
+
+experiment_1_3.i: experiment_1_3.cpp.i
+
+.PHONY : experiment_1_3.i
+
+# target to preprocess a source file
+experiment_1_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_3.dir/build.make CMakeFiles/experiment_1_3.dir/experiment_1_3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_3.cpp.i
+.PHONY : experiment_1_3.cpp.i
+
+experiment_1_3.s: experiment_1_3.cpp.s
+
+.PHONY : experiment_1_3.s
+
+# target to generate assembly for a file
+experiment_1_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_3.dir/build.make CMakeFiles/experiment_1_3.dir/experiment_1_3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/experiment_1_3.cpp.s
+.PHONY : experiment_1_3.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -951,6 +1048,7 @@ help:
 	@echo "... class_copy_function_2"
 	@echo "... class_function_use_2"
 	@echo "... class_this_use_1"
+	@echo "... experiment_1_3"
 	@echo "... number"
 	@echo "... test"
 	@echo "... test_2"
@@ -1011,6 +1109,15 @@ help:
 	@echo "... class_use_9.o"
 	@echo "... class_use_9.i"
 	@echo "... class_use_9.s"
+	@echo "... experiment_1_1.o"
+	@echo "... experiment_1_1.i"
+	@echo "... experiment_1_1.s"
+	@echo "... experiment_1_2.o"
+	@echo "... experiment_1_2.i"
+	@echo "... experiment_1_2.s"
+	@echo "... experiment_1_3.o"
+	@echo "... experiment_1_3.i"
+	@echo "... experiment_1_3.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

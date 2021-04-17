@@ -363,6 +363,45 @@ CMakeFiles/Code.dir/number.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code.dir/number.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/number.c -o CMakeFiles/Code.dir/number.c.s
 
+CMakeFiles/Code.dir/experiment_1_1.cpp.o: CMakeFiles/Code.dir/flags.make
+CMakeFiles/Code.dir/experiment_1_1.cpp.o: ../experiment_1_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Code.dir/experiment_1_1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/experiment_1_1.cpp.o -c /Users/aomsir/MyStudy/C++/Code/experiment_1_1.cpp
+
+CMakeFiles/Code.dir/experiment_1_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/experiment_1_1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/experiment_1_1.cpp > CMakeFiles/Code.dir/experiment_1_1.cpp.i
+
+CMakeFiles/Code.dir/experiment_1_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/experiment_1_1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/experiment_1_1.cpp -o CMakeFiles/Code.dir/experiment_1_1.cpp.s
+
+CMakeFiles/Code.dir/experiment_1_2.cpp.o: CMakeFiles/Code.dir/flags.make
+CMakeFiles/Code.dir/experiment_1_2.cpp.o: ../experiment_1_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Code.dir/experiment_1_2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/experiment_1_2.cpp.o -c /Users/aomsir/MyStudy/C++/Code/experiment_1_2.cpp
+
+CMakeFiles/Code.dir/experiment_1_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/experiment_1_2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/experiment_1_2.cpp > CMakeFiles/Code.dir/experiment_1_2.cpp.i
+
+CMakeFiles/Code.dir/experiment_1_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/experiment_1_2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/experiment_1_2.cpp -o CMakeFiles/Code.dir/experiment_1_2.cpp.s
+
+CMakeFiles/Code.dir/experiment_1_3.cpp.o: CMakeFiles/Code.dir/flags.make
+CMakeFiles/Code.dir/experiment_1_3.cpp.o: ../experiment_1_3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Code.dir/experiment_1_3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/experiment_1_3.cpp.o -c /Users/aomsir/MyStudy/C++/Code/experiment_1_3.cpp
+
+CMakeFiles/Code.dir/experiment_1_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/experiment_1_3.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/experiment_1_3.cpp > CMakeFiles/Code.dir/experiment_1_3.cpp.i
+
+CMakeFiles/Code.dir/experiment_1_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/experiment_1_3.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/experiment_1_3.cpp -o CMakeFiles/Code.dir/experiment_1_3.cpp.s
+
 # Object files for target Code
 Code_OBJECTS = \
 "CMakeFiles/Code.dir/main.cpp.o" \
@@ -386,7 +425,10 @@ Code_OBJECTS = \
 "CMakeFiles/Code.dir/class_copy_function_2.cpp.o" \
 "CMakeFiles/Code.dir/test_2.cpp.o" \
 "CMakeFiles/Code.dir/class_this_use_1.cpp.o" \
-"CMakeFiles/Code.dir/number.c.o"
+"CMakeFiles/Code.dir/number.c.o" \
+"CMakeFiles/Code.dir/experiment_1_1.cpp.o" \
+"CMakeFiles/Code.dir/experiment_1_2.cpp.o" \
+"CMakeFiles/Code.dir/experiment_1_3.cpp.o"
 
 # External object files for target Code
 Code_EXTERNAL_OBJECTS =
@@ -413,9 +455,12 @@ Code: CMakeFiles/Code.dir/class_copy_function_2.cpp.o
 Code: CMakeFiles/Code.dir/test_2.cpp.o
 Code: CMakeFiles/Code.dir/class_this_use_1.cpp.o
 Code: CMakeFiles/Code.dir/number.c.o
+Code: CMakeFiles/Code.dir/experiment_1_1.cpp.o
+Code: CMakeFiles/Code.dir/experiment_1_2.cpp.o
+Code: CMakeFiles/Code.dir/experiment_1_3.cpp.o
 Code: CMakeFiles/Code.dir/build.make
 Code: CMakeFiles/Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX executable Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
