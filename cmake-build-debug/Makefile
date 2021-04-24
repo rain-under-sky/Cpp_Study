@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,19 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named experiment_2_1
-
-# Build rule for target.
-experiment_2_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_2_1
-.PHONY : experiment_2_1
-
-# fast build rule for target.
-experiment_2_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/build
-.PHONY : experiment_2_1/fast
-
-#=============================================================================
 # Target rules for targets named Code
 
 # Build rule for target.
@@ -155,6 +142,45 @@ Code: cmake_check_build_system
 Code/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
 .PHONY : Code/fast
+
+#=============================================================================
+# Target rules for targets named experiment_2_3
+
+# Build rule for target.
+experiment_2_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_2_3
+.PHONY : experiment_2_3
+
+# fast build rule for target.
+experiment_2_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/build
+.PHONY : experiment_2_3/fast
+
+#=============================================================================
+# Target rules for targets named experiment_2_2
+
+# Build rule for target.
+experiment_2_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_2_2
+.PHONY : experiment_2_2
+
+# fast build rule for target.
+experiment_2_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_2.dir/build.make CMakeFiles/experiment_2_2.dir/build
+.PHONY : experiment_2_2/fast
+
+#=============================================================================
+# Target rules for targets named experiment_2_1
+
+# Build rule for target.
+experiment_2_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_2_1
+.PHONY : experiment_2_1
+
+# fast build rule for target.
+experiment_2_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/build
+.PHONY : experiment_2_1/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -210,6 +236,63 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/实验题/experiment_2_1.cpp.s
 .PHONY : 实验题/experiment_2_1.cpp.s
 
+实验题/experiment_2_2.o: 实验题/experiment_2_2.cpp.o
+
+.PHONY : 实验题/experiment_2_2.o
+
+# target to build an object file
+实验题/experiment_2_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_2.dir/build.make CMakeFiles/experiment_2_2.dir/实验题/experiment_2_2.cpp.o
+.PHONY : 实验题/experiment_2_2.cpp.o
+
+实验题/experiment_2_2.i: 实验题/experiment_2_2.cpp.i
+
+.PHONY : 实验题/experiment_2_2.i
+
+# target to preprocess a source file
+实验题/experiment_2_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_2.dir/build.make CMakeFiles/experiment_2_2.dir/实验题/experiment_2_2.cpp.i
+.PHONY : 实验题/experiment_2_2.cpp.i
+
+实验题/experiment_2_2.s: 实验题/experiment_2_2.cpp.s
+
+.PHONY : 实验题/experiment_2_2.s
+
+# target to generate assembly for a file
+实验题/experiment_2_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_2.dir/build.make CMakeFiles/experiment_2_2.dir/实验题/experiment_2_2.cpp.s
+.PHONY : 实验题/experiment_2_2.cpp.s
+
+实验题/experiment_2_3.o: 实验题/experiment_2_3.cpp.o
+
+.PHONY : 实验题/experiment_2_3.o
+
+# target to build an object file
+实验题/experiment_2_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.o
+.PHONY : 实验题/experiment_2_3.cpp.o
+
+实验题/experiment_2_3.i: 实验题/experiment_2_3.cpp.i
+
+.PHONY : 实验题/experiment_2_3.i
+
+# target to preprocess a source file
+实验题/experiment_2_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.i
+.PHONY : 实验题/experiment_2_3.cpp.i
+
+实验题/experiment_2_3.s: 实验题/experiment_2_3.cpp.s
+
+.PHONY : 实验题/experiment_2_3.s
+
+# target to generate assembly for a file
+实验题/experiment_2_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.s
+.PHONY : 实验题/experiment_2_3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,12 +303,20 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Code"
 	@echo "... experiment_2_1"
+	@echo "... experiment_2_2"
+	@echo "... experiment_2_3"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
 	@echo "... 实验题/experiment_2_1.o"
 	@echo "... 实验题/experiment_2_1.i"
 	@echo "... 实验题/experiment_2_1.s"
+	@echo "... 实验题/experiment_2_2.o"
+	@echo "... 实验题/experiment_2_2.i"
+	@echo "... 实验题/experiment_2_2.s"
+	@echo "... 实验题/experiment_2_3.o"
+	@echo "... 实验题/experiment_2_3.i"
+	@echo "... 实验题/experiment_2_3.s"
 .PHONY : help
 
 
