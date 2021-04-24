@@ -73,25 +73,30 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Code.dir/all
+all: CMakeFiles/paisheng.dir/all
 all: CMakeFiles/experiment_2_3.dir/all
 all: CMakeFiles/experiment_2_2.dir/all
 all: CMakeFiles/experiment_2_1.dir/all
+all: CMakeFiles/Code.dir/all
 all: 实验题/all
+all: 派生与继承/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: 实验题/preinstall
+preinstall: 派生与继承/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Code.dir/clean
+clean: CMakeFiles/paisheng.dir/clean
 clean: CMakeFiles/experiment_2_3.dir/clean
 clean: CMakeFiles/experiment_2_2.dir/clean
 clean: CMakeFiles/experiment_2_1.dir/clean
+clean: CMakeFiles/Code.dir/clean
 clean: 实验题/clean
+clean: 派生与继承/clean
 
 .PHONY : clean
 
@@ -114,31 +119,49 @@ clean: 实验题/clean
 .PHONY : 实验题/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Code.dir
+# Directory level rules for directory 派生与继承
+
+# Recursive "all" directory target.
+派生与继承/all:
+
+.PHONY : 派生与继承/all
+
+# Recursive "preinstall" directory target.
+派生与继承/preinstall:
+
+.PHONY : 派生与继承/preinstall
+
+# Recursive "clean" directory target.
+派生与继承/clean:
+
+.PHONY : 派生与继承/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/paisheng.dir
 
 # All Build rule for target.
-CMakeFiles/Code.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Code"
-.PHONY : CMakeFiles/Code.dir/all
+CMakeFiles/paisheng.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target paisheng"
+.PHONY : CMakeFiles/paisheng.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Code.dir/all
+CMakeFiles/paisheng.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/paisheng.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Code.dir/rule
+.PHONY : CMakeFiles/paisheng.dir/rule
 
 # Convenience name for target.
-Code: CMakeFiles/Code.dir/rule
+paisheng: CMakeFiles/paisheng.dir/rule
 
-.PHONY : Code
+.PHONY : paisheng
 
 # clean rule for target.
-CMakeFiles/Code.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/clean
-.PHONY : CMakeFiles/Code.dir/clean
+CMakeFiles/paisheng.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/clean
+.PHONY : CMakeFiles/paisheng.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/experiment_2_3.dir
@@ -220,6 +243,33 @@ experiment_2_1: CMakeFiles/experiment_2_1.dir/rule
 CMakeFiles/experiment_2_1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/clean
 .PHONY : CMakeFiles/experiment_2_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Code.dir
+
+# All Build rule for target.
+CMakeFiles/Code.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Code"
+.PHONY : CMakeFiles/Code.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Code.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Code.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Code.dir/rule
+
+# Convenience name for target.
+Code: CMakeFiles/Code.dir/rule
+
+.PHONY : Code
+
+# clean rule for target.
+CMakeFiles/Code.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/clean
+.PHONY : CMakeFiles/Code.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +86,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named paisheng
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
+paisheng: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 paisheng
+.PHONY : paisheng
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
+paisheng/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/build
+.PHONY : paisheng/fast
 
 #=============================================================================
 # Target rules for targets named experiment_2_3
@@ -181,6 +181,19 @@ experiment_2_1: cmake_check_build_system
 experiment_2_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/build
 .PHONY : experiment_2_1/fast
+
+#=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -269,8 +282,8 @@ C++测试/main.cpp.s:
 
 # target to build an object file
 实验题/experiment_2_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.o
 .PHONY : 实验题/experiment_2_3.cpp.o
 
 实验题/experiment_2_3.i: 实验题/experiment_2_3.cpp.i
@@ -279,8 +292,8 @@ C++测试/main.cpp.s:
 
 # target to preprocess a source file
 实验题/experiment_2_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.i
 .PHONY : 实验题/experiment_2_3.cpp.i
 
 实验题/experiment_2_3.s: 实验题/experiment_2_3.cpp.s
@@ -289,9 +302,36 @@ C++测试/main.cpp.s:
 
 # target to generate assembly for a file
 实验题/experiment_2_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3.cpp.s
 .PHONY : 实验题/experiment_2_3.cpp.s
+
+派生与继承/paisheng.o: 派生与继承/paisheng.cpp.o
+
+.PHONY : 派生与继承/paisheng.o
+
+# target to build an object file
+派生与继承/paisheng.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o
+.PHONY : 派生与继承/paisheng.cpp.o
+
+派生与继承/paisheng.i: 派生与继承/paisheng.cpp.i
+
+.PHONY : 派生与继承/paisheng.i
+
+# target to preprocess a source file
+派生与继承/paisheng.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.i
+.PHONY : 派生与继承/paisheng.cpp.i
+
+派生与继承/paisheng.s: 派生与继承/paisheng.cpp.s
+
+.PHONY : 派生与继承/paisheng.s
+
+# target to generate assembly for a file
+派生与继承/paisheng.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.s
+.PHONY : 派生与继承/paisheng.cpp.s
 
 # Help Target
 help:
@@ -305,6 +345,7 @@ help:
 	@echo "... experiment_2_1"
 	@echo "... experiment_2_2"
 	@echo "... experiment_2_3"
+	@echo "... paisheng"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
@@ -317,6 +358,9 @@ help:
 	@echo "... 实验题/experiment_2_3.o"
 	@echo "... 实验题/experiment_2_3.i"
 	@echo "... 实验题/experiment_2_3.s"
+	@echo "... 派生与继承/paisheng.o"
+	@echo "... 派生与继承/paisheng.i"
+	@echo "... 派生与继承/paisheng.s"
 .PHONY : help
 
 
