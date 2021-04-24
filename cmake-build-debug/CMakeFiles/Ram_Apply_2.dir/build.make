@@ -77,27 +77,27 @@ include CMakeFiles/Ram_Apply_2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Ram_Apply_2.dir/flags.make
 
-CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.o: CMakeFiles/Ram_Apply_2.dir/flags.make
-CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.o: ../Ram_Apply_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.o -c /Users/aomsir/MyStudy/C++/Code/Ram_Apply_2.cpp
+CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.o: CMakeFiles/Ram_Apply_2.dir/flags.make
+CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.o: ../动态内存/Ram_Apply_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.o -c /Users/aomsir/MyStudy/C++/Code/动态内存/Ram_Apply_2.cpp
 
-CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/Ram_Apply_2.cpp > CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.i
+CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/动态内存/Ram_Apply_2.cpp > CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.i
 
-CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/Ram_Apply_2.cpp -o CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.s
+CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/动态内存/Ram_Apply_2.cpp -o CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.s
 
 # Object files for target Ram_Apply_2
 Ram_Apply_2_OBJECTS = \
-"CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.o"
+"CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.o"
 
 # External object files for target Ram_Apply_2
 Ram_Apply_2_EXTERNAL_OBJECTS =
 
-Ram_Apply_2: CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.o
+Ram_Apply_2: CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.o
 Ram_Apply_2: CMakeFiles/Ram_Apply_2.dir/build.make
 Ram_Apply_2: CMakeFiles/Ram_Apply_2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ram_Apply_2"

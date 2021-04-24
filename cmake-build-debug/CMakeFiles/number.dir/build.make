@@ -77,27 +77,27 @@ include CMakeFiles/number.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/number.dir/flags.make
 
-CMakeFiles/number.dir/number.c.o: CMakeFiles/number.dir/flags.make
-CMakeFiles/number.dir/number.c.o: ../number.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/number.dir/number.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/number.dir/number.c.o   -c /Users/aomsir/MyStudy/C++/Code/number.c
+CMakeFiles/number.dir/C语言测试/number.c.o: CMakeFiles/number.dir/flags.make
+CMakeFiles/number.dir/C语言测试/number.c.o: ../C语言测试/number.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/number.dir/C语言测试/number.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/number.dir/C语言测试/number.c.o   -c /Users/aomsir/MyStudy/C++/Code/C语言测试/number.c
 
-CMakeFiles/number.dir/number.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/number.dir/number.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/number.c > CMakeFiles/number.dir/number.c.i
+CMakeFiles/number.dir/C语言测试/number.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/number.dir/C语言测试/number.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/C语言测试/number.c > CMakeFiles/number.dir/C语言测试/number.c.i
 
-CMakeFiles/number.dir/number.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/number.dir/number.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/number.c -o CMakeFiles/number.dir/number.c.s
+CMakeFiles/number.dir/C语言测试/number.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/number.dir/C语言测试/number.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/C语言测试/number.c -o CMakeFiles/number.dir/C语言测试/number.c.s
 
 # Object files for target number
 number_OBJECTS = \
-"CMakeFiles/number.dir/number.c.o"
+"CMakeFiles/number.dir/C语言测试/number.c.o"
 
 # External object files for target number
 number_EXTERNAL_OBJECTS =
 
-number: CMakeFiles/number.dir/number.c.o
+number: CMakeFiles/number.dir/C语言测试/number.c.o
 number: CMakeFiles/number.dir/build.make
 number: CMakeFiles/number.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable number"

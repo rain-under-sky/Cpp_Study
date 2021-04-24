@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aomsir/MyStudy/C++/Code/Ram_Apply_2.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/动态内存/Ram_Apply_2.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Ram_Apply_2.dir/动态内存/Ram_Apply_2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
