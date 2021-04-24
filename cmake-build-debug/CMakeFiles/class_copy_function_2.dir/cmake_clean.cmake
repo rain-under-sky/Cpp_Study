@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/class_copy_function_2.dir/class_copy_function_2.cpp.o"
+  "CMakeFiles/class_copy_function_2.dir/类/class_copy_function_2.cpp.o"
   "class_copy_function_2"
   "class_copy_function_2.pdb"
 )

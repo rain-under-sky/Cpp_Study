@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/class_function_use_2.dir/class_function_use_2.cpp.o"
+  "CMakeFiles/class_function_use_2.dir/类/class_function_use_2.cpp.o"
   "class_function_use_2"
   "class_function_use_2.pdb"
 )

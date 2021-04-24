@@ -77,30 +77,45 @@ include CMakeFiles/class_copy_function_1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/class_copy_function_1.dir/flags.make
 
-CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o: CMakeFiles/class_copy_function_1.dir/flags.make
-CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o: ../class_copy_function_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o -c /Users/aomsir/MyStudy/C++/Code/class_copy_function_1.cpp
+CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.o: CMakeFiles/class_copy_function_1.dir/flags.make
+CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.o: ../类/class_copy_function_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.o -c /Users/aomsir/MyStudy/C++/Code/类/class_copy_function_1.cpp
 
-CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/class_copy_function_1.cpp > CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.i
+CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/类/class_copy_function_1.cpp > CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.i
 
-CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/class_copy_function_1.cpp -o CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.s
+CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/类/class_copy_function_1.cpp -o CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.s
+
+CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.o: CMakeFiles/class_copy_function_1.dir/flags.make
+CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.o: ../派生与继承/paisheng.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.o -c /Users/aomsir/MyStudy/C++/Code/派生与继承/paisheng.cpp
+
+CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/派生与继承/paisheng.cpp > CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.i
+
+CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/派生与继承/paisheng.cpp -o CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.s
 
 # Object files for target class_copy_function_1
 class_copy_function_1_OBJECTS = \
-"CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o"
+"CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.o" \
+"CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.o"
 
 # External object files for target class_copy_function_1
 class_copy_function_1_EXTERNAL_OBJECTS =
 
-class_copy_function_1: CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o
+class_copy_function_1: CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.o
+class_copy_function_1: CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.o
 class_copy_function_1: CMakeFiles/class_copy_function_1.dir/build.make
 class_copy_function_1: CMakeFiles/class_copy_function_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable class_copy_function_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable class_copy_function_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/class_copy_function_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

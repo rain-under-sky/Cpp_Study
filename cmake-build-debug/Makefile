@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named paisheng
+
+# Build rule for target.
+paisheng: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 paisheng
+.PHONY : paisheng
+
+# fast build rule for target.
+paisheng/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/build
+.PHONY : paisheng/fast
+
+#=============================================================================
 # Target rules for targets named Ram_Apply_2
 
 # Build rule for target.
@@ -273,87 +286,6 @@ Code/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
 .PHONY : Code/fast
 
-Function_Build_in.o: Function_Build_in.cpp.o
-
-.PHONY : Function_Build_in.o
-
-# target to build an object file
-Function_Build_in.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Build_in.cpp.o
-.PHONY : Function_Build_in.cpp.o
-
-Function_Build_in.i: Function_Build_in.cpp.i
-
-.PHONY : Function_Build_in.i
-
-# target to preprocess a source file
-Function_Build_in.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Build_in.cpp.i
-.PHONY : Function_Build_in.cpp.i
-
-Function_Build_in.s: Function_Build_in.cpp.s
-
-.PHONY : Function_Build_in.s
-
-# target to generate assembly for a file
-Function_Build_in.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Build_in.cpp.s
-.PHONY : Function_Build_in.cpp.s
-
-Function_Default_use_1.o: Function_Default_use_1.cpp.o
-
-.PHONY : Function_Default_use_1.o
-
-# target to build an object file
-Function_Default_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Default_use_1.cpp.o
-.PHONY : Function_Default_use_1.cpp.o
-
-Function_Default_use_1.i: Function_Default_use_1.cpp.i
-
-.PHONY : Function_Default_use_1.i
-
-# target to preprocess a source file
-Function_Default_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Default_use_1.cpp.i
-.PHONY : Function_Default_use_1.cpp.i
-
-Function_Default_use_1.s: Function_Default_use_1.cpp.s
-
-.PHONY : Function_Default_use_1.s
-
-# target to generate assembly for a file
-Function_Default_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Default_use_1.cpp.s
-.PHONY : Function_Default_use_1.cpp.s
-
-Function_Overloading_use_1.o: Function_Overloading_use_1.cpp.o
-
-.PHONY : Function_Overloading_use_1.o
-
-# target to build an object file
-Function_Overloading_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Overloading_use_1.cpp.o
-.PHONY : Function_Overloading_use_1.cpp.o
-
-Function_Overloading_use_1.i: Function_Overloading_use_1.cpp.i
-
-.PHONY : Function_Overloading_use_1.i
-
-# target to preprocess a source file
-Function_Overloading_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Overloading_use_1.cpp.i
-.PHONY : Function_Overloading_use_1.cpp.i
-
-Function_Overloading_use_1.s: Function_Overloading_use_1.cpp.s
-
-.PHONY : Function_Overloading_use_1.s
-
-# target to generate assembly for a file
-Function_Overloading_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/Function_Overloading_use_1.cpp.s
-.PHONY : Function_Overloading_use_1.cpp.s
-
 Ram_Apply_2.o: Ram_Apply_2.cpp.o
 
 .PHONY : Ram_Apply_2.o
@@ -380,420 +312,6 @@ Ram_Apply_2.s: Ram_Apply_2.cpp.s
 Ram_Apply_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ram_Apply_2.dir/build.make CMakeFiles/Ram_Apply_2.dir/Ram_Apply_2.cpp.s
 .PHONY : Ram_Apply_2.cpp.s
-
-class_copy_function_1.o: class_copy_function_1.cpp.o
-
-.PHONY : class_copy_function_1.o
-
-# target to build an object file
-class_copy_function_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.o
-.PHONY : class_copy_function_1.cpp.o
-
-class_copy_function_1.i: class_copy_function_1.cpp.i
-
-.PHONY : class_copy_function_1.i
-
-# target to preprocess a source file
-class_copy_function_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.i
-.PHONY : class_copy_function_1.cpp.i
-
-class_copy_function_1.s: class_copy_function_1.cpp.s
-
-.PHONY : class_copy_function_1.s
-
-# target to generate assembly for a file
-class_copy_function_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/class_copy_function_1.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_1.cpp.s
-.PHONY : class_copy_function_1.cpp.s
-
-class_copy_function_2.o: class_copy_function_2.cpp.o
-
-.PHONY : class_copy_function_2.o
-
-# target to build an object file
-class_copy_function_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/class_copy_function_2.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.o
-.PHONY : class_copy_function_2.cpp.o
-
-class_copy_function_2.i: class_copy_function_2.cpp.i
-
-.PHONY : class_copy_function_2.i
-
-# target to preprocess a source file
-class_copy_function_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/class_copy_function_2.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.i
-.PHONY : class_copy_function_2.cpp.i
-
-class_copy_function_2.s: class_copy_function_2.cpp.s
-
-.PHONY : class_copy_function_2.s
-
-# target to generate assembly for a file
-class_copy_function_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/class_copy_function_2.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_copy_function_2.cpp.s
-.PHONY : class_copy_function_2.cpp.s
-
-class_function_use_1.o: class_function_use_1.cpp.o
-
-.PHONY : class_function_use_1.o
-
-# target to build an object file
-class_function_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_function_use_1.cpp.o
-.PHONY : class_function_use_1.cpp.o
-
-class_function_use_1.i: class_function_use_1.cpp.i
-
-.PHONY : class_function_use_1.i
-
-# target to preprocess a source file
-class_function_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_function_use_1.cpp.i
-.PHONY : class_function_use_1.cpp.i
-
-class_function_use_1.s: class_function_use_1.cpp.s
-
-.PHONY : class_function_use_1.s
-
-# target to generate assembly for a file
-class_function_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_function_use_1.cpp.s
-.PHONY : class_function_use_1.cpp.s
-
-class_function_use_2.o: class_function_use_2.cpp.o
-
-.PHONY : class_function_use_2.o
-
-# target to build an object file
-class_function_use_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/class_function_use_2.cpp.o
-.PHONY : class_function_use_2.cpp.o
-
-class_function_use_2.i: class_function_use_2.cpp.i
-
-.PHONY : class_function_use_2.i
-
-# target to preprocess a source file
-class_function_use_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/class_function_use_2.cpp.i
-.PHONY : class_function_use_2.cpp.i
-
-class_function_use_2.s: class_function_use_2.cpp.s
-
-.PHONY : class_function_use_2.s
-
-# target to generate assembly for a file
-class_function_use_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/class_function_use_2.cpp.s
-.PHONY : class_function_use_2.cpp.s
-
-class_this_use_1.o: class_this_use_1.cpp.o
-
-.PHONY : class_this_use_1.o
-
-# target to build an object file
-class_this_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/class_this_use_1.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_this_use_1.cpp.o
-.PHONY : class_this_use_1.cpp.o
-
-class_this_use_1.i: class_this_use_1.cpp.i
-
-.PHONY : class_this_use_1.i
-
-# target to preprocess a source file
-class_this_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/class_this_use_1.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_this_use_1.cpp.i
-.PHONY : class_this_use_1.cpp.i
-
-class_this_use_1.s: class_this_use_1.cpp.s
-
-.PHONY : class_this_use_1.s
-
-# target to generate assembly for a file
-class_this_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/class_this_use_1.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_this_use_1.cpp.s
-.PHONY : class_this_use_1.cpp.s
-
-class_use_1.o: class_use_1.cpp.o
-
-.PHONY : class_use_1.o
-
-# target to build an object file
-class_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.o
-.PHONY : class_use_1.cpp.o
-
-class_use_1.i: class_use_1.cpp.i
-
-.PHONY : class_use_1.i
-
-# target to preprocess a source file
-class_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.i
-.PHONY : class_use_1.cpp.i
-
-class_use_1.s: class_use_1.cpp.s
-
-.PHONY : class_use_1.s
-
-# target to generate assembly for a file
-class_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_1.cpp.s
-.PHONY : class_use_1.cpp.s
-
-class_use_10.o: class_use_10.cpp.o
-
-.PHONY : class_use_10.o
-
-# target to build an object file
-class_use_10.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_10.cpp.o
-.PHONY : class_use_10.cpp.o
-
-class_use_10.i: class_use_10.cpp.i
-
-.PHONY : class_use_10.i
-
-# target to preprocess a source file
-class_use_10.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_10.cpp.i
-.PHONY : class_use_10.cpp.i
-
-class_use_10.s: class_use_10.cpp.s
-
-.PHONY : class_use_10.s
-
-# target to generate assembly for a file
-class_use_10.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_10.cpp.s
-.PHONY : class_use_10.cpp.s
-
-class_use_2.o: class_use_2.cpp.o
-
-.PHONY : class_use_2.o
-
-# target to build an object file
-class_use_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_2.cpp.o
-.PHONY : class_use_2.cpp.o
-
-class_use_2.i: class_use_2.cpp.i
-
-.PHONY : class_use_2.i
-
-# target to preprocess a source file
-class_use_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_2.cpp.i
-.PHONY : class_use_2.cpp.i
-
-class_use_2.s: class_use_2.cpp.s
-
-.PHONY : class_use_2.s
-
-# target to generate assembly for a file
-class_use_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_2.cpp.s
-.PHONY : class_use_2.cpp.s
-
-class_use_3.o: class_use_3.cpp.o
-
-.PHONY : class_use_3.o
-
-# target to build an object file
-class_use_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_3.cpp.o
-.PHONY : class_use_3.cpp.o
-
-class_use_3.i: class_use_3.cpp.i
-
-.PHONY : class_use_3.i
-
-# target to preprocess a source file
-class_use_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_3.cpp.i
-.PHONY : class_use_3.cpp.i
-
-class_use_3.s: class_use_3.cpp.s
-
-.PHONY : class_use_3.s
-
-# target to generate assembly for a file
-class_use_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_3.cpp.s
-.PHONY : class_use_3.cpp.s
-
-class_use_4.o: class_use_4.cpp.o
-
-.PHONY : class_use_4.o
-
-# target to build an object file
-class_use_4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_4.cpp.o
-.PHONY : class_use_4.cpp.o
-
-class_use_4.i: class_use_4.cpp.i
-
-.PHONY : class_use_4.i
-
-# target to preprocess a source file
-class_use_4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_4.cpp.i
-.PHONY : class_use_4.cpp.i
-
-class_use_4.s: class_use_4.cpp.s
-
-.PHONY : class_use_4.s
-
-# target to generate assembly for a file
-class_use_4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_4.cpp.s
-.PHONY : class_use_4.cpp.s
-
-class_use_5.o: class_use_5.cpp.o
-
-.PHONY : class_use_5.o
-
-# target to build an object file
-class_use_5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_5.cpp.o
-.PHONY : class_use_5.cpp.o
-
-class_use_5.i: class_use_5.cpp.i
-
-.PHONY : class_use_5.i
-
-# target to preprocess a source file
-class_use_5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_5.cpp.i
-.PHONY : class_use_5.cpp.i
-
-class_use_5.s: class_use_5.cpp.s
-
-.PHONY : class_use_5.s
-
-# target to generate assembly for a file
-class_use_5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_5.cpp.s
-.PHONY : class_use_5.cpp.s
-
-class_use_6.o: class_use_6.cpp.o
-
-.PHONY : class_use_6.o
-
-# target to build an object file
-class_use_6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.o
-.PHONY : class_use_6.cpp.o
-
-class_use_6.i: class_use_6.cpp.i
-
-.PHONY : class_use_6.i
-
-# target to preprocess a source file
-class_use_6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.i
-.PHONY : class_use_6.cpp.i
-
-class_use_6.s: class_use_6.cpp.s
-
-.PHONY : class_use_6.s
-
-# target to generate assembly for a file
-class_use_6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_6.cpp.s
-.PHONY : class_use_6.cpp.s
-
-class_use_7.o: class_use_7.cpp.o
-
-.PHONY : class_use_7.o
-
-# target to build an object file
-class_use_7.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_7.cpp.o
-.PHONY : class_use_7.cpp.o
-
-class_use_7.i: class_use_7.cpp.i
-
-.PHONY : class_use_7.i
-
-# target to preprocess a source file
-class_use_7.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_7.cpp.i
-.PHONY : class_use_7.cpp.i
-
-class_use_7.s: class_use_7.cpp.s
-
-.PHONY : class_use_7.s
-
-# target to generate assembly for a file
-class_use_7.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_7.cpp.s
-.PHONY : class_use_7.cpp.s
-
-class_use_8.o: class_use_8.cpp.o
-
-.PHONY : class_use_8.o
-
-# target to build an object file
-class_use_8.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_8.cpp.o
-.PHONY : class_use_8.cpp.o
-
-class_use_8.i: class_use_8.cpp.i
-
-.PHONY : class_use_8.i
-
-# target to preprocess a source file
-class_use_8.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_8.cpp.i
-.PHONY : class_use_8.cpp.i
-
-class_use_8.s: class_use_8.cpp.s
-
-.PHONY : class_use_8.s
-
-# target to generate assembly for a file
-class_use_8.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_8.cpp.s
-.PHONY : class_use_8.cpp.s
-
-class_use_9.o: class_use_9.cpp.o
-
-.PHONY : class_use_9.o
-
-# target to build an object file
-class_use_9.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_9.cpp.o
-.PHONY : class_use_9.cpp.o
-
-class_use_9.i: class_use_9.cpp.i
-
-.PHONY : class_use_9.i
-
-# target to preprocess a source file
-class_use_9.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_9.cpp.i
-.PHONY : class_use_9.cpp.i
-
-class_use_9.s: class_use_9.cpp.s
-
-.PHONY : class_use_9.s
-
-# target to generate assembly for a file
-class_use_9.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/class_use_9.cpp.s
-.PHONY : class_use_9.cpp.s
 
 experiment_1_1.o: experiment_1_1.cpp.o
 
@@ -1026,6 +544,531 @@ test_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/test_2.cpp.s
 .PHONY : test_2.cpp.s
 
+函数/Function_Build_in.o: 函数/Function_Build_in.cpp.o
+
+.PHONY : 函数/Function_Build_in.o
+
+# target to build an object file
+函数/Function_Build_in.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Build_in.cpp.o
+.PHONY : 函数/Function_Build_in.cpp.o
+
+函数/Function_Build_in.i: 函数/Function_Build_in.cpp.i
+
+.PHONY : 函数/Function_Build_in.i
+
+# target to preprocess a source file
+函数/Function_Build_in.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Build_in.cpp.i
+.PHONY : 函数/Function_Build_in.cpp.i
+
+函数/Function_Build_in.s: 函数/Function_Build_in.cpp.s
+
+.PHONY : 函数/Function_Build_in.s
+
+# target to generate assembly for a file
+函数/Function_Build_in.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Build_in.cpp.s
+.PHONY : 函数/Function_Build_in.cpp.s
+
+函数/Function_Default_use_1.o: 函数/Function_Default_use_1.cpp.o
+
+.PHONY : 函数/Function_Default_use_1.o
+
+# target to build an object file
+函数/Function_Default_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Default_use_1.cpp.o
+.PHONY : 函数/Function_Default_use_1.cpp.o
+
+函数/Function_Default_use_1.i: 函数/Function_Default_use_1.cpp.i
+
+.PHONY : 函数/Function_Default_use_1.i
+
+# target to preprocess a source file
+函数/Function_Default_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Default_use_1.cpp.i
+.PHONY : 函数/Function_Default_use_1.cpp.i
+
+函数/Function_Default_use_1.s: 函数/Function_Default_use_1.cpp.s
+
+.PHONY : 函数/Function_Default_use_1.s
+
+# target to generate assembly for a file
+函数/Function_Default_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Default_use_1.cpp.s
+.PHONY : 函数/Function_Default_use_1.cpp.s
+
+函数/Function_Overloading_use_1.o: 函数/Function_Overloading_use_1.cpp.o
+
+.PHONY : 函数/Function_Overloading_use_1.o
+
+# target to build an object file
+函数/Function_Overloading_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Overloading_use_1.cpp.o
+.PHONY : 函数/Function_Overloading_use_1.cpp.o
+
+函数/Function_Overloading_use_1.i: 函数/Function_Overloading_use_1.cpp.i
+
+.PHONY : 函数/Function_Overloading_use_1.i
+
+# target to preprocess a source file
+函数/Function_Overloading_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Overloading_use_1.cpp.i
+.PHONY : 函数/Function_Overloading_use_1.cpp.i
+
+函数/Function_Overloading_use_1.s: 函数/Function_Overloading_use_1.cpp.s
+
+.PHONY : 函数/Function_Overloading_use_1.s
+
+# target to generate assembly for a file
+函数/Function_Overloading_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/函数/Function_Overloading_use_1.cpp.s
+.PHONY : 函数/Function_Overloading_use_1.cpp.s
+
+派生与继承/paisheng.o: 派生与继承/paisheng.cpp.o
+
+.PHONY : 派生与继承/paisheng.o
+
+# target to build an object file
+派生与继承/paisheng.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.o
+.PHONY : 派生与继承/paisheng.cpp.o
+
+派生与继承/paisheng.i: 派生与继承/paisheng.cpp.i
+
+.PHONY : 派生与继承/paisheng.i
+
+# target to preprocess a source file
+派生与继承/paisheng.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.i
+.PHONY : 派生与继承/paisheng.cpp.i
+
+派生与继承/paisheng.s: 派生与继承/paisheng.cpp.s
+
+.PHONY : 派生与继承/paisheng.s
+
+# target to generate assembly for a file
+派生与继承/paisheng.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/paisheng.dir/build.make CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/派生与继承/paisheng.cpp.s
+.PHONY : 派生与继承/paisheng.cpp.s
+
+类/class_copy_function_1.o: 类/class_copy_function_1.cpp.o
+
+.PHONY : 类/class_copy_function_1.o
+
+# target to build an object file
+类/class_copy_function_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_copy_function_1.cpp.o
+.PHONY : 类/class_copy_function_1.cpp.o
+
+类/class_copy_function_1.i: 类/class_copy_function_1.cpp.i
+
+.PHONY : 类/class_copy_function_1.i
+
+# target to preprocess a source file
+类/class_copy_function_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_copy_function_1.cpp.i
+.PHONY : 类/class_copy_function_1.cpp.i
+
+类/class_copy_function_1.s: 类/class_copy_function_1.cpp.s
+
+.PHONY : 类/class_copy_function_1.s
+
+# target to generate assembly for a file
+类/class_copy_function_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_1.dir/build.make CMakeFiles/class_copy_function_1.dir/类/class_copy_function_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_copy_function_1.cpp.s
+.PHONY : 类/class_copy_function_1.cpp.s
+
+类/class_copy_function_2.o: 类/class_copy_function_2.cpp.o
+
+.PHONY : 类/class_copy_function_2.o
+
+# target to build an object file
+类/class_copy_function_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/类/class_copy_function_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_copy_function_2.cpp.o
+.PHONY : 类/class_copy_function_2.cpp.o
+
+类/class_copy_function_2.i: 类/class_copy_function_2.cpp.i
+
+.PHONY : 类/class_copy_function_2.i
+
+# target to preprocess a source file
+类/class_copy_function_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/类/class_copy_function_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_copy_function_2.cpp.i
+.PHONY : 类/class_copy_function_2.cpp.i
+
+类/class_copy_function_2.s: 类/class_copy_function_2.cpp.s
+
+.PHONY : 类/class_copy_function_2.s
+
+# target to generate assembly for a file
+类/class_copy_function_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_copy_function_2.dir/build.make CMakeFiles/class_copy_function_2.dir/类/class_copy_function_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_copy_function_2.cpp.s
+.PHONY : 类/class_copy_function_2.cpp.s
+
+类/class_function_use_1.o: 类/class_function_use_1.cpp.o
+
+.PHONY : 类/class_function_use_1.o
+
+# target to build an object file
+类/class_function_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_function_use_1.cpp.o
+.PHONY : 类/class_function_use_1.cpp.o
+
+类/class_function_use_1.i: 类/class_function_use_1.cpp.i
+
+.PHONY : 类/class_function_use_1.i
+
+# target to preprocess a source file
+类/class_function_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_function_use_1.cpp.i
+.PHONY : 类/class_function_use_1.cpp.i
+
+类/class_function_use_1.s: 类/class_function_use_1.cpp.s
+
+.PHONY : 类/class_function_use_1.s
+
+# target to generate assembly for a file
+类/class_function_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_function_use_1.cpp.s
+.PHONY : 类/class_function_use_1.cpp.s
+
+类/class_function_use_2.o: 类/class_function_use_2.cpp.o
+
+.PHONY : 类/class_function_use_2.o
+
+# target to build an object file
+类/class_function_use_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/类/class_function_use_2.cpp.o
+.PHONY : 类/class_function_use_2.cpp.o
+
+类/class_function_use_2.i: 类/class_function_use_2.cpp.i
+
+.PHONY : 类/class_function_use_2.i
+
+# target to preprocess a source file
+类/class_function_use_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/类/class_function_use_2.cpp.i
+.PHONY : 类/class_function_use_2.cpp.i
+
+类/class_function_use_2.s: 类/class_function_use_2.cpp.s
+
+.PHONY : 类/class_function_use_2.s
+
+# target to generate assembly for a file
+类/class_function_use_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_function_use_2.dir/build.make CMakeFiles/class_function_use_2.dir/类/class_function_use_2.cpp.s
+.PHONY : 类/class_function_use_2.cpp.s
+
+类/class_this_use_1.o: 类/class_this_use_1.cpp.o
+
+.PHONY : 类/class_this_use_1.o
+
+# target to build an object file
+类/class_this_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/类/class_this_use_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_this_use_1.cpp.o
+.PHONY : 类/class_this_use_1.cpp.o
+
+类/class_this_use_1.i: 类/class_this_use_1.cpp.i
+
+.PHONY : 类/class_this_use_1.i
+
+# target to preprocess a source file
+类/class_this_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/类/class_this_use_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_this_use_1.cpp.i
+.PHONY : 类/class_this_use_1.cpp.i
+
+类/class_this_use_1.s: 类/class_this_use_1.cpp.s
+
+.PHONY : 类/class_this_use_1.s
+
+# target to generate assembly for a file
+类/class_this_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/class_this_use_1.dir/build.make CMakeFiles/class_this_use_1.dir/类/class_this_use_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_this_use_1.cpp.s
+.PHONY : 类/class_this_use_1.cpp.s
+
+类/class_use_1.o: 类/class_use_1.cpp.o
+
+.PHONY : 类/class_use_1.o
+
+# target to build an object file
+类/class_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_1.cpp.o
+.PHONY : 类/class_use_1.cpp.o
+
+类/class_use_1.i: 类/class_use_1.cpp.i
+
+.PHONY : 类/class_use_1.i
+
+# target to preprocess a source file
+类/class_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_1.cpp.i
+.PHONY : 类/class_use_1.cpp.i
+
+类/class_use_1.s: 类/class_use_1.cpp.s
+
+.PHONY : 类/class_use_1.s
+
+# target to generate assembly for a file
+类/class_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_1.cpp.s
+.PHONY : 类/class_use_1.cpp.s
+
+类/class_use_10.o: 类/class_use_10.cpp.o
+
+.PHONY : 类/class_use_10.o
+
+# target to build an object file
+类/class_use_10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_10.cpp.o
+.PHONY : 类/class_use_10.cpp.o
+
+类/class_use_10.i: 类/class_use_10.cpp.i
+
+.PHONY : 类/class_use_10.i
+
+# target to preprocess a source file
+类/class_use_10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_10.cpp.i
+.PHONY : 类/class_use_10.cpp.i
+
+类/class_use_10.s: 类/class_use_10.cpp.s
+
+.PHONY : 类/class_use_10.s
+
+# target to generate assembly for a file
+类/class_use_10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_10.cpp.s
+.PHONY : 类/class_use_10.cpp.s
+
+类/class_use_2.o: 类/class_use_2.cpp.o
+
+.PHONY : 类/class_use_2.o
+
+# target to build an object file
+类/class_use_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_2.cpp.o
+.PHONY : 类/class_use_2.cpp.o
+
+类/class_use_2.i: 类/class_use_2.cpp.i
+
+.PHONY : 类/class_use_2.i
+
+# target to preprocess a source file
+类/class_use_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_2.cpp.i
+.PHONY : 类/class_use_2.cpp.i
+
+类/class_use_2.s: 类/class_use_2.cpp.s
+
+.PHONY : 类/class_use_2.s
+
+# target to generate assembly for a file
+类/class_use_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_2.cpp.s
+.PHONY : 类/class_use_2.cpp.s
+
+类/class_use_3.o: 类/class_use_3.cpp.o
+
+.PHONY : 类/class_use_3.o
+
+# target to build an object file
+类/class_use_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_3.cpp.o
+.PHONY : 类/class_use_3.cpp.o
+
+类/class_use_3.i: 类/class_use_3.cpp.i
+
+.PHONY : 类/class_use_3.i
+
+# target to preprocess a source file
+类/class_use_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_3.cpp.i
+.PHONY : 类/class_use_3.cpp.i
+
+类/class_use_3.s: 类/class_use_3.cpp.s
+
+.PHONY : 类/class_use_3.s
+
+# target to generate assembly for a file
+类/class_use_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_3.cpp.s
+.PHONY : 类/class_use_3.cpp.s
+
+类/class_use_4.o: 类/class_use_4.cpp.o
+
+.PHONY : 类/class_use_4.o
+
+# target to build an object file
+类/class_use_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_4.cpp.o
+.PHONY : 类/class_use_4.cpp.o
+
+类/class_use_4.i: 类/class_use_4.cpp.i
+
+.PHONY : 类/class_use_4.i
+
+# target to preprocess a source file
+类/class_use_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_4.cpp.i
+.PHONY : 类/class_use_4.cpp.i
+
+类/class_use_4.s: 类/class_use_4.cpp.s
+
+.PHONY : 类/class_use_4.s
+
+# target to generate assembly for a file
+类/class_use_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_4.cpp.s
+.PHONY : 类/class_use_4.cpp.s
+
+类/class_use_5.o: 类/class_use_5.cpp.o
+
+.PHONY : 类/class_use_5.o
+
+# target to build an object file
+类/class_use_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_5.cpp.o
+.PHONY : 类/class_use_5.cpp.o
+
+类/class_use_5.i: 类/class_use_5.cpp.i
+
+.PHONY : 类/class_use_5.i
+
+# target to preprocess a source file
+类/class_use_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_5.cpp.i
+.PHONY : 类/class_use_5.cpp.i
+
+类/class_use_5.s: 类/class_use_5.cpp.s
+
+.PHONY : 类/class_use_5.s
+
+# target to generate assembly for a file
+类/class_use_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_5.cpp.s
+.PHONY : 类/class_use_5.cpp.s
+
+类/class_use_6.o: 类/class_use_6.cpp.o
+
+.PHONY : 类/class_use_6.o
+
+# target to build an object file
+类/class_use_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_6.cpp.o
+.PHONY : 类/class_use_6.cpp.o
+
+类/class_use_6.i: 类/class_use_6.cpp.i
+
+.PHONY : 类/class_use_6.i
+
+# target to preprocess a source file
+类/class_use_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_6.cpp.i
+.PHONY : 类/class_use_6.cpp.i
+
+类/class_use_6.s: 类/class_use_6.cpp.s
+
+.PHONY : 类/class_use_6.s
+
+# target to generate assembly for a file
+类/class_use_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_6.cpp.s
+.PHONY : 类/class_use_6.cpp.s
+
+类/class_use_7.o: 类/class_use_7.cpp.o
+
+.PHONY : 类/class_use_7.o
+
+# target to build an object file
+类/class_use_7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_7.cpp.o
+.PHONY : 类/class_use_7.cpp.o
+
+类/class_use_7.i: 类/class_use_7.cpp.i
+
+.PHONY : 类/class_use_7.i
+
+# target to preprocess a source file
+类/class_use_7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_7.cpp.i
+.PHONY : 类/class_use_7.cpp.i
+
+类/class_use_7.s: 类/class_use_7.cpp.s
+
+.PHONY : 类/class_use_7.s
+
+# target to generate assembly for a file
+类/class_use_7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_7.cpp.s
+.PHONY : 类/class_use_7.cpp.s
+
+类/class_use_8.o: 类/class_use_8.cpp.o
+
+.PHONY : 类/class_use_8.o
+
+# target to build an object file
+类/class_use_8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_8.cpp.o
+.PHONY : 类/class_use_8.cpp.o
+
+类/class_use_8.i: 类/class_use_8.cpp.i
+
+.PHONY : 类/class_use_8.i
+
+# target to preprocess a source file
+类/class_use_8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_8.cpp.i
+.PHONY : 类/class_use_8.cpp.i
+
+类/class_use_8.s: 类/class_use_8.cpp.s
+
+.PHONY : 类/class_use_8.s
+
+# target to generate assembly for a file
+类/class_use_8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_8.cpp.s
+.PHONY : 类/class_use_8.cpp.s
+
+类/class_use_9.o: 类/class_use_9.cpp.o
+
+.PHONY : 类/class_use_9.o
+
+# target to build an object file
+类/class_use_9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_9.cpp.o
+.PHONY : 类/class_use_9.cpp.o
+
+类/class_use_9.i: 类/class_use_9.cpp.i
+
+.PHONY : 类/class_use_9.i
+
+# target to preprocess a source file
+类/class_use_9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_9.cpp.i
+.PHONY : 类/class_use_9.cpp.i
+
+类/class_use_9.s: 类/class_use_9.cpp.s
+
+.PHONY : 类/class_use_9.s
+
+# target to generate assembly for a file
+类/class_use_9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/类/class_use_9.cpp.s
+.PHONY : 类/class_use_9.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1044,64 +1087,11 @@ help:
 	@echo "... experiment_1_2"
 	@echo "... experiment_1_3"
 	@echo "... number"
+	@echo "... paisheng"
 	@echo "... test"
-	@echo "... Function_Build_in.o"
-	@echo "... Function_Build_in.i"
-	@echo "... Function_Build_in.s"
-	@echo "... Function_Default_use_1.o"
-	@echo "... Function_Default_use_1.i"
-	@echo "... Function_Default_use_1.s"
-	@echo "... Function_Overloading_use_1.o"
-	@echo "... Function_Overloading_use_1.i"
-	@echo "... Function_Overloading_use_1.s"
 	@echo "... Ram_Apply_2.o"
 	@echo "... Ram_Apply_2.i"
 	@echo "... Ram_Apply_2.s"
-	@echo "... class_copy_function_1.o"
-	@echo "... class_copy_function_1.i"
-	@echo "... class_copy_function_1.s"
-	@echo "... class_copy_function_2.o"
-	@echo "... class_copy_function_2.i"
-	@echo "... class_copy_function_2.s"
-	@echo "... class_function_use_1.o"
-	@echo "... class_function_use_1.i"
-	@echo "... class_function_use_1.s"
-	@echo "... class_function_use_2.o"
-	@echo "... class_function_use_2.i"
-	@echo "... class_function_use_2.s"
-	@echo "... class_this_use_1.o"
-	@echo "... class_this_use_1.i"
-	@echo "... class_this_use_1.s"
-	@echo "... class_use_1.o"
-	@echo "... class_use_1.i"
-	@echo "... class_use_1.s"
-	@echo "... class_use_10.o"
-	@echo "... class_use_10.i"
-	@echo "... class_use_10.s"
-	@echo "... class_use_2.o"
-	@echo "... class_use_2.i"
-	@echo "... class_use_2.s"
-	@echo "... class_use_3.o"
-	@echo "... class_use_3.i"
-	@echo "... class_use_3.s"
-	@echo "... class_use_4.o"
-	@echo "... class_use_4.i"
-	@echo "... class_use_4.s"
-	@echo "... class_use_5.o"
-	@echo "... class_use_5.i"
-	@echo "... class_use_5.s"
-	@echo "... class_use_6.o"
-	@echo "... class_use_6.i"
-	@echo "... class_use_6.s"
-	@echo "... class_use_7.o"
-	@echo "... class_use_7.i"
-	@echo "... class_use_7.s"
-	@echo "... class_use_8.o"
-	@echo "... class_use_8.i"
-	@echo "... class_use_8.s"
-	@echo "... class_use_9.o"
-	@echo "... class_use_9.i"
-	@echo "... class_use_9.s"
 	@echo "... experiment_1_1.o"
 	@echo "... experiment_1_1.i"
 	@echo "... experiment_1_1.s"
@@ -1126,6 +1116,63 @@ help:
 	@echo "... test_2.o"
 	@echo "... test_2.i"
 	@echo "... test_2.s"
+	@echo "... 函数/Function_Build_in.o"
+	@echo "... 函数/Function_Build_in.i"
+	@echo "... 函数/Function_Build_in.s"
+	@echo "... 函数/Function_Default_use_1.o"
+	@echo "... 函数/Function_Default_use_1.i"
+	@echo "... 函数/Function_Default_use_1.s"
+	@echo "... 函数/Function_Overloading_use_1.o"
+	@echo "... 函数/Function_Overloading_use_1.i"
+	@echo "... 函数/Function_Overloading_use_1.s"
+	@echo "... 派生与继承/paisheng.o"
+	@echo "... 派生与继承/paisheng.i"
+	@echo "... 派生与继承/paisheng.s"
+	@echo "... 类/class_copy_function_1.o"
+	@echo "... 类/class_copy_function_1.i"
+	@echo "... 类/class_copy_function_1.s"
+	@echo "... 类/class_copy_function_2.o"
+	@echo "... 类/class_copy_function_2.i"
+	@echo "... 类/class_copy_function_2.s"
+	@echo "... 类/class_function_use_1.o"
+	@echo "... 类/class_function_use_1.i"
+	@echo "... 类/class_function_use_1.s"
+	@echo "... 类/class_function_use_2.o"
+	@echo "... 类/class_function_use_2.i"
+	@echo "... 类/class_function_use_2.s"
+	@echo "... 类/class_this_use_1.o"
+	@echo "... 类/class_this_use_1.i"
+	@echo "... 类/class_this_use_1.s"
+	@echo "... 类/class_use_1.o"
+	@echo "... 类/class_use_1.i"
+	@echo "... 类/class_use_1.s"
+	@echo "... 类/class_use_10.o"
+	@echo "... 类/class_use_10.i"
+	@echo "... 类/class_use_10.s"
+	@echo "... 类/class_use_2.o"
+	@echo "... 类/class_use_2.i"
+	@echo "... 类/class_use_2.s"
+	@echo "... 类/class_use_3.o"
+	@echo "... 类/class_use_3.i"
+	@echo "... 类/class_use_3.s"
+	@echo "... 类/class_use_4.o"
+	@echo "... 类/class_use_4.i"
+	@echo "... 类/class_use_4.s"
+	@echo "... 类/class_use_5.o"
+	@echo "... 类/class_use_5.i"
+	@echo "... 类/class_use_5.s"
+	@echo "... 类/class_use_6.o"
+	@echo "... 类/class_use_6.i"
+	@echo "... 类/class_use_6.s"
+	@echo "... 类/class_use_7.o"
+	@echo "... 类/class_use_7.i"
+	@echo "... 类/class_use_7.s"
+	@echo "... 类/class_use_8.o"
+	@echo "... 类/class_use_8.i"
+	@echo "... 类/class_use_8.s"
+	@echo "... 类/class_use_9.o"
+	@echo "... 类/class_use_9.i"
+	@echo "... 类/class_use_9.s"
 .PHONY : help
 
 

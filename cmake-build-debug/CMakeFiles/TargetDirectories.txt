@@ -1,4 +1,5 @@
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/paisheng.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Ram_Apply_2.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/experiment_1_1.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/class_function_use_2.dir
