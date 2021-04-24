@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp
-iostream
--
-
 /Users/aomsir/MyStudy/C++/Code/实验题/experiment_2_1.cpp
 iostream
 -

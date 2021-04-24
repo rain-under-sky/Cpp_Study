@@ -5,7 +5,7 @@
 		<Option title="Code"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\实验题\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="paisheng">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/paisheng" prefix_auto="0" extension_auto="0"/>
+			<Target title="experiment_2_1">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 paisheng"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_1"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="paisheng/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/paisheng" prefix_auto="0" extension_auto="0"/>
+			<Target title="experiment_2_1/fast">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 paisheng/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_1/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -125,11 +125,14 @@
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp">
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/派生与继承/paisheng.cpp">
-			<Option target="paisheng"/>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_2_1.cpp">
+			<Option target="experiment_2_1"/>
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\实验题\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

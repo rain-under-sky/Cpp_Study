@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/实验题/CMakeFiles/progress.marks
+	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 实验题/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 实验题/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,98 +117,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 实验题/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 实验题/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named experiment_2_1
-
-# Build rule for target.
-experiment_2_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_2_1
-.PHONY : experiment_2_1
-
-# fast build rule for target.
-experiment_2_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/build
-.PHONY : experiment_2_1/fast
-
-#=============================================================================
-# Target rules for targets named Code
-
-# Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
-
-# fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
-
-C++测试/main.o: C++测试/main.cpp.o
-
-.PHONY : C++测试/main.o
-
-# target to build an object file
-C++测试/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.o
-.PHONY : C++测试/main.cpp.o
-
-C++测试/main.i: C++测试/main.cpp.i
-
-.PHONY : C++测试/main.i
-
-# target to preprocess a source file
-C++测试/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.i
-.PHONY : C++测试/main.cpp.i
-
-C++测试/main.s: C++测试/main.cpp.s
-
-.PHONY : C++测试/main.s
-
-# target to generate assembly for a file
-C++测试/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
-.PHONY : C++测试/main.cpp.s
-
-实验题/experiment_2_1.o: 实验题/experiment_2_1.cpp.o
-
-.PHONY : 实验题/experiment_2_1.o
-
-# target to build an object file
-实验题/experiment_2_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/实验题/experiment_2_1.cpp.o
-.PHONY : 实验题/experiment_2_1.cpp.o
-
-实验题/experiment_2_1.i: 实验题/experiment_2_1.cpp.i
-
-.PHONY : 实验题/experiment_2_1.i
-
-# target to preprocess a source file
-实验题/experiment_2_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/实验题/experiment_2_1.cpp.i
-.PHONY : 实验题/experiment_2_1.cpp.i
-
-实验题/experiment_2_1.s: 实验题/experiment_2_1.cpp.s
-
-.PHONY : 实验题/experiment_2_1.s
-
-# target to generate assembly for a file
-实验题/experiment_2_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_1.dir/build.make CMakeFiles/experiment_2_1.dir/实验题/experiment_2_1.cpp.s
-.PHONY : 实验题/experiment_2_1.cpp.s
 
 # Help Target
 help:
@@ -218,14 +138,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Code"
-	@echo "... experiment_2_1"
-	@echo "... C++测试/main.o"
-	@echo "... C++测试/main.i"
-	@echo "... C++测试/main.s"
-	@echo "... 实验题/experiment_2_1.o"
-	@echo "... 实验题/experiment_2_1.i"
-	@echo "... 实验题/experiment_2_1.s"
 .PHONY : help
 
 
@@ -237,6 +149,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
