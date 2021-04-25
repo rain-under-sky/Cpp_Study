@@ -14,11 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/derive_1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/derive_1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/derive_1.dir/派生与继承/derive_1.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/derive_1.dir/派生与继承/derive_1.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/derive_1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/derive_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/派生与继承/derive_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/派生与继承/derive_1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +141,7 @@
       <workItem from="1619013305919" duration="5000" />
       <workItem from="1619179687199" duration="384000" />
       <workItem from="1619180104255" duration="2096000" />
-      <workItem from="1619242365828" duration="14371000" />
+      <workItem from="1619242365828" duration="14998000" />
     </task>
     <servers />
   </component>
