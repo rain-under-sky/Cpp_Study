@@ -34,6 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../C语言测试/CMakeLists.txt"
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
@@ -52,11 +53,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "实验题/CMakeFiles/CMakeDirectoryInformation.cmake"
   "派生与继承/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "C语言测试/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/paisheng.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/experiment_2_3.dir/DependInfo.cmake"
   "CMakeFiles/experiment_2_2.dir/DependInfo.cmake"
   "CMakeFiles/experiment_2_1.dir/DependInfo.cmake"
