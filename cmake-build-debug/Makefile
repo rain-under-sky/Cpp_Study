@@ -210,6 +210,33 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_1.dir/build.make CMakeFiles/derive_1.dir/派生与继承/derive_1.cpp.s
 .PHONY : 派生与继承/derive_1.cpp.s
 
+派生与继承/derive_2.o: 派生与继承/derive_2.cpp.o
+
+.PHONY : 派生与继承/derive_2.o
+
+# target to build an object file
+派生与继承/derive_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o
+.PHONY : 派生与继承/derive_2.cpp.o
+
+派生与继承/derive_2.i: 派生与继承/derive_2.cpp.i
+
+.PHONY : 派生与继承/derive_2.i
+
+# target to preprocess a source file
+派生与继承/derive_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.i
+.PHONY : 派生与继承/derive_2.cpp.i
+
+派生与继承/derive_2.s: 派生与继承/derive_2.cpp.s
+
+.PHONY : 派生与继承/derive_2.s
+
+# target to generate assembly for a file
+派生与继承/derive_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.s
+.PHONY : 派生与继承/derive_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -226,6 +253,9 @@ help:
 	@echo "... 派生与继承/derive_1.o"
 	@echo "... 派生与继承/derive_1.i"
 	@echo "... 派生与继承/derive_1.s"
+	@echo "... 派生与继承/derive_2.o"
+	@echo "... 派生与继承/derive_2.i"
+	@echo "... 派生与继承/derive_2.s"
 .PHONY : help
 
 
