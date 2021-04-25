@@ -13,3 +13,4 @@ add_executable(Code C++测试/main.cpp 派生与继承/derive_2.cpp)
 
 
 add_executable(derive_1 派生与继承/derive_1.cpp)
+add_executable(derive_2 派生与继承/derive_2.cpp)
