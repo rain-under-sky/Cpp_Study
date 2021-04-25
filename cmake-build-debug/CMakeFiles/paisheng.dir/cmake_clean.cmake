@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o"
+  "CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.o"
   "paisheng"
   "paisheng.pdb"
 )

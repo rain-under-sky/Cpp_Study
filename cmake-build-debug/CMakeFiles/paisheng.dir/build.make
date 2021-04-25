@@ -77,27 +77,27 @@ include CMakeFiles/paisheng.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/paisheng.dir/flags.make
 
-CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o: CMakeFiles/paisheng.dir/flags.make
-CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o: ../派生与继承/paisheng.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o -c /Users/aomsir/MyStudy/C++/Code/派生与继承/paisheng.cpp
+CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.o: CMakeFiles/paisheng.dir/flags.make
+CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.o: ../派生与继承/derive_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.o -c /Users/aomsir/MyStudy/C++/Code/派生与继承/derive_1.cpp
 
-CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/派生与继承/paisheng.cpp > CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.i
+CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/派生与继承/derive_1.cpp > CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.i
 
-CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/派生与继承/paisheng.cpp -o CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.s
+CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/派生与继承/derive_1.cpp -o CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.s
 
 # Object files for target paisheng
 paisheng_OBJECTS = \
-"CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o"
+"CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.o"
 
 # External object files for target paisheng
 paisheng_EXTERNAL_OBJECTS =
 
-paisheng: CMakeFiles/paisheng.dir/派生与继承/paisheng.cpp.o
+paisheng: CMakeFiles/paisheng.dir/派生与继承/derive_1.cpp.o
 paisheng: CMakeFiles/paisheng.dir/build.make
 paisheng: CMakeFiles/paisheng.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable paisheng"

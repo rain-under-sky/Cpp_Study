@@ -58,10 +58,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/paisheng.dir/DependInfo.cmake"
-  "CMakeFiles/test.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_2_3.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_2_2.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_2_1.dir/DependInfo.cmake"
+  "CMakeFiles/derive_1.dir/DependInfo.cmake"
   "CMakeFiles/Code.dir/DependInfo.cmake"
   )
