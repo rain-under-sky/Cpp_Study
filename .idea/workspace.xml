@@ -13,11 +13,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/derive_1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/derive_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/派生与继承/derive_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/派生与继承/derive_1.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +149,7 @@
       <workItem from="1619242365828" duration="15186000" />
       <workItem from="1619352637603" duration="108000" />
       <workItem from="1619352946393" duration="288000" />
-      <workItem from="1619353318725" duration="6299000" />
+      <workItem from="1619353318725" duration="7079000" />
     </task>
     <servers />
   </component>
