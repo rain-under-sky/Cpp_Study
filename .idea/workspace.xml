@@ -14,7 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/derive_1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/derive_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/派生与继承/derive_1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/派生与继承/derive_1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <recent name="$PROJECT_DIR$/动态内存" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake 应用程序.derive_2">
+  <component name="RunManager" selected="CMake 应用程序.derive_1">
     <configuration name="Code" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="Code">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -151,7 +153,7 @@
       <workItem from="1619242365828" duration="15186000" />
       <workItem from="1619352637603" duration="108000" />
       <workItem from="1619352946393" duration="288000" />
-      <workItem from="1619353318725" duration="5936000" />
+      <workItem from="1619353318725" duration="6299000" />
     </task>
     <servers />
   </component>
