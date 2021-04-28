@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
+
+#=============================================================================
 # Target rules for targets named derive_2
 
 # Build rule for target.
@@ -157,17 +170,17 @@ derive_1/fast:
 .PHONY : derive_1/fast
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named test
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -195,6 +208,33 @@ C++测试/main.s: C++测试/main.cpp.s
 C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
+
+C语言测试/test.o: C语言测试/test.c.o
+
+.PHONY : C语言测试/test.o
+
+# target to build an object file
+C语言测试/test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.o
+.PHONY : C语言测试/test.c.o
+
+C语言测试/test.i: C语言测试/test.c.i
+
+.PHONY : C语言测试/test.i
+
+# target to preprocess a source file
+C语言测试/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.i
+.PHONY : C语言测试/test.c.i
+
+C语言测试/test.s: C语言测试/test.c.s
+
+.PHONY : C语言测试/test.s
+
+# target to generate assembly for a file
+C语言测试/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.s
+.PHONY : C语言测试/test.c.s
 
 派生与继承/derive_1.o: 派生与继承/derive_1.cpp.o
 
@@ -229,8 +269,8 @@ C++测试/main.cpp.s:
 
 # target to build an object file
 派生与继承/derive_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.o
 .PHONY : 派生与继承/derive_2.cpp.o
 
 派生与继承/derive_2.i: 派生与继承/derive_2.cpp.i
@@ -239,8 +279,8 @@ C++测试/main.cpp.s:
 
 # target to preprocess a source file
 派生与继承/derive_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.i
 .PHONY : 派生与继承/derive_2.cpp.i
 
 派生与继承/derive_2.s: 派生与继承/derive_2.cpp.s
@@ -249,8 +289,8 @@ C++测试/main.cpp.s:
 
 # target to generate assembly for a file
 派生与继承/derive_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.s
 .PHONY : 派生与继承/derive_2.cpp.s
 
 派生与继承/derive_3.o: 派生与继承/derive_3.cpp.o
@@ -291,9 +331,13 @@ help:
 	@echo "... Code"
 	@echo "... derive_1"
 	@echo "... derive_2"
+	@echo "... test"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
+	@echo "... C语言测试/test.o"
+	@echo "... C语言测试/test.i"
+	@echo "... C语言测试/test.s"
 	@echo "... 派生与继承/derive_1.o"
 	@echo "... 派生与继承/derive_1.i"
 	@echo "... 派生与继承/derive_1.s"

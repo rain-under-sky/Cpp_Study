@@ -1,61 +1,31 @@
 #include <stdio.h>
-#include <stdlib.h>
-int**newMatrix(int m, int n)
-{
-    int i, j;
-    int **a = (int**)malloc(sizeof(int*) * m);
-    for( i = 0;i < m;i++)
-    {
-        a[i] = (int *)malloc(sizeof(int) * n);
-    }
-    for(i = 0;i < m;i++)
-    {
-        for(j = 0;j < n;j++)
-        {
-            scanf("%d", &a[i][j]);
-        }
-    }
-
-    return a;
-}
-int **saddlePoint(int**Mtrx,int m,int n)
-{
-    int i,j,min,x,h;
-    for(i = 0;i < m;i++)
-    {
-        for(j = 1;min = Mtrx[i][0];j < n)
-        {
-            if(min > Mtrx[i][j])
-            {
-                min = Mtrx[i][j];
-            }
-        }
-        for(j=0;j<m;j++)
-        {
-            if(min==Mtrx[i][j])
-            {
-                for(x=0,h=1;x<n;x++)
-                {
-                    if(min<Mtrx[i][x])
-                    {
-                        h=0;
-                        break;
-                    }
-                }
-            }
-            if(h==1)
-            {
-                printf("%d", min);
-            }
-
-        }
-    }
-}
+//#include <string.h>
 int main()
 {
-    int m, n;
-    scanf("%d %d", &m, &n);
-    saddlePoint(newMatrix(m , n), m, n);
-
+    char a[99999];
+    char *p = &a[0];
+    int t = 0;
+    int b[1]={1};
+    int sum = 0;
+    char *w[] = {"ling", "yi", "er", "san", "si", "wu", "liu", "qi", "ba", "jiu"};
+    fgets(a);
+    while (*p != 0)
+    {
+        sum += (int)*p - '0';
+        p++;
+    }
+    while (sum > 0)
+    {
+        b[t] = sum % 10;
+        printf("b[%d]=%d\n",t,b[t]);
+        sum /= 10;
+        t++;
+    }
+    while (t >= 2)
+    {
+        printf("%s ", w[b[t - 1]]);
+        t--;
+    }
+    printf("%s", w[b[0]]);
     return 0;
 }
