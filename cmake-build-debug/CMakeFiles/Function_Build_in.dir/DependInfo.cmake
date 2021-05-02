@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aomsir/MyStudy/C++/Code/Function_Build_in.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Function_Build_in.dir/Function_Build_in.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/函数/Function_Build_in.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Function_Build_in.dir/函数/Function_Build_in.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

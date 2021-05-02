@@ -3,5 +3,7 @@
 
 CMakeFiles/Code.dir/C++测试/main.cpp.o: ../C++测试/main.cpp
 
-CMakeFiles/Code.dir/实验题/experiment_2_1.cpp.o: ../实验题/experiment_2_1.cpp
+CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o: ../派生与继承/derive_2.cpp
+
+CMakeFiles/Code.dir/派生与继承/derive_3.cpp.o: ../派生与继承/derive_3.cpp
 

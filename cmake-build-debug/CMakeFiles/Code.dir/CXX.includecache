@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp
+/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_2.cpp
 iostream
+-
+string
 -
 
-/Users/aomsir/MyStudy/C++/Code/实验题/experiment_2_1.cpp
-iostream
--
+/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_3.cpp
 

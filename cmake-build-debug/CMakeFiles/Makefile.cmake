@@ -38,6 +38,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
+  "../函数/CMakeLists.txt"
   "../实验题/CMakeLists.txt"
   "../派生与继承/CMakeLists.txt"
   )
@@ -54,12 +55,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "实验题/CMakeFiles/CMakeDirectoryInformation.cmake"
   "派生与继承/CMakeFiles/CMakeDirectoryInformation.cmake"
   "C语言测试/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "函数/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Code.dir/DependInfo.cmake"
+  "CMakeFiles/Function_Build_in.dir/DependInfo.cmake"
   "CMakeFiles/derive_2.dir/DependInfo.cmake"
   "CMakeFiles/derive_1.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/Code.dir/DependInfo.cmake"
   )

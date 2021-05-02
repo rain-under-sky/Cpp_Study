@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named Function_Build_in
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
+Function_Build_in: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Function_Build_in
+.PHONY : Function_Build_in
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
+Function_Build_in/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Build_in.dir/build.make CMakeFiles/Function_Build_in.dir/build
+.PHONY : Function_Build_in/fast
 
 #=============================================================================
 # Target rules for targets named derive_2
@@ -181,6 +181,19 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -236,6 +249,33 @@ C语言测试/test.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.s
 .PHONY : C语言测试/test.c.s
 
+函数/Function_Build_in.o: 函数/Function_Build_in.cpp.o
+
+.PHONY : 函数/Function_Build_in.o
+
+# target to build an object file
+函数/Function_Build_in.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Build_in.dir/build.make CMakeFiles/Function_Build_in.dir/函数/Function_Build_in.cpp.o
+.PHONY : 函数/Function_Build_in.cpp.o
+
+函数/Function_Build_in.i: 函数/Function_Build_in.cpp.i
+
+.PHONY : 函数/Function_Build_in.i
+
+# target to preprocess a source file
+函数/Function_Build_in.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Build_in.dir/build.make CMakeFiles/Function_Build_in.dir/函数/Function_Build_in.cpp.i
+.PHONY : 函数/Function_Build_in.cpp.i
+
+函数/Function_Build_in.s: 函数/Function_Build_in.cpp.s
+
+.PHONY : 函数/Function_Build_in.s
+
+# target to generate assembly for a file
+函数/Function_Build_in.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Build_in.dir/build.make CMakeFiles/Function_Build_in.dir/函数/Function_Build_in.cpp.s
+.PHONY : 函数/Function_Build_in.cpp.s
+
 派生与继承/derive_1.o: 派生与继承/derive_1.cpp.o
 
 .PHONY : 派生与继承/derive_1.o
@@ -269,8 +309,8 @@ C语言测试/test.c.s:
 
 # target to build an object file
 派生与继承/derive_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o
 .PHONY : 派生与继承/derive_2.cpp.o
 
 派生与继承/derive_2.i: 派生与继承/derive_2.cpp.i
@@ -279,8 +319,8 @@ C语言测试/test.c.s:
 
 # target to preprocess a source file
 派生与继承/derive_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.i
 .PHONY : 派生与继承/derive_2.cpp.i
 
 派生与继承/derive_2.s: 派生与继承/derive_2.cpp.s
@@ -289,8 +329,8 @@ C语言测试/test.c.s:
 
 # target to generate assembly for a file
 派生与继承/derive_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.s
 .PHONY : 派生与继承/derive_2.cpp.s
 
 派生与继承/derive_3.o: 派生与继承/derive_3.cpp.o
@@ -329,6 +369,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Code"
+	@echo "... Function_Build_in"
 	@echo "... derive_1"
 	@echo "... derive_2"
 	@echo "... test"
@@ -338,6 +379,9 @@ help:
 	@echo "... C语言测试/test.o"
 	@echo "... C语言测试/test.i"
 	@echo "... C语言测试/test.s"
+	@echo "... 函数/Function_Build_in.o"
+	@echo "... 函数/Function_Build_in.i"
+	@echo "... 函数/Function_Build_in.s"
 	@echo "... 派生与继承/derive_1.o"
 	@echo "... 派生与继承/derive_1.i"
 	@echo "... 派生与继承/derive_1.s"

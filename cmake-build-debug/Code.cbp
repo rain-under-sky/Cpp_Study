@@ -5,7 +5,7 @@
 		<Option title="Code"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\实验题\;CMake Files\派生与继承\;CMake Files\C语言测试\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\实验题\;CMake Files\派生与继承\;CMake Files\C语言测试\;CMake Files\函数\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Code">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
+			<Target title="Function_Build_in">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Function_Build_in" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +42,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Function_Build_in"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Code/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
+			<Target title="Function_Build_in/fast">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Function_Build_in" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,17 +63,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Function_Build_in/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -205,6 +195,58 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Code">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Code/fast">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Code" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Code/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp">
 			<Option target="Code"/>
@@ -212,12 +254,15 @@
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/C语言测试/test.c">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/函数/Function_Build_in.cpp">
+			<Option target="Function_Build_in"/>
+		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_1.cpp">
 			<Option target="derive_1"/>
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_2.cpp">
-			<Option target="Code"/>
 			<Option target="derive_2"/>
+			<Option target="Code"/>
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_3.cpp">
 			<Option target="Code"/>
@@ -233,6 +278,9 @@
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/C语言测试/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\C语言测试\"/>
+		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/函数/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\函数\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
