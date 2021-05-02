@@ -44,7 +44,7 @@ class Derive:public Base2,public Base1{
 public:
     Derive(int m):Base1(m+2),Base2(m-2)
     {
-        //Derive类的构造函数，同时为类Base1和类Base2传实参
+        //Derive类的构造函数，同时为类Base1和类Base2传实参！！！
         d = m;
         cout<<"construct Derive"<<endl;
     }
