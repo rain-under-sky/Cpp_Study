@@ -40,9 +40,11 @@ private:
 };
 
 class Derive:public Base2,public Base1{
+    //Derive类多继承于Base1和Base2
 public:
-    Derive(int m):Base1(m+2),Base2(m-2)
+    Derive(int m):Base1(m+2),Base2(m-2)//
     {
+        //
         d = m;
         cout<<"construct Derive"<<endl;
     }
@@ -65,6 +67,7 @@ private:
 
 
 int main(){
-
+    Derive d(10);
+    d.display();
     return 0;
 }
