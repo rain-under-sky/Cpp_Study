@@ -42,16 +42,16 @@ private:
 class Derive:public Base2,public Base1{
     //Derive类多继承于Base1和Base2
 public:
-    Derive(int m):Base1(m+2),Base2(m-2)//
+    Derive(int m):Base1(m+2),Base2(m-2)
     {
-        //
+        //Derive类的构造函数，同时为类Base1和类Base2传实参
         d = m;
         cout<<"construct Derive"<<endl;
     }
 
-    void display()
+    void display()  //类Derive的输出函数
     {
-        Base1::display();
+        Base1::display();  //在类Derive中调用基类的输出函数
         Base2::display();
         cout<<"d="<<d<<endl;
     }
