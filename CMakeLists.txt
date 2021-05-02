@@ -16,3 +16,5 @@ add_executable(derive_1 派生与继承/derive_1.cpp)
 add_executable(derive_2 派生与继承/derive_2.cpp)
 add_executable(test test.cpp)
 add_executable(Function_Build_in 函数/Function_Build_in.cpp)
+
+add_executable(derive_more_1 派生与继承/derive_more_1.cpp)
