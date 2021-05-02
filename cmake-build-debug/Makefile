@@ -222,32 +222,32 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
 
-C语言测试/test.o: C语言测试/test.c.o
+test.o: test.cpp.o
 
-.PHONY : C语言测试/test.o
+.PHONY : test.o
 
 # target to build an object file
-C语言测试/test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.o
-.PHONY : C语言测试/test.c.o
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-C语言测试/test.i: C语言测试/test.c.i
+test.i: test.cpp.i
 
-.PHONY : C语言测试/test.i
+.PHONY : test.i
 
 # target to preprocess a source file
-C语言测试/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.i
-.PHONY : C语言测试/test.c.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-C语言测试/test.s: C语言测试/test.c.s
+test.s: test.cpp.s
 
-.PHONY : C语言测试/test.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-C语言测试/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.s
-.PHONY : C语言测试/test.c.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 函数/Function_Build_in.o: 函数/Function_Build_in.cpp.o
 
@@ -376,9 +376,9 @@ help:
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
-	@echo "... C语言测试/test.o"
-	@echo "... C语言测试/test.i"
-	@echo "... C语言测试/test.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 	@echo "... 函数/Function_Build_in.o"
 	@echo "... 函数/Function_Build_in.i"
 	@echo "... 函数/Function_Build_in.s"
