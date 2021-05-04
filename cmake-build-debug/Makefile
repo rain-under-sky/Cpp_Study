@@ -183,6 +183,19 @@ derive_1/fast:
 .PHONY : derive_1/fast
 
 #=============================================================================
+# Target rules for targets named experiment_2_3
+
+# Build rule for target.
+experiment_2_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_2_3
+.PHONY : experiment_2_3
+
+# fast build rule for target.
+experiment_2_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/build
+.PHONY : experiment_2_3/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -288,6 +301,33 @@ test.cpp.s:
 函数/Function_Build_in.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Function_Build_in.dir/build.make CMakeFiles/Function_Build_in.dir/函数/Function_Build_in.cpp.s
 .PHONY : 函数/Function_Build_in.cpp.s
+
+实验题/experiment_2_3.o: 实验题/experiment_2_3.cpp.o
+
+.PHONY : 实验题/experiment_2_3.o
+
+# target to build an object file
+实验题/experiment_2_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.o
+.PHONY : 实验题/experiment_2_3.cpp.o
+
+实验题/experiment_2_3.i: 实验题/experiment_2_3.cpp.i
+
+.PHONY : 实验题/experiment_2_3.i
+
+# target to preprocess a source file
+实验题/experiment_2_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.i
+.PHONY : 实验题/experiment_2_3.cpp.i
+
+实验题/experiment_2_3.s: 实验题/experiment_2_3.cpp.s
+
+.PHONY : 实验题/experiment_2_3.s
+
+# target to generate assembly for a file
+实验题/experiment_2_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.s
+.PHONY : 实验题/experiment_2_3.cpp.s
 
 派生与继承/derive_1.o: 派生与继承/derive_1.cpp.o
 
@@ -416,6 +456,7 @@ help:
 	@echo "... derive_1"
 	@echo "... derive_2"
 	@echo "... derive_more_1"
+	@echo "... experiment_2_3"
 	@echo "... test"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
@@ -426,6 +467,9 @@ help:
 	@echo "... 函数/Function_Build_in.o"
 	@echo "... 函数/Function_Build_in.i"
 	@echo "... 函数/Function_Build_in.s"
+	@echo "... 实验题/experiment_2_3.o"
+	@echo "... 实验题/experiment_2_3.i"
+	@echo "... 实验题/experiment_2_3.s"
 	@echo "... 派生与继承/derive_1.o"
 	@echo "... 派生与继承/derive_1.i"
 	@echo "... 派生与继承/derive_1.s"

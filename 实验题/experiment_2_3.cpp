@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 class square{
@@ -26,14 +27,14 @@ public:
     }  //计算正方形面积
 };
 
-class lawn{
-    square inner;
-    square outer;
-public:
-    double price(){
+//class lawn{
+ //   square inner;
+  //  square outer;
+//public:
+  //  double price(){
 
-    }
-};
+  //  }
+//};
 
 int main(){
     float pside_length;   //内部正方形的边长
