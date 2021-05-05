@@ -14,7 +14,7 @@ public:
     }
 };
 
-class B1:public A{
+class B1: virtual public A{
 public:
     int b1;
     B1(){
@@ -25,7 +25,7 @@ public:
     }
 };
 
-class B2:public A{
+class B2: virtual public A{
 public:
     int b1;
     B2(){
@@ -51,9 +51,9 @@ public:
 };
 int main(){
     C c;
-    c.B1::a = 10;
+    //c.B1::a = 10;
     c.B1::fun0();
-    c.B2::a = 20;
+    //c.B2::a = 20;
     c.B2::fun0();
 
     return 0;
