@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o"
   "CMakeFiles/Code.dir/派生与继承/derive_3.cpp.o"
   "CMakeFiles/Code.dir/派生与继承/derive_more_1.cpp.o"
+  "CMakeFiles/Code.dir/派生与继承/derive_more_2.cpp.o"
   "Code"
   "Code.pdb"
 )

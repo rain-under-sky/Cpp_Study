@@ -358,6 +358,9 @@
 			<Option target="derive_more_1"/>
 			<Option target="Code"/>
 		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_more_2.cpp">
+			<Option target="Code"/>
+		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
