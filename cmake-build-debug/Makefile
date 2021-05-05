@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named derive_more_2
+
+# Build rule for target.
+derive_more_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 derive_more_2
+.PHONY : derive_more_2
+
+# fast build rule for target.
+derive_more_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/build
+.PHONY : derive_more_2/fast
+
+#=============================================================================
 # Target rules for targets named derive_more_1
 
 # Build rule for target.
@@ -449,6 +462,7 @@ test.cpp.s:
 
 # target to build an object file
 派生与继承/derive_more_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/派生与继承/derive_more_2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_more_2.cpp.o
 .PHONY : 派生与继承/derive_more_2.cpp.o
 
@@ -458,6 +472,7 @@ test.cpp.s:
 
 # target to preprocess a source file
 派生与继承/derive_more_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/派生与继承/derive_more_2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_more_2.cpp.i
 .PHONY : 派生与继承/derive_more_2.cpp.i
 
@@ -467,6 +482,7 @@ test.cpp.s:
 
 # target to generate assembly for a file
 派生与继承/derive_more_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/派生与继承/derive_more_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_more_2.cpp.s
 .PHONY : 派生与继承/derive_more_2.cpp.s
 
@@ -483,6 +499,7 @@ help:
 	@echo "... derive_1"
 	@echo "... derive_2"
 	@echo "... derive_more_1"
+	@echo "... derive_more_2"
 	@echo "... experiment_2_3"
 	@echo "... test"
 	@echo "... C++测试/main.o"

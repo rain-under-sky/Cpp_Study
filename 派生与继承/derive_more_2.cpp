@@ -21,7 +21,7 @@ public:
         cout<<"construct B1"<<endl;
     }
     ~B1(){
-        cout<<"destruct"<<endl;
+        cout<<"destruct B1"<<endl;
     }
 };
 
