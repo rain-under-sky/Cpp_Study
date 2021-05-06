@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named experiment_4_1
+
+# Build rule for target.
+experiment_4_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_4_1
+.PHONY : experiment_4_1
+
+# fast build rule for target.
+experiment_4_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_4_1.dir/build.make CMakeFiles/experiment_4_1.dir/build
+.PHONY : experiment_4_1/fast
+
+#=============================================================================
 # Target rules for targets named experiment_1_1
 
 # Build rule for target.
@@ -155,6 +168,19 @@ derive_more_2: cmake_check_build_system
 derive_more_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/build
 .PHONY : derive_more_2/fast
+
+#=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
 
 #=============================================================================
 # Target rules for targets named derive_more_1
@@ -233,19 +259,6 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named Code
-
-# Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
-
-# fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -382,6 +395,36 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.s
 .PHONY : 实验题/experiment_2_3.cpp.s
 
+实验题/experiment_4_1.o: 实验题/experiment_4_1.cpp.o
+
+.PHONY : 实验题/experiment_4_1.o
+
+# target to build an object file
+实验题/experiment_4_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_4_1.dir/build.make CMakeFiles/experiment_4_1.dir/实验题/experiment_4_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_4_1.cpp.o
+.PHONY : 实验题/experiment_4_1.cpp.o
+
+实验题/experiment_4_1.i: 实验题/experiment_4_1.cpp.i
+
+.PHONY : 实验题/experiment_4_1.i
+
+# target to preprocess a source file
+实验题/experiment_4_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_4_1.dir/build.make CMakeFiles/experiment_4_1.dir/实验题/experiment_4_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_4_1.cpp.i
+.PHONY : 实验题/experiment_4_1.cpp.i
+
+实验题/experiment_4_1.s: 实验题/experiment_4_1.cpp.s
+
+.PHONY : 实验题/experiment_4_1.s
+
+# target to generate assembly for a file
+实验题/experiment_4_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_4_1.dir/build.make CMakeFiles/experiment_4_1.dir/实验题/experiment_4_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_4_1.cpp.s
+.PHONY : 实验题/experiment_4_1.cpp.s
+
 派生与继承/derive_1.o: 派生与继承/derive_1.cpp.o
 
 .PHONY : 派生与继承/derive_1.o
@@ -415,8 +458,8 @@ test.cpp.s:
 
 # target to build an object file
 派生与继承/derive_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.o
 .PHONY : 派生与继承/derive_2.cpp.o
 
 派生与继承/derive_2.i: 派生与继承/derive_2.cpp.i
@@ -425,8 +468,8 @@ test.cpp.s:
 
 # target to preprocess a source file
 派生与继承/derive_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.i
 .PHONY : 派生与继承/derive_2.cpp.i
 
 派生与继承/derive_2.s: 派生与继承/derive_2.cpp.s
@@ -435,8 +478,8 @@ test.cpp.s:
 
 # target to generate assembly for a file
 派生与继承/derive_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_2.dir/build.make CMakeFiles/derive_2.dir/派生与继承/derive_2.cpp.s
 .PHONY : 派生与继承/derive_2.cpp.s
 
 派生与继承/derive_3.o: 派生与继承/derive_3.cpp.o
@@ -472,8 +515,8 @@ test.cpp.s:
 
 # target to build an object file
 派生与继承/derive_more_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_more_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.o
 .PHONY : 派生与继承/derive_more_1.cpp.o
 
 派生与继承/derive_more_1.i: 派生与继承/derive_more_1.cpp.i
@@ -482,8 +525,8 @@ test.cpp.s:
 
 # target to preprocess a source file
 派生与继承/derive_more_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_more_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.i
 .PHONY : 派生与继承/derive_more_1.cpp.i
 
 派生与继承/derive_more_1.s: 派生与继承/derive_more_1.cpp.s
@@ -492,8 +535,8 @@ test.cpp.s:
 
 # target to generate assembly for a file
 派生与继承/derive_more_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/派生与继承/derive_more_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.s
 .PHONY : 派生与继承/derive_more_1.cpp.s
 
 派生与继承/derive_more_2.o: 派生与继承/derive_more_2.cpp.o
@@ -542,6 +585,7 @@ help:
 	@echo "... derive_more_2"
 	@echo "... experiment_1_1"
 	@echo "... experiment_2_3"
+	@echo "... experiment_4_1"
 	@echo "... test"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
@@ -558,6 +602,9 @@ help:
 	@echo "... 实验题/experiment_2_3.o"
 	@echo "... 实验题/experiment_2_3.i"
 	@echo "... 实验题/experiment_2_3.s"
+	@echo "... 实验题/experiment_4_1.o"
+	@echo "... 实验题/experiment_4_1.i"
+	@echo "... 实验题/experiment_4_1.s"
 	@echo "... 派生与继承/derive_1.o"
 	@echo "... 派生与继承/derive_1.i"
 	@echo "... 派生与继承/derive_1.s"

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/C++测试/main.cpp.o"
+  "CMakeFiles/Code.dir/实验题/experiment_4_1.cpp.o"
   "CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o"
   "CMakeFiles/Code.dir/派生与继承/derive_3.cpp.o"
   "CMakeFiles/Code.dir/派生与继承/derive_more_1.cpp.o"
