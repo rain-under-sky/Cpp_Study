@@ -27,13 +27,15 @@ public:
     }  //计算正方形面积
 
 
+
+
 };
 
 
 int main(){
     float pside_length;   //内部正方形的边长
     float cost;  //所有费用
-    //float pside_length_out;
+
     cout<<"请输入一个非0的正数：";
     cin>>pside_length;
 
@@ -47,4 +49,8 @@ int main(){
     cost = 150 * in_square.area_count() + (out_square.area_count() - in_square.area_count()) * 70 + out_square.circle_count() * 100;
 
     cout<<"总花费："<<cost<<endl;
+}
+
+float cost(){
+
 }

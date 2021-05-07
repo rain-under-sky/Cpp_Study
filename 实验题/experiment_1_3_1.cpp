@@ -1,6 +1,7 @@
 #include <iostream>
+#include <string>
 using namespace std;
-void change(string p); //
+string change(string& p); //
 
 int main(){
    string b;
@@ -10,7 +11,7 @@ int main(){
    return 0;
 }
 
-void change(string& p){
+string change(string& p){
     int i;
 
     for(i=0;i<p.size();i++)
@@ -30,5 +31,5 @@ void change(string& p){
         }
     }
 
-
+    return p;
 }
