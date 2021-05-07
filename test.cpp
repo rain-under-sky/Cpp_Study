@@ -1,36 +1,25 @@
 #include <iostream>
+#include <complex>
 using namespace std;
-class Ex
-{
-public:
-    explicit Ex(int x, char c = 'c');  //构造函数的声明
-    ~Ex(){
-        cout <<da<<endl;
-    } //析构函数，在实现析构的同时将私有域中da的值输出
 
-    void outdata() const{
-        cout <<ch<<" "<<da<<endl;
-    } //类中的自定义函数，作用：来输出函数私有区域的成员
+int main(){
+    complex<double>z(2, 3);
+    complex<double>z1;
+    complex<double>z2(z);
 
-private:
-    int	da;
-    char ch;
-};
+    cout << z << endl;
+    cout << z1 << endl;
+    cout << z2 << endl;
+    z.real(22);
+    z.imag(33);//修改z的实部和虚部的值
+    cout << z << endl;
 
-Ex::Ex(int x, char c):da(x), ch(c)
-{
-    cout <<da<<endl;
-}  //构造函数的定义
+    complex<double>a, b, c;
+    cout << "请输入三个复数：";
+    cin >> a >> b >> c;
+    cout << "a=" << a << endl;
+    cout << "b=" << b << endl;
+    cout << "c=" << c << endl;
+    return 0;
 
-//Ex::~Ex(){
-//  cout <<ch<<endl;
-//}
-
-int main()
-{
-    Ex	x(3,'a'), y(1);
-    Ex  z[2] = {Ex(10,'a'), Ex(1,'d')};
-    x.outdata();
-    y.outdata();
-    z[0].outdata();
 }
