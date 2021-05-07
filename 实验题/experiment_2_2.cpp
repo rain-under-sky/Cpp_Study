@@ -2,18 +2,18 @@
 using namespace std;
 class complex {
 public:
-    complex(int preal,int pempty){
+    complex(int preal,int pempty){   //complex类的构造函数
         real = preal;
         empty = pempty;
     }
-    complex add(complex a) {
+    complex add(complex a){   //这是一个返回值为复数的函数！！！
         numreal = real + a.real;
         numempty = empty + a.empty;
 
         return *this;
     }
     void display() {
-        cout << numreal << "为总实部" << numempty << "为总虚部" << endl;
+        cout << numreal << "为实部" << numempty << "为虚部" << endl;
 
     }
 
@@ -29,6 +29,5 @@ int main() {
     a.add(b);
     a.display();
 
-    system("pause");
     return 0;
 }
