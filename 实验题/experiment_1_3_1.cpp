@@ -6,10 +6,11 @@ int main(){
    string b;
    cin>>b;
    change(b);
+   cout<<b;
    return 0;
 }
 
-void change(string p){
+void change(string& p){
     int i;
 
     for(i=0;i<p.size();i++)
@@ -29,5 +30,5 @@ void change(string p){
         }
     }
 
-    cout<<p;
+
 }

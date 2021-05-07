@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-void change(basic_string<char, char_traits<char>, allocator<char>> p);
+void change(char *p);
 
 int main(){
     char b[30];

@@ -14,3 +14,7 @@ add_executable(Code C++测试/main.cpp)
 
 add_executable(test test.cpp)
 add_executable(experiment_2_2 实验题/experiment_2_2.cpp)
+add_executable(experiment_2_1 实验题/experiment_2_1.cpp)
+add_executable(experiment_1_1 实验题/experiment_1_1.cpp)
+add_executable(experiment_1_3_1 实验题/experiment_1_3_1.cpp)
+add_executable(experiment_2_3 实验题/experiment_2_3.cpp)

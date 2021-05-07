@@ -1,23 +1,21 @@
 #include <iostream>
-#include<complex>
+#include <complex>
 using namespace std;
 
-/*class Complex{
+class complex{
 private:
-    int real; //实部
-    int imag; //虚部
-
+    complex<double>z(2, 3);
 public:
-    void display{
+    /*void display{
 
-    }
+    }*/
 
 
 
-};*/
+};
 
 int main(){
-    complex<long> test1(1,2);
+    complex <long> test1(1,2);
     cout <<test1.real()<<endl;
 
 }
