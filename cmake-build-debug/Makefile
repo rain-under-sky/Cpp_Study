@@ -518,6 +518,33 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_2_3.dir/build.make CMakeFiles/experiment_2_3.dir/实验题/experiment_2_3.cpp.s
 .PHONY : 实验题/experiment_2_3.cpp.s
 
+实验题/experiment_2_3_1.o: 实验题/experiment_2_3_1.cpp.o
+
+.PHONY : 实验题/experiment_2_3_1.o
+
+# target to build an object file
+实验题/experiment_2_3_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3_1.cpp.o
+.PHONY : 实验题/experiment_2_3_1.cpp.o
+
+实验题/experiment_2_3_1.i: 实验题/experiment_2_3_1.cpp.i
+
+.PHONY : 实验题/experiment_2_3_1.i
+
+# target to preprocess a source file
+实验题/experiment_2_3_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3_1.cpp.i
+.PHONY : 实验题/experiment_2_3_1.cpp.i
+
+实验题/experiment_2_3_1.s: 实验题/experiment_2_3_1.cpp.s
+
+.PHONY : 实验题/experiment_2_3_1.s
+
+# target to generate assembly for a file
+实验题/experiment_2_3_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_2_3_1.cpp.s
+.PHONY : 实验题/experiment_2_3_1.cpp.s
+
 实验题/experiment_4_1.o: 实验题/experiment_4_1.cpp.o
 
 .PHONY : 实验题/experiment_4_1.o
@@ -737,6 +764,9 @@ help:
 	@echo "... 实验题/experiment_2_3.o"
 	@echo "... 实验题/experiment_2_3.i"
 	@echo "... 实验题/experiment_2_3.s"
+	@echo "... 实验题/experiment_2_3_1.o"
+	@echo "... 实验题/experiment_2_3_1.i"
+	@echo "... 实验题/experiment_2_3_1.s"
 	@echo "... 实验题/experiment_4_1.o"
 	@echo "... 实验题/experiment_4_1.i"
 	@echo "... 实验题/experiment_4_1.s"

@@ -4,7 +4,9 @@ using namespace std;
 
 class square{
 private:
-    float side_length;
+    float side_length;  //边长
+    float circle;
+    float area;
 public:
     square(float pside_length){
         side_length = pside_length;
@@ -25,6 +27,9 @@ public:
         area = pow(side_length,2);
         return area;
     }  //计算正方形面积
+    float cost(){
+
+    }
 };
 
 //class lawn{

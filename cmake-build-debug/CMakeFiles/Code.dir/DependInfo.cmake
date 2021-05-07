@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/C++测试/main.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/实验题/experiment_1_3_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/实验题/experiment_1_3_1.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/实验题/experiment_2_3_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/实验题/experiment_2_3_1.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/实验题/experiment_4_1.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/实验题/experiment_4_1.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_2.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/派生与继承/derive_2.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/派生与继承/derive_3.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/派生与继承/derive_3.cpp.o"
