@@ -453,6 +453,33 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.s
 .PHONY : 实验题/experiment_3_1.cpp.s
 
+实验题/experiment_3_2.o: 实验题/experiment_3_2.cpp.o
+
+.PHONY : 实验题/experiment_3_2.o
+
+# target to build an object file
+实验题/experiment_3_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o
+.PHONY : 实验题/experiment_3_2.cpp.o
+
+实验题/experiment_3_2.i: 实验题/experiment_3_2.cpp.i
+
+.PHONY : 实验题/experiment_3_2.i
+
+# target to preprocess a source file
+实验题/experiment_3_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.i
+.PHONY : 实验题/experiment_3_2.cpp.i
+
+实验题/experiment_3_2.s: 实验题/experiment_3_2.cpp.s
+
+.PHONY : 实验题/experiment_3_2.s
+
+# target to generate assembly for a file
+实验题/experiment_3_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.s
+.PHONY : 实验题/experiment_3_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -493,6 +520,9 @@ help:
 	@echo "... 实验题/experiment_3_1.o"
 	@echo "... 实验题/experiment_3_1.i"
 	@echo "... 实验题/experiment_3_1.s"
+	@echo "... 实验题/experiment_3_2.o"
+	@echo "... 实验题/experiment_3_2.i"
+	@echo "... 实验题/experiment_3_2.s"
 .PHONY : help
 
 

@@ -399,6 +399,9 @@
 			<Option target="experiment_3_1"/>
 			<Option target="Code"/>
 		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_2.cpp">
+			<Option target="Code"/>
+		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

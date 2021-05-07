@@ -28,6 +28,6 @@ int main() {
 
     a.add(b);
     a.display();
-
+    complex c = a.add(b);
     return 0;
 }
