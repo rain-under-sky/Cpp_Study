@@ -20,13 +20,13 @@ public:
     }
 };
 
-class B:public A{
+class B:protected A{
 private:
     int i2;
 protected:
     int j2;
 public:
-    void f1();
+    void f2();
     B(){
         cout<<"B Constructor"<<endl;
         i2 = 20;
