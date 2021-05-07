@@ -52,7 +52,7 @@ public:
         j3 = 21;
         cout<<"i3="<<i3<<" j3="<<j3<<endl;
     }
-
+    
     ~C(){
         cout<<"C Destructor"<<endl;
     }
