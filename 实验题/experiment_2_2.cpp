@@ -1,21 +1,34 @@
-#include <iostream>
-#include <complex>
+#include<iostream>
 using namespace std;
-
-class complex{
-private:
-    complex<double>z(2, 3);
+class complex {
 public:
-    /*void display{
+    complex(int preal,int pempty){
+        real = preal;
+        empty = pempty;
+    }
+    complex add(complex a) {
+        numreal = real + a.real;
+        numempty = empty + a.empty;
 
-    }*/
+        return *this;
+    }
+    void display() {
+        cout << numreal << "为总实部" << numempty << "为总虚部" << endl;
 
+    }
 
-
+private:
+    int real;
+    int empty;
+    int numreal, numempty;
 };
+int main() {
+    complex a(1, 2);
+    complex b(1,2);
 
-int main(){
-    complex <long> test1(1,2);
-    cout <<test1.real()<<endl;
+    a.add(b);
+    a.display();
 
+    system("pause");
+    return 0;
 }
