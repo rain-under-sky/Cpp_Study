@@ -1,23 +1,17 @@
 #include <iostream>
 #include <string>
 using namespace std;
-void change(char *p);
+void change(basic_string<char, char_traits<char>, allocator<char>> p);
 
 int main(){
-    string b;
-    int i;
+    char b[30];
+
     cout<<"请输入您的字符：";
-    //for(i=0;i<30;i++)
-    //{
-    //    cin>>b[i];
-    // }
+
     cin>>b;
+
     change(b);
 
-    //for(i= 0;i < 30;i++)
-    //{
-    //    cout<<b[i];
-    //}
     cout<<b;
 }
 
