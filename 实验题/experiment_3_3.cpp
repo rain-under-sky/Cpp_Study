@@ -11,6 +11,9 @@ public:
     ~Object(){
         cout<<"Object Destructed"<<endl;
     }
+    int display(){
+        return weight;
+    }
 };
 
 class Box: public Object{
@@ -25,7 +28,11 @@ public:
     ~Box(){
         cout<<"Box Destructed"<<endl;
     }
+    int display(){
+        return width;
+    }
 };
 int main(){
-
+    Box test(1,2,3);
+    cout<<test.display()<<endl;
 }
