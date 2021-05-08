@@ -20,7 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="默认的" />
+    <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="默认的">
+      <change beforePath="$PROJECT_DIR$/实验题/experiment_2_3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/实验题/experiment_2_3.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +218,7 @@
       <workItem from="1620135180838" duration="564000" />
       <workItem from="1620223367150" duration="2007000" />
       <workItem from="1620296911065" duration="25552000" />
-      <workItem from="1620449464234" duration="8855000" />
+      <workItem from="1620449464234" duration="9377000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619440730837</created>
