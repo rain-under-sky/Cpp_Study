@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named experiment_3_2
+
+# Build rule for target.
+experiment_3_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_3_2
+.PHONY : experiment_3_2
+
+# fast build rule for target.
+experiment_3_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_2.dir/build.make CMakeFiles/experiment_3_2.dir/build
+.PHONY : experiment_3_2/fast
+
+#=============================================================================
 # Target rules for targets named experiment_1_3_1
 
 # Build rule for target.
@@ -459,6 +472,7 @@ test.cpp.s:
 
 # target to build an object file
 实验题/experiment_3_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_2.dir/build.make CMakeFiles/experiment_3_2.dir/实验题/experiment_3_2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o
 .PHONY : 实验题/experiment_3_2.cpp.o
 
@@ -468,6 +482,7 @@ test.cpp.s:
 
 # target to preprocess a source file
 实验题/experiment_3_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_2.dir/build.make CMakeFiles/experiment_3_2.dir/实验题/experiment_3_2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.i
 .PHONY : 实验题/experiment_3_2.cpp.i
 
@@ -477,6 +492,7 @@ test.cpp.s:
 
 # target to generate assembly for a file
 实验题/experiment_3_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_2.dir/build.make CMakeFiles/experiment_3_2.dir/实验题/experiment_3_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.s
 .PHONY : 实验题/experiment_3_2.cpp.s
 
@@ -495,6 +511,7 @@ help:
 	@echo "... experiment_2_2"
 	@echo "... experiment_2_3"
 	@echo "... experiment_3_1"
+	@echo "... experiment_3_2"
 	@echo "... test"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
