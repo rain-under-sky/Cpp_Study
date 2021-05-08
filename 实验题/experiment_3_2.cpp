@@ -1,47 +1,49 @@
-#include <iostream>
-#include <cmath>
-#define PI 3.14
+#include<iostream>
 using namespace std;
-
-class Shape{  //基类
-private:
-    float length;
+class Shape
+{
+    int x, y;
 public:
-    Shape(float plength){
-        length = plength;
-        cout<<"Shape Constructed"<<endl;
+    Shape(int px, int py)
+    {
+        x = px;
+        y = py;
     }
-
-    ~Shape(){
-        cout<<"Shape Destructed"<<endl;
+    double getArea()
+    {
+        return 0;
     }
-
-    /*void area(){
-        cout<<pow(length,2);
-    }*/
 };
-
-class rect :public Shape{
-private:
-    float plength;
+class rect :public Shape
+{
+    double w, h;
 public:
-    rect(float plength){
-        Shape(plength);
-        cout<<"rect Destructed"<<endl;
+    rect(int px, int py, int pw, int ph) :Shape(px, py)
+    {
+        w = pw, h = ph;
     }
-
-    void area(){
-        float area;
-        area = pow(plength,2);
-        cout<<area<<endl;
+    double getArea()
+    {
+        return w * h;
     }
 };
 
-class circle:public Shape{
-    circle();
+class circle :public Shape {
+    double r;
+public:
+    circle(int px, int py, int pr) :Shape(px, py)
+    {
+        r = pr;
+    }
+    double getArea()
+    {
+        return 3.1415 * r * r;
+    }
 };
-
-
-int main(){
-    return 0;
+int main()
+{
+    rect rect(3, 4, 12, 23);
+    circle r(3, 4, 12);
+    cout << rect.getArea() << endl;
+    cout << r.getArea() << endl;
 }
