@@ -18,8 +18,9 @@ class rect :public Shape
 {
     double w, h;
 public:
-    rect(int px, int py, int pw, int ph) :Shape(px, py)
+    rect(int px, int py, int pw, int ph)
     {
+        Shape(px, py);
         w = pw, h = ph;
     }
     double getArea()
@@ -31,8 +32,9 @@ public:
 class circle :public Shape {
     double r;
 public:
-    circle(int px, int py, int pr) :Shape(px, py)
+    circle(int px, int py, int pr):Shape(px, py)
     {
+
         r = pr;
     }
     double getArea()
