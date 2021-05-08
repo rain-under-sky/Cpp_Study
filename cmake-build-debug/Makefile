@@ -144,6 +144,19 @@ experiment_3_2/fast:
 .PHONY : experiment_3_2/fast
 
 #=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
+
+#=============================================================================
 # Target rules for targets named experiment_1_3_1
 
 # Build rule for target.
@@ -209,6 +222,19 @@ experiment_2_1/fast:
 .PHONY : experiment_2_1/fast
 
 #=============================================================================
+# Target rules for targets named experiment_3_3
+
+# Build rule for target.
+experiment_3_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_3_3
+.PHONY : experiment_3_3
+
+# fast build rule for target.
+experiment_3_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_3.dir/build.make CMakeFiles/experiment_3_3.dir/build
+.PHONY : experiment_3_3/fast
+
+#=============================================================================
 # Target rules for targets named experiment_2_3
 
 # Build rule for target.
@@ -233,19 +259,6 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named Code
-
-# Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
-
-# fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -442,8 +455,8 @@ test.cpp.s:
 
 # target to build an object file
 实验题/experiment_3_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_1.dir/build.make CMakeFiles/experiment_3_1.dir/实验题/experiment_3_1.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_1.dir/build.make CMakeFiles/experiment_3_1.dir/实验题/experiment_3_1.cpp.o
 .PHONY : 实验题/experiment_3_1.cpp.o
 
 实验题/experiment_3_1.i: 实验题/experiment_3_1.cpp.i
@@ -452,8 +465,8 @@ test.cpp.s:
 
 # target to preprocess a source file
 实验题/experiment_3_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_1.dir/build.make CMakeFiles/experiment_3_1.dir/实验题/experiment_3_1.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_1.dir/build.make CMakeFiles/experiment_3_1.dir/实验题/experiment_3_1.cpp.i
 .PHONY : 实验题/experiment_3_1.cpp.i
 
 实验题/experiment_3_1.s: 实验题/experiment_3_1.cpp.s
@@ -462,8 +475,8 @@ test.cpp.s:
 
 # target to generate assembly for a file
 实验题/experiment_3_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_1.dir/build.make CMakeFiles/experiment_3_1.dir/实验题/experiment_3_1.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_1.dir/build.make CMakeFiles/experiment_3_1.dir/实验题/experiment_3_1.cpp.s
 .PHONY : 实验题/experiment_3_1.cpp.s
 
 实验题/experiment_3_2.o: 实验题/experiment_3_2.cpp.o
@@ -496,6 +509,36 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.s
 .PHONY : 实验题/experiment_3_2.cpp.s
 
+实验题/experiment_3_3.o: 实验题/experiment_3_3.cpp.o
+
+.PHONY : 实验题/experiment_3_3.o
+
+# target to build an object file
+实验题/experiment_3_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_3.dir/build.make CMakeFiles/experiment_3_3.dir/实验题/experiment_3_3.cpp.o
+.PHONY : 实验题/experiment_3_3.cpp.o
+
+实验题/experiment_3_3.i: 实验题/experiment_3_3.cpp.i
+
+.PHONY : 实验题/experiment_3_3.i
+
+# target to preprocess a source file
+实验题/experiment_3_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_3.dir/build.make CMakeFiles/experiment_3_3.dir/实验题/experiment_3_3.cpp.i
+.PHONY : 实验题/experiment_3_3.cpp.i
+
+实验题/experiment_3_3.s: 实验题/experiment_3_3.cpp.s
+
+.PHONY : 实验题/experiment_3_3.s
+
+# target to generate assembly for a file
+实验题/experiment_3_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_3.dir/build.make CMakeFiles/experiment_3_3.dir/实验题/experiment_3_3.cpp.s
+.PHONY : 实验题/experiment_3_3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -512,6 +555,7 @@ help:
 	@echo "... experiment_2_3"
 	@echo "... experiment_3_1"
 	@echo "... experiment_3_2"
+	@echo "... experiment_3_3"
 	@echo "... test"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
@@ -540,6 +584,9 @@ help:
 	@echo "... 实验题/experiment_3_2.o"
 	@echo "... 实验题/experiment_3_2.i"
 	@echo "... 实验题/experiment_3_2.s"
+	@echo "... 实验题/experiment_3_3.o"
+	@echo "... 实验题/experiment_3_3.i"
+	@echo "... 实验题/experiment_3_3.s"
 .PHONY : help
 
 

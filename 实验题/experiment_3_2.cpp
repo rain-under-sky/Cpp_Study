@@ -22,11 +22,13 @@ public:
 };
 class rect :public Shape
 {
+private:
     float w, h;
 public:
     rect(float px, float py, float pw, float ph):Shape(px, py)
     {
-        w = pw, h = ph;
+        w = pw;
+        h = ph;
         cout<<"rect Constructed"<<endl;
     }
     ~rect(){
@@ -39,9 +41,10 @@ public:
 };
 
 class circle :public Shape {
+private:
     float r;
 public:
-    circle(int px, int py, int pr):Shape(px, py)
+    circle(float px, float py, float pr):Shape(px, py)
     {
         r = pr;
         cout<<"circle Constructed"<<endl;
@@ -56,8 +59,8 @@ public:
 };
 int main()
 {
-    rect rect(3, 4, 12, 23);
-    circle r(3, 4, 12);
+    rect rect(1, 2, 3, 4);
+    circle r(5, 6, 7);
     cout << rect.Area() << endl;
     cout << r.Area() << endl;
 }
