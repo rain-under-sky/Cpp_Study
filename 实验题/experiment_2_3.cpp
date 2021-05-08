@@ -48,9 +48,9 @@ int main(){
     square in_square(pside_length);   //声明对象in_square，代表内部正方形
     square out_square(pside_length + 6);  //声明对象out_square,代表外部正方形
 
-    //cost = 150 * in_square.area_count() + (out_square.area_count() - in_square.area_count()) * 70 + out_square.circle_count() * 100;
+    cost = 150 * in_square.area_count() + (out_square.area_count() - in_square.area_count()) * 70 + out_square.circle_count() * 100;
 
-    cout<<"总花费："<<<<endl;
+    cout<<"总花费："<<cost<<endl;
 }
 
 float cost(){
