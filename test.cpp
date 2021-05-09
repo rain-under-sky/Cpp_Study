@@ -1,25 +1,51 @@
 #include <iostream>
-#include <complex>
+#include <cmath>
 using namespace std;
 
+class square{
+private:
+    float side_length;  //边长
+public:
+    square(float pside_length){
+        side_length = pside_length;
+    }  //构造函数
+    ~square(){
+
+    }  //析构函数
+    float circle_count(){
+        float circle;
+        circle = 4 * side_length;
+        return circle;
+    }  //计算正方形边长
+    float area_count(){
+        float area;
+        area = pow(side_length,2);
+        return area;
+    }  //计算正方形面积
+};
+
+class price{
+public:
+    friend class square;
+
+};
+
+
 int main(){
-    complex<double>z(2, 3);
-    complex<double>z1;
-    complex<double>z2(z);
+    float pside_length;   //内部正方形的边长
+    float cost;  //所有费用
 
-    cout << z << endl;
-    cout << z1 << endl;
-    cout << z2 << endl;
-    z.real(22);
-    z.imag(33);//修改z的实部和虚部的值
-    cout << z << endl;
+    cout<<"请输入一个非0的正数：";
+    cin>>pside_length;
 
-    complex<double>a, b, c;
-    cout << "请输入三个复数：";
-    cin >> a >> b >> c;
-    cout << "a=" << a << endl;
-    cout << "b=" << b << endl;
-    cout << "c=" << c << endl;
-    return 0;
+    square in_square(pside_length);   //声明对象in_square，代表内部正方形
+    square out_square(pside_length + 6);  //声明对象out_square,代表外部正方形
+
+    cost = 150 * in_square.area_count() + (out_square.area_count() - in_square.area_count()) * 70 + out_square.circle_count() * 100;
+
+    cout<<"总花费："<<cost<<endl;
+}
+
+float cost(){
 
 }

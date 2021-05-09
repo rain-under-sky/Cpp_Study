@@ -26,9 +26,7 @@ public:
         return area;
     }  //计算正方形面积
 
-    float cost(){
 
-    }
 
 
 };
@@ -53,6 +51,3 @@ int main(){
     cout<<"总花费："<<cost<<endl;
 }
 
-float cost(){
-
-}
