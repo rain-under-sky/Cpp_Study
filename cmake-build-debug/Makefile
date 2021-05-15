@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named experiment_1_2
+
+# Build rule for target.
+experiment_1_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 experiment_1_2
+.PHONY : experiment_1_2
+
+# fast build rule for target.
+experiment_1_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_2.dir/build.make CMakeFiles/experiment_1_2.dir/build
+.PHONY : experiment_1_2/fast
+
+#=============================================================================
 # Target rules for targets named experiment_3_2
 
 # Build rule for target.
@@ -300,6 +313,33 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
 
+StudentScoreMangeSysytem.o: StudentScoreMangeSysytem.c.o
+
+.PHONY : StudentScoreMangeSysytem.o
+
+# target to build an object file
+StudentScoreMangeSysytem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o
+.PHONY : StudentScoreMangeSysytem.c.o
+
+StudentScoreMangeSysytem.i: StudentScoreMangeSysytem.c.i
+
+.PHONY : StudentScoreMangeSysytem.i
+
+# target to preprocess a source file
+StudentScoreMangeSysytem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.i
+.PHONY : StudentScoreMangeSysytem.c.i
+
+StudentScoreMangeSysytem.s: StudentScoreMangeSysytem.c.s
+
+.PHONY : StudentScoreMangeSysytem.s
+
+# target to generate assembly for a file
+StudentScoreMangeSysytem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.s
+.PHONY : StudentScoreMangeSysytem.c.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -353,6 +393,33 @@ test.cpp.s:
 实验题/experiment_1_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_1.dir/build.make CMakeFiles/experiment_1_1.dir/实验题/experiment_1_1.cpp.s
 .PHONY : 实验题/experiment_1_1.cpp.s
+
+实验题/experiment_1_2.o: 实验题/experiment_1_2.cpp.o
+
+.PHONY : 实验题/experiment_1_2.o
+
+# target to build an object file
+实验题/experiment_1_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_2.dir/build.make CMakeFiles/experiment_1_2.dir/实验题/experiment_1_2.cpp.o
+.PHONY : 实验题/experiment_1_2.cpp.o
+
+实验题/experiment_1_2.i: 实验题/experiment_1_2.cpp.i
+
+.PHONY : 实验题/experiment_1_2.i
+
+# target to preprocess a source file
+实验题/experiment_1_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_2.dir/build.make CMakeFiles/experiment_1_2.dir/实验题/experiment_1_2.cpp.i
+.PHONY : 实验题/experiment_1_2.cpp.i
+
+实验题/experiment_1_2.s: 实验题/experiment_1_2.cpp.s
+
+.PHONY : 实验题/experiment_1_2.s
+
+# target to generate assembly for a file
+实验题/experiment_1_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_1_2.dir/build.make CMakeFiles/experiment_1_2.dir/实验题/experiment_1_2.cpp.s
+.PHONY : 实验题/experiment_1_2.cpp.s
 
 实验题/experiment_1_3_1.o: 实验题/experiment_1_3_1.cpp.o
 
@@ -590,6 +657,7 @@ help:
 	@echo "... Code"
 	@echo "... Link_List_Use_1"
 	@echo "... experiment_1_1"
+	@echo "... experiment_1_2"
 	@echo "... experiment_1_3_1"
 	@echo "... experiment_2_1"
 	@echo "... experiment_2_2"
@@ -601,12 +669,18 @@ help:
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
+	@echo "... StudentScoreMangeSysytem.o"
+	@echo "... StudentScoreMangeSysytem.i"
+	@echo "... StudentScoreMangeSysytem.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
 	@echo "... 实验题/experiment_1_1.o"
 	@echo "... 实验题/experiment_1_1.i"
 	@echo "... 实验题/experiment_1_1.s"
+	@echo "... 实验题/experiment_1_2.o"
+	@echo "... 实验题/experiment_1_2.i"
+	@echo "... 实验题/experiment_1_2.s"
 	@echo "... 实验题/experiment_1_3_1.o"
 	@echo "... 实验题/experiment_1_3_1.i"
 	@echo "... 实验题/experiment_1_3_1.s"
