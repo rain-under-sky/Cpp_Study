@@ -85,12 +85,12 @@ int main(void){
     }*/
 
 
-    /*以下代码是学生姓名查询*/
+    /*以下代码是学生姓名查询*//*
     cout<<"请输入您要查询的姓名:";
     cin>>CheckName;
     cout<<endl;
     while(start != NULL){
-        if(CheckID == start->name[15]){
+        if(CheckName == start->name){
             cout<<"该学生信息如下"<<endl;
             cout<<"姓名"<<start->name<<endl;
             cout<<"学号"<<start->ID<<endl;
@@ -99,12 +99,12 @@ int main(void){
             cout<<"英语成绩"<<start->EnglishScore<<endl;
             cout<<"计算机成绩"<<start->ComputerScore<<endl;
         }
-        else
-            start = start->next;
-    }
 
-    /*以下代码是对平均成绩的排序*/
-    while(start->next != NULL){
+        start = start->next;
+    }*/
+
+    /*以下代码是对平均成绩的排序*//*
+    while(start != NULL){
         MathAverage += start->MathScore;
         start = start->next;
     }
@@ -117,10 +117,10 @@ int main(void){
     while(start->next != NULL){
         ComputerAverage += start->ComputerScore;
         start = start->next;
-    }
+    }*/
 
     /*以下代码是求及格率的*/
-    while(start->next != NULL){
+    while(start != NULL){
         if(start->MathScore >= 60){
             MathCount++;
         }
