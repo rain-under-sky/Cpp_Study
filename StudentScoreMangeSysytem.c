@@ -9,7 +9,7 @@ struct student{    //学生基本信息的结构体
     int class;
     int MathScore;
     int EnglishScore;
-    int ScienceScore;
+    int ComputerScore;
     struct student *next;
 };
 /*void InforOut(){   //控制台输出的函数
@@ -35,20 +35,18 @@ int main(void){
     struct student *head;
     struct student *tail,*start;
     head = tail = (struct student*)malloc(sizeof(struct student));
-    printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩",&i);
-    scanf("%c%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ScienceScore);
+    printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩:",i);
+    scanf("%s%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ComputerScore);
 
     for(i = 2;i < StudentCount;i++){
         start = (struct student*)malloc(sizeof(struct student));
-        printf("请依次输入第i个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩",&i);
-        scanf("%s%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ScienceScore);
+        printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩:",i);
+        scanf("%s%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ComputerScore);
         tail->next = start;
         tail = start;
     }
     tail->next = NULL;
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
-
-
 
 }
 
