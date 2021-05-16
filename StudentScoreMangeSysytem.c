@@ -87,6 +87,7 @@ int main(void){
         start = start->next;
     }
 
+        /*以下代码是对平均成绩的排序*/
 }
 
 
