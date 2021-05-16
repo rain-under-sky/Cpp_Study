@@ -6,7 +6,7 @@ ADD_SUBDIRECTORY(实验题)
 ADD_SUBDIRECTORY(派生与继承)
 ADD_SUBDIRECTORY(C语言测试)
 ADD_SUBDIRECTORY(函数)
-add_executable(Code C++测试/main.cpp 实验题/experiment_3_1.cpp 实验题/experiment_3_2.cpp 实验题/experiment_3_3.cpp StudentScoreMangeSysytem.cpp)
+add_executable(Code C++测试/main.cpp 实验题/experiment_3_1.cpp 实验题/experiment_3_2.cpp 实验题/experiment_3_3.cpp StudentScoreMangeSystem.cpp)
 
 
 
@@ -23,4 +23,4 @@ add_executable(experiment_3_2 实验题/experiment_3_2.cpp)
 add_executable(experiment_3_3 实验题/experiment_3_3.cpp)
 add_executable(Link_List_Use_1 链表/Link_List_Use_1.cpp)
 add_executable(experiment_1_2 实验题/experiment_1_2.cpp)
-add_executable(StudentScoreMangeSysytem StudentScoreMangeSysytem.cpp)
+add_executable(StudentScoreMangeSystem StudentScoreMangeSystem.cpp)

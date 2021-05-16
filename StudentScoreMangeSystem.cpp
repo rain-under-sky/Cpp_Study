@@ -43,7 +43,8 @@ int main(void){
     int ComputerCount = 0;
 
     /*及格率表示*/
-    float MathNum,EnglishNum,ComputerNum;
+    float MathNum,EnglishNum;
+    float ComputerNum;
 
     cout<<"请输入您的学生个数:";
     cin>>StudentCount;
@@ -130,7 +131,9 @@ int main(void){
         else if(start->ComputerScore >= 60){
             ComputerCount++;
         }
+        start = start->next;
     }
+
     MathNum = MathCount/StudentCount;
     EnglishNum = EnglishCount/StudentCount;
     ComputerNum = ComputerCount/StudentCount;

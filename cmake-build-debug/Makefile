@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named StudentScoreMangeSystem
+
+# Build rule for target.
+StudentScoreMangeSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StudentScoreMangeSystem
+.PHONY : StudentScoreMangeSystem
+
+# fast build rule for target.
+StudentScoreMangeSystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/build
+.PHONY : StudentScoreMangeSystem/fast
+
+#=============================================================================
 # Target rules for targets named experiment_1_2
 
 # Build rule for target.
@@ -155,19 +168,6 @@ experiment_3_2: cmake_check_build_system
 experiment_3_2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/experiment_3_2.dir/build.make CMakeFiles/experiment_3_2.dir/build
 .PHONY : experiment_3_2/fast
-
-#=============================================================================
-# Target rules for targets named StudentScoreMangeSysytem
-
-# Build rule for target.
-StudentScoreMangeSysytem: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StudentScoreMangeSysytem
-.PHONY : StudentScoreMangeSysytem
-
-# fast build rule for target.
-StudentScoreMangeSysytem/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/build
-.PHONY : StudentScoreMangeSysytem/fast
 
 #=============================================================================
 # Target rules for targets named Link_List_Use_1
@@ -326,35 +326,35 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
 
-StudentScoreMangeSysytem.o: StudentScoreMangeSysytem.cpp.o
+StudentScoreMangeSystem.o: StudentScoreMangeSystem.cpp.o
 
-.PHONY : StudentScoreMangeSysytem.o
+.PHONY : StudentScoreMangeSystem.o
 
 # target to build an object file
-StudentScoreMangeSysytem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o
-.PHONY : StudentScoreMangeSysytem.cpp.o
+StudentScoreMangeSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.o
+.PHONY : StudentScoreMangeSystem.cpp.o
 
-StudentScoreMangeSysytem.i: StudentScoreMangeSysytem.cpp.i
+StudentScoreMangeSystem.i: StudentScoreMangeSystem.cpp.i
 
-.PHONY : StudentScoreMangeSysytem.i
+.PHONY : StudentScoreMangeSystem.i
 
 # target to preprocess a source file
-StudentScoreMangeSysytem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.i
-.PHONY : StudentScoreMangeSysytem.cpp.i
+StudentScoreMangeSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.i
+.PHONY : StudentScoreMangeSystem.cpp.i
 
-StudentScoreMangeSysytem.s: StudentScoreMangeSysytem.cpp.s
+StudentScoreMangeSystem.s: StudentScoreMangeSystem.cpp.s
 
-.PHONY : StudentScoreMangeSysytem.s
+.PHONY : StudentScoreMangeSystem.s
 
 # target to generate assembly for a file
-StudentScoreMangeSysytem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.s
-.PHONY : StudentScoreMangeSysytem.cpp.s
+StudentScoreMangeSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.s
+.PHONY : StudentScoreMangeSystem.cpp.s
 
 test.o: test.cpp.o
 
@@ -672,7 +672,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Code"
 	@echo "... Link_List_Use_1"
-	@echo "... StudentScoreMangeSysytem"
+	@echo "... StudentScoreMangeSystem"
 	@echo "... experiment_1_1"
 	@echo "... experiment_1_2"
 	@echo "... experiment_1_3_1"
@@ -686,9 +686,9 @@ help:
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
-	@echo "... StudentScoreMangeSysytem.o"
-	@echo "... StudentScoreMangeSysytem.i"
-	@echo "... StudentScoreMangeSysytem.s"
+	@echo "... StudentScoreMangeSystem.o"
+	@echo "... StudentScoreMangeSystem.i"
+	@echo "... StudentScoreMangeSystem.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
