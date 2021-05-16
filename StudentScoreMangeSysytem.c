@@ -32,6 +32,7 @@ int main(void){
     struct student *head;
     struct student *tail,*start;
     head = tail = (int*)malloc(sizeof(head));
+    
 
 }
 
