@@ -69,7 +69,7 @@ int main(void){
 
     /*以下代码是学生学号的查询*/
     printf("请输入您要查询的学号");
-    scanf("%d",CheckID);
+    scanf("%d",&CheckID);
     printf("\n");
     while(start != NULL){
         if(CheckID == start->ID){
@@ -88,7 +88,7 @@ int main(void){
 
     /*以下代码是学生姓名查询*/
     printf("请输入您的学生姓名进行查询");
-    scanf("%s",CheckName[15]);
+    scanf("%s",&CheckName[15]);
     printf("\n");
     while(start->next != NULL){
         if(CheckID == start->name[15]){
@@ -102,7 +102,8 @@ int main(void){
             printf("英语成绩:%d\n",start->ComputerScore);
             printf("*************************************");
         }
-        start = start->next;
+        else
+            start = start->next;
     }
 
     /*以下代码是对平均成绩的排序*/
