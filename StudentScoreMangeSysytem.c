@@ -29,6 +29,9 @@ struct student{    //学生基本信息的结构体
 int main(void){
     int StudentCount; //学生人数
     int i = 1;  //链表控制变量
+    int MathAverage = 0;
+    int EnglishAverage = 0;
+    int ComputerAverage = 0;
     char CheckName[15];
     int CheckID;
     printf("请输入您的学生个数:");
@@ -72,7 +75,7 @@ int main(void){
     /*以下代码是学生姓名查询*/
     printf("请输入您的学生姓名进行查询");
     scanf("%s",CheckName[15]);
-    while(start != NULL){
+    while(start->next != NULL){
         if(CheckID == start->name[15]){
             printf("*************************************");
             printf("该学生信息如下");
@@ -87,7 +90,26 @@ int main(void){
         start = start->next;
     }
 
-        /*以下代码是对平均成绩的排序*/
+    /*以下代码是对平均成绩的排序*/
+    while(start->next != NULL){
+        MathAverage += start->MathScore;
+        start = start->next;
+    }
+
+    while(start->next != NULL){
+        EnglishAverage += start->EnglishScore;
+        start = start->next;
+    }
+
+    while(start->next != NULL){
+        ComputerAverage += start->ComputerScore;
+        start = start->next;
+    }
+
+    /*以下代码是求及格率的*/
+    while(start->next != NULL){
+        
+    }
 }
 
 
