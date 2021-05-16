@@ -129,18 +129,18 @@ CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_3.cpp -o CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.s
 
-CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o: CMakeFiles/Code.dir/flags.make
-CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o: ../StudentScoreMangeSysytem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o   -c /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.c
+CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o: CMakeFiles/Code.dir/flags.make
+CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o: ../StudentScoreMangeSysytem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o -c /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.cpp
 
-CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.c > CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.i
+CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.cpp > CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.i
 
-CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.c -o CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.s
+CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.cpp -o CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.s
 
 # Object files for target Code
 Code_OBJECTS = \
@@ -148,7 +148,7 @@ Code_OBJECTS = \
 "CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o" \
 "CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o" \
 "CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o" \
-"CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o"
+"CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o"
 
 # External object files for target Code
 Code_EXTERNAL_OBJECTS =
@@ -157,7 +157,7 @@ Code: CMakeFiles/Code.dir/C++测试/main.cpp.o
 Code: CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o
 Code: CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o
 Code: CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o
-Code: CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o
+Code: CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o
 Code: CMakeFiles/Code.dir/build.make
 Code: CMakeFiles/Code.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Code"

@@ -326,35 +326,35 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
 
-StudentScoreMangeSysytem.o: StudentScoreMangeSysytem.c.o
+StudentScoreMangeSysytem.o: StudentScoreMangeSysytem.cpp.o
 
 .PHONY : StudentScoreMangeSysytem.o
 
 # target to build an object file
-StudentScoreMangeSysytem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o
-.PHONY : StudentScoreMangeSysytem.c.o
+StudentScoreMangeSysytem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.o
+.PHONY : StudentScoreMangeSysytem.cpp.o
 
-StudentScoreMangeSysytem.i: StudentScoreMangeSysytem.c.i
+StudentScoreMangeSysytem.i: StudentScoreMangeSysytem.cpp.i
 
 .PHONY : StudentScoreMangeSysytem.i
 
 # target to preprocess a source file
-StudentScoreMangeSysytem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.i
-.PHONY : StudentScoreMangeSysytem.c.i
+StudentScoreMangeSysytem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.i
+.PHONY : StudentScoreMangeSysytem.cpp.i
 
-StudentScoreMangeSysytem.s: StudentScoreMangeSysytem.c.s
+StudentScoreMangeSysytem.s: StudentScoreMangeSysytem.cpp.s
 
 .PHONY : StudentScoreMangeSysytem.s
 
 # target to generate assembly for a file
-StudentScoreMangeSysytem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.s
-.PHONY : StudentScoreMangeSysytem.c.s
+StudentScoreMangeSysytem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.cpp.s
+.PHONY : StudentScoreMangeSysytem.cpp.s
 
 test.o: test.cpp.o
 

@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <math.h>
-#include <sys/malloc.h>
+#include <iostream>
+#include <string>
+using namespace std;
+
 struct student{    //学生基本信息的结构体
-    char name[15];
+    string name;
     int ID;
-    int class;
+    int classs;
     int MathScore;
     int EnglishScore;
     int ComputerScore;
@@ -36,7 +35,7 @@ int main(void){
 
     /*查询比较变量*/
     char CheckName[15];
-    int CheckID;
+    int  CheckID;
 
     /*求及格率循环变量*/
     int MathCount = 0;
@@ -46,20 +45,20 @@ int main(void){
     /*及格率表示*/
     float MathNum,EnglishNum,ComputerNum;
 
-    printf("请输入您的学生个数:");
-    scanf("%d",&StudentCount);
+    cout<<"请输入您的学生个数:";
+    cin>>StudentCount;
 
     /*以下代码是成绩的输入*/
     struct student *head;
     struct student *tail,*start;
-    head = tail = (struct student*)malloc(sizeof(struct student));
-    printf("请依次输入第%d个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:",i);
-    scanf("%s%d%d%d%d",&tail->name[15],&tail->ID,&tail->class,&tail->MathScore,&tail->EnglishScore,&tail->ComputerScore);
+    head = tail = new (struct student);
+    cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:";
+    cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
 
     for(i = 2;i <= StudentCount;i++){
-        start = (struct student*)malloc(sizeof(struct student));
-        printf("请依次输入第%d个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:",i);
-        scanf("%s%d%d%d%d",&tail->name[15],&tail->ID,&tail->class,&tail->MathScore,&tail->EnglishScore,&tail->ComputerScore);
+        start = new (struct student);
+        cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:";
+        cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
         tail->next = start;
         tail = start;
     }
@@ -67,40 +66,38 @@ int main(void){
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
 
 
-    /*以下代码是学生学号的查询*/
-    printf("请输入您要查询的学号");
-    scanf("%d",&CheckID);
-    printf("\n");
+    /*以下代码是学生学号的查询
+    cout<<"请输入您要查询的学号:";
+    cin>>CheckID;
+    cout<<endl;
     while(start != NULL){
         if(CheckID == start->ID){
-            printf("*************************************\n");
-            printf("该学生信息如下\n");
-            printf("姓名:%s\n",start->name[15]);
-            printf("学号:%d\n",start->ID);
-            printf("班级:%d\n",start->class);
-            printf("数学成绩\n:%d",start->MathScore);
-            printf("英语成绩:%d\n",start->EnglishScore);
-            printf("英语成绩:%d\n",start->ComputerScore);
-            printf("*************************************");
+            cout<<"该学生信息如下"<<endl;
+            cout<<"姓名"<<start->name<<endl;
+            cout<<"学号"<<start->ID<<endl;
+            cout<<"班级"<<start->classs<<endl;
+            cout<<"数学成绩"<<start->MathScore<<endl;
+            cout<<"英语成绩"<<start->EnglishScore<<endl;
+            cout<<"计算机成绩"<<start->ComputerScore<<endl;
         }
+
         start = start->next;
-    }
+    }*/
+
 
     /*以下代码是学生姓名查询*/
-    printf("请输入您的学生姓名进行查询");
-    scanf("%s",&CheckName[15]);
-    printf("\n");
-    while(start->next != NULL){
+    cout<<"请输入您要查询的姓名:";
+    cin>>CheckName;
+    cout<<endl;
+    while(start != NULL){
         if(CheckID == start->name[15]){
-            printf("*************************************\n");
-            printf("该学生信息如下\n");
-            printf("姓名:%s\n",start->name[15]);
-            printf("学号:%d\n",start->ID);
-            printf("班级:%d\n",start->class);
-            printf("数学成绩\n:%d",start->MathScore);
-            printf("英语成绩:%d\n",start->EnglishScore);
-            printf("英语成绩:%d\n",start->ComputerScore);
-            printf("*************************************");
+            cout<<"该学生信息如下"<<endl;
+            cout<<"姓名"<<start->name<<endl;
+            cout<<"学号"<<start->ID<<endl;
+            cout<<"班级"<<start->classs<<endl;
+            cout<<"数学成绩"<<start->MathScore<<endl;
+            cout<<"英语成绩"<<start->EnglishScore<<endl;
+            cout<<"计算机成绩"<<start->ComputerScore<<endl;
         }
         else
             start = start->next;
@@ -138,6 +135,7 @@ int main(void){
     EnglishNum = EnglishCount/StudentCount;
     ComputerNum = ComputerCount/StudentCount;
 
+    cout<<ComputerNum;
 
     return 0;
 }

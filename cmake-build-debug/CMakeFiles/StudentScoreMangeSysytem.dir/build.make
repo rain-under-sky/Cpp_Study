@@ -77,30 +77,30 @@ include CMakeFiles/StudentScoreMangeSysytem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/StudentScoreMangeSysytem.dir/flags.make
 
-CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o: CMakeFiles/StudentScoreMangeSysytem.dir/flags.make
-CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o: ../StudentScoreMangeSysytem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o   -c /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.c
+CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o: CMakeFiles/StudentScoreMangeSysytem.dir/flags.make
+CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o: ../StudentScoreMangeSysytem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o -c /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.cpp
 
-CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.c > CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.i
+CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.cpp > CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.i
 
-CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.c -o CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.s
+CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSysytem.cpp -o CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.s
 
 # Object files for target StudentScoreMangeSysytem
 StudentScoreMangeSysytem_OBJECTS = \
-"CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o"
+"CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o"
 
 # External object files for target StudentScoreMangeSysytem
 StudentScoreMangeSysytem_EXTERNAL_OBJECTS =
 
-StudentScoreMangeSysytem: CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o
+StudentScoreMangeSysytem: CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.cpp.o
 StudentScoreMangeSysytem: CMakeFiles/StudentScoreMangeSysytem.dir/build.make
 StudentScoreMangeSysytem: CMakeFiles/StudentScoreMangeSysytem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable StudentScoreMangeSysytem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable StudentScoreMangeSysytem"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/StudentScoreMangeSysytem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
