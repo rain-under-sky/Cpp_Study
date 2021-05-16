@@ -36,12 +36,12 @@ int main(void){
     struct student *tail,*start;
     head = tail = (struct student*)malloc(sizeof(struct student));
     printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩:",i);
-    scanf("%s%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ComputerScore);
+    scanf("%s%d%d%d%d",tail->name[15],&tail->ID,&tail->MathScore,&tail->EnglishScore,&tail->ComputerScore);
 
     for(i = 2;i < StudentCount;i++){
         start = (struct student*)malloc(sizeof(struct student));
         printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩:",i);
-        scanf("%s%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ComputerScore);
+        scanf("%s%d%d%d%d",tail->name[15],&tail->ID,&tail->MathScore,&tail->EnglishScore,&tail->ComputerScore);
         tail->next = start;
         tail = start;
     }
