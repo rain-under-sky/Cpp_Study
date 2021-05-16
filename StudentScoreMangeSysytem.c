@@ -27,19 +27,20 @@ struct student{    //学生基本信息的结构体
 
 
 int main(void){
-    struct student *head;
-    struct student *tail,*start;
-    head = tail = (struct student*)malloc(sizeof(struct student));
     int StudentCount; //学生人数
     int i = 1;  //链表控制变量
     printf("请输入您的学生个数:");
     scanf("%d",&StudentCount);
+
+    struct student *head;
+    struct student *tail,*start;
+    head = tail = (struct student*)malloc(sizeof(struct student));
     printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩",&i);
     scanf("%c%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ScienceScore);
 
     for(i = 2;i < StudentCount;i++){
         start = (struct student*)malloc(sizeof(struct student));
-        printf("请输入第i个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩",&i);
+        printf("请依次输入第i个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩",&i);
         scanf("%s%d%d%d%d",tail->name[15],tail->ID,tail->MathScore,tail->EnglishScore,tail->ScienceScore);
         tail->next = start;
         tail = start;
