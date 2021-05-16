@@ -24,8 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="默认的">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentScoreMangeSysytem.c" beforeDir="false" afterPath="$PROJECT_DIR$/StudentScoreMangeSysytem.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/StudentScoreMangeSysytem" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/StudentScoreMangeSysytem" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +240,7 @@
       <workItem from="1620911541569" duration="350000" />
       <workItem from="1620997740317" duration="8149000" />
       <workItem from="1621132025373" duration="3935000" />
-      <workItem from="1621146356583" duration="1021000" />
+      <workItem from="1621146356583" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619440730837</created>
@@ -315,6 +315,11 @@
           <url>file://$PROJECT_DIR$/类/class_copy_function_1.cpp</url>
           <line>29</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/StudentScoreMangeSysytem.c</url>
+          <line>87</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

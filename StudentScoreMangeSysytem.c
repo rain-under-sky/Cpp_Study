@@ -29,11 +29,23 @@ struct student{    //学生基本信息的结构体
 int main(void){
     int StudentCount; //学生人数
     int i = 1;  //链表控制变量
+    /*平均成绩变量*/
     int MathAverage = 0;
     int EnglishAverage = 0;
     int ComputerAverage = 0;
+
+    /*查询比较变量*/
     char CheckName[15];
     int CheckID;
+
+    /*求及格率循环变量*/
+    int MathCount = 0;
+    int EnglishCount = 0;
+    int ComputerCount = 0;
+
+    /*及格率表示*/
+    float MathNum,EnglishNum,ComputerNum;
+
     printf("请输入您的学生个数:");
     scanf("%d",&StudentCount);
 
@@ -41,12 +53,12 @@ int main(void){
     struct student *head;
     struct student *tail,*start;
     head = tail = (struct student*)malloc(sizeof(struct student));
-    printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩:",i);
+    printf("请依次输入第%d个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:",i);
     scanf("%s%d%d%d%d",&tail->name[15],&tail->ID,&tail->class,&tail->MathScore,&tail->EnglishScore,&tail->ComputerScore);
 
-    for(i = 2;i < StudentCount;i++){
+    for(i = 2;i <= StudentCount;i++){
         start = (struct student*)malloc(sizeof(struct student));
-        printf("请依次输入第%d个学生的姓名，学号，ID，数学成绩，英语成绩，计算机成绩:",i);
+        printf("请依次输入第%d个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:",i);
         scanf("%s%d%d%d%d",&tail->name[15],&tail->ID,&tail->class,&tail->MathScore,&tail->EnglishScore,&tail->ComputerScore);
         tail->next = start;
         tail = start;
@@ -56,11 +68,13 @@ int main(void){
 
 
     /*以下代码是学生学号的查询*/
+    printf("请输入您要查询的学号");
     scanf("%d",CheckID);
+    printf("\n");
     while(start != NULL){
         if(CheckID == start->ID){
-            printf("*************************************");
-            printf("该学生信息如下");
+            printf("*************************************\n");
+            printf("该学生信息如下\n");
             printf("姓名:%s\n",start->name[15]);
             printf("学号:%d\n",start->ID);
             printf("班级:%d\n",start->class);
@@ -75,10 +89,11 @@ int main(void){
     /*以下代码是学生姓名查询*/
     printf("请输入您的学生姓名进行查询");
     scanf("%s",CheckName[15]);
+    printf("\n");
     while(start->next != NULL){
         if(CheckID == start->name[15]){
-            printf("*************************************");
-            printf("该学生信息如下");
+            printf("*************************************\n");
+            printf("该学生信息如下\n");
             printf("姓名:%s\n",start->name[15]);
             printf("学号:%d\n",start->ID);
             printf("班级:%d\n",start->class);
@@ -108,8 +123,22 @@ int main(void){
 
     /*以下代码是求及格率的*/
     while(start->next != NULL){
-        
+        if(start->MathScore >= 60){
+            MathCount++;
+        }
+        else if(start->EnglishScore >= 60){
+            EnglishCount++;
+        }
+        else if(start->ComputerScore >= 60){
+            ComputerCount++;
+        }
     }
+    MathNum = MathCount/StudentCount;
+    EnglishNum = EnglishCount/StudentCount;
+    ComputerNum = ComputerCount/StudentCount;
+
+
+    return 0;
 }
 
 
