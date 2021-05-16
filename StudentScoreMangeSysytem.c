@@ -51,8 +51,8 @@ int main(void){
     tail->next = NULL;
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
 
-    /*以下代码是学生学号的查询*/
 
+    /*以下代码是学生学号的查询*/
     scanf("%d",CheckID);
     while(start != NULL){
         if(CheckID == start->ID){
@@ -69,6 +69,7 @@ int main(void){
         start = start->next;
     }
 
+    /*以下代码是学生姓名查询*/
     printf("请输入您的学生姓名进行查询");
     scanf("%s",CheckName[15]);
     while(start != NULL){
