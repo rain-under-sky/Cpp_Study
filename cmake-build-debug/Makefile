@@ -157,6 +157,19 @@ experiment_3_2/fast:
 .PHONY : experiment_3_2/fast
 
 #=============================================================================
+# Target rules for targets named StudentScoreMangeSysytem
+
+# Build rule for target.
+StudentScoreMangeSysytem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StudentScoreMangeSysytem
+.PHONY : StudentScoreMangeSysytem
+
+# fast build rule for target.
+StudentScoreMangeSysytem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/build
+.PHONY : StudentScoreMangeSysytem/fast
+
+#=============================================================================
 # Target rules for targets named Link_List_Use_1
 
 # Build rule for target.
@@ -319,6 +332,7 @@ StudentScoreMangeSysytem.o: StudentScoreMangeSysytem.c.o
 
 # target to build an object file
 StudentScoreMangeSysytem.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.o
 .PHONY : StudentScoreMangeSysytem.c.o
 
@@ -328,6 +342,7 @@ StudentScoreMangeSysytem.i: StudentScoreMangeSysytem.c.i
 
 # target to preprocess a source file
 StudentScoreMangeSysytem.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.i
 .PHONY : StudentScoreMangeSysytem.c.i
 
@@ -337,6 +352,7 @@ StudentScoreMangeSysytem.s: StudentScoreMangeSysytem.c.s
 
 # target to generate assembly for a file
 StudentScoreMangeSysytem.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSysytem.dir/build.make CMakeFiles/StudentScoreMangeSysytem.dir/StudentScoreMangeSysytem.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentScoreMangeSysytem.c.s
 .PHONY : StudentScoreMangeSysytem.c.s
 
@@ -656,6 +672,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Code"
 	@echo "... Link_List_Use_1"
+	@echo "... StudentScoreMangeSysytem"
 	@echo "... experiment_1_1"
 	@echo "... experiment_1_2"
 	@echo "... experiment_1_3_1"
