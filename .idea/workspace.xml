@@ -24,8 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685dc23d-bdfe-4556-a20b-abb0aafc8891" name="默认的" comment="默认的">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/学生信息管理系统.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/C语言测试" />
       <recent name="$PROJECT_DIR$/C++测试" />
       <recent name="$PROJECT_DIR$/实验题" />
       <recent name="$PROJECT_DIR$/类" />
-      <recent name="$PROJECT_DIR$/动态内存" />
     </key>
   </component>
   <component name="RunManager" selected="CMake 应用程序.StudentScoreMangeSystem">
@@ -248,7 +249,7 @@
       <workItem from="1621154092737" duration="58000" />
       <workItem from="1621154373851" duration="415000" />
       <workItem from="1621154800452" duration="1203000" />
-      <workItem from="1621251227904" duration="472000" />
+      <workItem from="1621251227904" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619440730837</created>
