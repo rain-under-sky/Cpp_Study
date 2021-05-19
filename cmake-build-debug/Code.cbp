@@ -594,6 +594,9 @@
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/test.cpp">
 			<Option target="test"/>
 		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/作用域/static_use_1.cpp">
+			<Option target="Code"/>
+		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_1_1.cpp">
 			<Option target="experiment_1_1"/>
 		</Unit>

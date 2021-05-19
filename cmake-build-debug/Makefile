@@ -383,6 +383,33 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
 .PHONY : test.cpp.s
 
+作用域/static_use_1.o: 作用域/static_use_1.cpp.o
+
+.PHONY : 作用域/static_use_1.o
+
+# target to build an object file
+作用域/static_use_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_1.cpp.o
+.PHONY : 作用域/static_use_1.cpp.o
+
+作用域/static_use_1.i: 作用域/static_use_1.cpp.i
+
+.PHONY : 作用域/static_use_1.i
+
+# target to preprocess a source file
+作用域/static_use_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_1.cpp.i
+.PHONY : 作用域/static_use_1.cpp.i
+
+作用域/static_use_1.s: 作用域/static_use_1.cpp.s
+
+.PHONY : 作用域/static_use_1.s
+
+# target to generate assembly for a file
+作用域/static_use_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_1.cpp.s
+.PHONY : 作用域/static_use_1.cpp.s
+
 实验题/experiment_1_1.o: 实验题/experiment_1_1.cpp.o
 
 .PHONY : 实验题/experiment_1_1.o
@@ -692,6 +719,9 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... 作用域/static_use_1.o"
+	@echo "... 作用域/static_use_1.i"
+	@echo "... 作用域/static_use_1.s"
 	@echo "... 实验题/experiment_1_1.o"
 	@echo "... 实验题/experiment_1_1.i"
 	@echo "... 实验题/experiment_1_1.s"

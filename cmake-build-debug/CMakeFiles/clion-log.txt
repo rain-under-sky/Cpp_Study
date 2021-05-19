@@ -1,4 +1,12 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/aomsir/MyStudy/C++/Code
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
+CMake Error at CMakeLists.txt:9 (ADD_SUBDIRECTORY):
+  The source directory
+
+    /Users/aomsir/MyStudy/C++/Code/作用域
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/CMakeError.log".
