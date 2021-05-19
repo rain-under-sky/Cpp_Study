@@ -63,5 +63,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/static_use_1.dir/DependInfo.cmake"
+  "CMakeFiles/static_use_2.dir/DependInfo.cmake"
   "CMakeFiles/Code.dir/DependInfo.cmake"
   )

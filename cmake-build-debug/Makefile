@@ -144,6 +144,19 @@ static_use_1/fast:
 .PHONY : static_use_1/fast
 
 #=============================================================================
+# Target rules for targets named static_use_2
+
+# Build rule for target.
+static_use_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_2
+.PHONY : static_use_2
+
+# fast build rule for target.
+static_use_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/build
+.PHONY : static_use_2/fast
+
+#=============================================================================
 # Target rules for targets named Code
 
 # Build rule for target.
@@ -216,6 +229,7 @@ C++测试/main.cpp.s:
 
 # target to build an object file
 作用域/static_use_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.o
 .PHONY : 作用域/static_use_2.cpp.o
 
@@ -225,6 +239,7 @@ C++测试/main.cpp.s:
 
 # target to preprocess a source file
 作用域/static_use_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.i
 .PHONY : 作用域/static_use_2.cpp.i
 
@@ -234,6 +249,7 @@ C++测试/main.cpp.s:
 
 # target to generate assembly for a file
 作用域/static_use_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.s
 .PHONY : 作用域/static_use_2.cpp.s
 
@@ -247,6 +263,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Code"
 	@echo "... static_use_1"
+	@echo "... static_use_2"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"

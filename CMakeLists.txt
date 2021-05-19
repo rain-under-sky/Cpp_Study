@@ -15,3 +15,4 @@ add_executable(Code C++测试/main.cpp 作用域/static_use_2.cpp)
 
 
 add_executable(static_use_1 作用域/static_use_1.cpp)
+add_executable(static_use_2 作用域/static_use_2.cpp)
