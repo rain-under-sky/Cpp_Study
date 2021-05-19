@@ -90,92 +90,32 @@ CMakeFiles/Code.dir/C++测试/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/C++测试/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp -o CMakeFiles/Code.dir/C++测试/main.cpp.s
 
-CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o: CMakeFiles/Code.dir/flags.make
-CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o: ../实验题/experiment_3_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o -c /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_1.cpp
+CMakeFiles/Code.dir/作用域/static_use_2.cpp.o: CMakeFiles/Code.dir/flags.make
+CMakeFiles/Code.dir/作用域/static_use_2.cpp.o: ../作用域/static_use_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Code.dir/作用域/static_use_2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/作用域/static_use_2.cpp.o -c /Users/aomsir/MyStudy/C++/Code/作用域/static_use_2.cpp
 
-CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_1.cpp > CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.i
+CMakeFiles/Code.dir/作用域/static_use_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/作用域/static_use_2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/作用域/static_use_2.cpp > CMakeFiles/Code.dir/作用域/static_use_2.cpp.i
 
-CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_1.cpp -o CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.s
-
-CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o: CMakeFiles/Code.dir/flags.make
-CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o: ../实验题/experiment_3_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o -c /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_2.cpp
-
-CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_2.cpp > CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.i
-
-CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_2.cpp -o CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.s
-
-CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o: CMakeFiles/Code.dir/flags.make
-CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o: ../实验题/experiment_3_3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o -c /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_3.cpp
-
-CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_3.cpp > CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.i
-
-CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_3.cpp -o CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.s
-
-CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.o: CMakeFiles/Code.dir/flags.make
-CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.o: ../StudentScoreMangeSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.o -c /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSystem.cpp
-
-CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSystem.cpp > CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.i
-
-CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSystem.cpp -o CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.s
-
-CMakeFiles/Code.dir/作用域/static_use_1.cpp.o: CMakeFiles/Code.dir/flags.make
-CMakeFiles/Code.dir/作用域/static_use_1.cpp.o: ../作用域/static_use_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Code.dir/作用域/static_use_1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Code.dir/作用域/static_use_1.cpp.o -c /Users/aomsir/MyStudy/C++/Code/作用域/static_use_1.cpp
-
-CMakeFiles/Code.dir/作用域/static_use_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Code.dir/作用域/static_use_1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aomsir/MyStudy/C++/Code/作用域/static_use_1.cpp > CMakeFiles/Code.dir/作用域/static_use_1.cpp.i
-
-CMakeFiles/Code.dir/作用域/static_use_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/作用域/static_use_1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/作用域/static_use_1.cpp -o CMakeFiles/Code.dir/作用域/static_use_1.cpp.s
+CMakeFiles/Code.dir/作用域/static_use_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Code.dir/作用域/static_use_2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aomsir/MyStudy/C++/Code/作用域/static_use_2.cpp -o CMakeFiles/Code.dir/作用域/static_use_2.cpp.s
 
 # Object files for target Code
 Code_OBJECTS = \
 "CMakeFiles/Code.dir/C++测试/main.cpp.o" \
-"CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o" \
-"CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o" \
-"CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o" \
-"CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.o" \
-"CMakeFiles/Code.dir/作用域/static_use_1.cpp.o"
+"CMakeFiles/Code.dir/作用域/static_use_2.cpp.o"
 
 # External object files for target Code
 Code_EXTERNAL_OBJECTS =
 
 Code: CMakeFiles/Code.dir/C++测试/main.cpp.o
-Code: CMakeFiles/Code.dir/实验题/experiment_3_1.cpp.o
-Code: CMakeFiles/Code.dir/实验题/experiment_3_2.cpp.o
-Code: CMakeFiles/Code.dir/实验题/experiment_3_3.cpp.o
-Code: CMakeFiles/Code.dir/StudentScoreMangeSystem.cpp.o
-Code: CMakeFiles/Code.dir/作用域/static_use_1.cpp.o
+Code: CMakeFiles/Code.dir/作用域/static_use_2.cpp.o
 Code: CMakeFiles/Code.dir/build.make
 Code: CMakeFiles/Code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

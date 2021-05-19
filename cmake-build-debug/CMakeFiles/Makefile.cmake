@@ -38,6 +38,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
+  "../作用域/CMakeLists.txt"
   "../函数/CMakeLists.txt"
   "../实验题/CMakeLists.txt"
   "../派生与继承/CMakeLists.txt"
@@ -56,21 +57,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "派生与继承/CMakeFiles/CMakeDirectoryInformation.cmake"
   "C语言测试/CMakeFiles/CMakeDirectoryInformation.cmake"
   "函数/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "作用域/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/StudentScoreMangeSystem.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_1_2.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_3_2.dir/DependInfo.cmake"
-  "CMakeFiles/Link_List_Use_1.dir/DependInfo.cmake"
+  "CMakeFiles/static_use_1.dir/DependInfo.cmake"
   "CMakeFiles/Code.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_1_3_1.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_2_2.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_1_1.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_3_1.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_2_1.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_3_3.dir/DependInfo.cmake"
-  "CMakeFiles/experiment_2_3.dir/DependInfo.cmake"
-  "CMakeFiles/test.dir/DependInfo.cmake"
   )

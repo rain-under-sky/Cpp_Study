@@ -5,7 +5,7 @@
 		<Option title="Code"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\实验题\;CMake Files\派生与继承\;CMake Files\C语言测试\;CMake Files\函数\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\实验题\;CMake Files\派生与继承\;CMake Files\C语言测试\;CMake Files\函数\;CMake Files\作用域\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="StudentScoreMangeSystem">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/StudentScoreMangeSystem" prefix_auto="0" extension_auto="0"/>
+			<Target title="static_use_1">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/static_use_1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentScoreMangeSystem"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_use_1"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="StudentScoreMangeSystem/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/StudentScoreMangeSystem" prefix_auto="0" extension_auto="0"/>
+			<Target title="static_use_1/fast">
+				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/static_use_1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,133 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 StudentScoreMangeSystem/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_1_2">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_1_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_1_2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_1_2/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_1_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_1_2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_3_2">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_3_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_3_2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_3_2/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_3_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_3_2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Link_List_Use_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Link_List_Use_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link_List_Use_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Link_List_Use_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Link_List_Use_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 Link_List_Use_1/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_use_1/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -247,388 +121,15 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="experiment_1_3_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_1_3_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_1_3_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_1_3_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_1_3_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_1_3_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_2_2">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_2_2/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_2/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_1_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_1_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_1_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_1_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_1_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_1_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_3_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_3_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_3_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_3_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_3_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_3_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_2_1">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_2_1/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_3_3">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_3_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_3_3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_3_3/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_3_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_3_3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_2_3">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="experiment_2_3/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/experiment_2_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 experiment_2_3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test/fast">
-				<Option output="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/aomsir/MyStudy/C++/Code/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp">
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSystem.cpp">
-			<Option target="StudentScoreMangeSystem"/>
-			<Option target="Code"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/test.cpp">
-			<Option target="test"/>
-		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/作用域/static_use_1.cpp">
+			<Option target="static_use_1"/>
+		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/作用域/static_use_2.cpp">
 			<Option target="Code"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_1_1.cpp">
-			<Option target="experiment_1_1"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_1_2.cpp">
-			<Option target="experiment_1_2"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_1_3_1.cpp">
-			<Option target="experiment_1_3_1"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_2_1.cpp">
-			<Option target="experiment_2_1"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_2_2.cpp">
-			<Option target="experiment_2_2"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_2_3.cpp">
-			<Option target="experiment_2_3"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_1.cpp">
-			<Option target="Code"/>
-			<Option target="experiment_3_1"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_2.cpp">
-			<Option target="experiment_3_2"/>
-			<Option target="Code"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/实验题/experiment_3_3.cpp">
-			<Option target="Code"/>
-			<Option target="experiment_3_3"/>
-		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/链表/Link_List_Use_1.cpp">
-			<Option target="Link_List_Use_1"/>
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -644,6 +145,9 @@
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/函数/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\函数\"/>
+		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/作用域/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\作用域\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
