@@ -144,17 +144,17 @@ static_use_3/fast:
 .PHONY : static_use_3/fast
 
 #=============================================================================
-# Target rules for targets named Code
+# Target rules for targets named static_use_2
 
 # Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
+static_use_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_2
+.PHONY : static_use_2
 
 # fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
+static_use_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/build
+.PHONY : static_use_2/fast
 
 #=============================================================================
 # Target rules for targets named static_use_1
@@ -170,17 +170,30 @@ static_use_1/fast:
 .PHONY : static_use_1/fast
 
 #=============================================================================
-# Target rules for targets named static_use_2
+# Target rules for targets named static_use_4
 
 # Build rule for target.
-static_use_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_2
-.PHONY : static_use_2
+static_use_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_4
+.PHONY : static_use_4
 
 # fast build rule for target.
-static_use_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/build
-.PHONY : static_use_2/fast
+static_use_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/build
+.PHONY : static_use_4/fast
+
+#=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -242,8 +255,8 @@ C++测试/main.cpp.s:
 
 # target to build an object file
 作用域/static_use_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.o
 .PHONY : 作用域/static_use_2.cpp.o
 
 作用域/static_use_2.i: 作用域/static_use_2.cpp.i
@@ -252,8 +265,8 @@ C++测试/main.cpp.s:
 
 # target to preprocess a source file
 作用域/static_use_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.i
 .PHONY : 作用域/static_use_2.cpp.i
 
 作用域/static_use_2.s: 作用域/static_use_2.cpp.s
@@ -262,8 +275,8 @@ C++测试/main.cpp.s:
 
 # target to generate assembly for a file
 作用域/static_use_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.s
 .PHONY : 作用域/static_use_2.cpp.s
 
 作用域/static_use_3.o: 作用域/static_use_3.cpp.o
@@ -296,6 +309,36 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_3.cpp.s
 .PHONY : 作用域/static_use_3.cpp.s
 
+作用域/static_use_4.o: 作用域/static_use_4.cpp.o
+
+.PHONY : 作用域/static_use_4.o
+
+# target to build an object file
+作用域/static_use_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/作用域/static_use_4.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_4.cpp.o
+.PHONY : 作用域/static_use_4.cpp.o
+
+作用域/static_use_4.i: 作用域/static_use_4.cpp.i
+
+.PHONY : 作用域/static_use_4.i
+
+# target to preprocess a source file
+作用域/static_use_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/作用域/static_use_4.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_4.cpp.i
+.PHONY : 作用域/static_use_4.cpp.i
+
+作用域/static_use_4.s: 作用域/static_use_4.cpp.s
+
+.PHONY : 作用域/static_use_4.s
+
+# target to generate assembly for a file
+作用域/static_use_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/作用域/static_use_4.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_4.cpp.s
+.PHONY : 作用域/static_use_4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -308,6 +351,7 @@ help:
 	@echo "... static_use_1"
 	@echo "... static_use_2"
 	@echo "... static_use_3"
+	@echo "... static_use_4"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
@@ -320,6 +364,9 @@ help:
 	@echo "... 作用域/static_use_3.o"
 	@echo "... 作用域/static_use_3.i"
 	@echo "... 作用域/static_use_3.s"
+	@echo "... 作用域/static_use_4.o"
+	@echo "... 作用域/static_use_4.i"
+	@echo "... 作用域/static_use_4.s"
 .PHONY : help
 
 

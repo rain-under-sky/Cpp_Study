@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/C++测试/main.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/作用域/static_use_2.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/作用域/static_use_2.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/作用域/static_use_3.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/作用域/static_use_3.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/作用域/static_use_4.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/作用域/static_use_4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
