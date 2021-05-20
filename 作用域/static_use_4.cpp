@@ -22,6 +22,6 @@ int main(){
     a.print(); //这里输出1
     test b;
     b.print();  //这里输出2*/
-   test::print();
+    test::print();
     return 0;
 }
