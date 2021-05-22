@@ -10,9 +10,9 @@ struct student{    //学生基本信息的结构体
     int ComputerScore;
     struct student *next;
 };
-void checkid(student *pstart);
-void checkname(student *pstart);
-void Tip();
+void Checkid(student *pstart);
+void Checkname(student *pstart);
+void Menu();
 void Out(student *pstart);
 
 int main(){
@@ -26,7 +26,6 @@ int main(){
     head = tail = new (struct student);
     cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
     cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
-
     for(i = 2;i <= StudentCount;i++){
         start = new (struct student);
         cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
@@ -47,7 +46,9 @@ int main(){
     return 0;
 }
 
-void checkid(student *pstart){    //通过学号查询的函数
+
+
+void Checkid(student *pstart){    //通过学号查询的函数
     int CheckID;
     cout<<"请输入您要查询的学号:";
     cin>>CheckID;
@@ -67,7 +68,7 @@ void checkid(student *pstart){    //通过学号查询的函数
     }
 }
 
-void checkname(student *pstart){   //通过姓名查询的函数
+void Checkname(student *pstart){   //通过姓名查询的函数
     string CheckName;
     cout<<"请输入您要查询的姓名:";
     cin>>CheckName;
@@ -87,9 +88,10 @@ void checkname(student *pstart){   //通过姓名查询的函数
     }
 }
 
-void Tip(){   //控制台输出的函数
+void Menu(){   //控制台输出的函数
     cout<<"********************************"<<endl;
-    cout<<"欢迎来到学生成绩管理系统"<<endl;
+    cout<<"******欢迎来到学生成绩管理系统******"<<endl;
+
 
     printf("********************************");
 
@@ -106,6 +108,79 @@ void Out(student *pstart){
 
 }
 
+void ClassNalyse(student *pstart,student *phead,int pCount){  //成绩分析函数
+    double MathAverage,EngAverage,ComAverage;  //各科平均成绩
+    int MathTotal = 0,EngTotal = 0,ComTotal = 0;  //各科成绩总分
+    int MathCount = 0,EngCount = 0,ComCount = 0;   //各科及格人总数
+    double MathRate,EngRate,ComRate;   //各科及格率
+
+    while(pstart != NULL){    //求各科所有人的总分
+        MathTotal += pstart->MathScore;
+        EngTotal += pstart->EnglishScore;
+        ComTotal += pstart->ComputerScore;
+        pstart = pstart->next;
+    }
+    pstart = phead;  //将pstart指针重新指向头指针
+
+    while(pstart != NULL){     //求各科及格人数
+        if(pstart->MathScore >= 60){
+            MathCount++;
+        }
+        else if(pstart->EnglishScore >= 60){
+            EngCount++;
+        }
+        else if(pstart->ComputerScore >= 60){
+            ComCount++;
+        }
+        pstart = pstart->next;
+    }
+    pstart = phead;  //将pstart指针重新指向头指针
+
+    student ;
+
+
+
+
+
+
+
+
+
+    /*求各科平均分*/
+    MathAverage = MathTotal/pCount;
+    EngAverage = EngTotal/pCount;
+    ComAverage = ComTotal/pCount;
+
+    /*求各科及格率*/
+    MathRate = MathCount/pCount;
+    EngRate = EngCount/pCount;
+    ComRate = ComCount/pCount;
+
+    /*这里用于输出各科的成绩分析的*/
+    cout<<"该班数学平均成绩为: "<<MathAverage<<"  "<<"及格率:"<<MathRate<<"  "<<"最高分:"<<"这里填最高分的"<<"最低分:"<<"这里填最低分的"<<endl;
+    cout<<"该班英语平均成绩为: "<<MathAverage<<"  "<<"及格率:"<<MathRate<<"  "<<"最高分:"<<"这里填最高分的"<<"最低分:"<<"这里填最低分的"<<endl;
+    cout<<"该班计算机平均成绩为:"<<MathAverage<<"  "<<"及格率:"<<MathRate<<"  "<<"最高分:"<<"这里填最高分的"<<"最低分:"<<"这里填最低分的"<<endl;
+}
+
+void order(student *pstart,int StudentCount){
+    int i,j,temp; //方法选择控制变量
+    student pp[StudentCount];
+    for(i=0;i<StudentCount;i++){
+        if(pstart != NULL){
+            pp[i] = *pstart;
+        }
+        pstart = pstart->next;
+    }
+    for(i=0;i<10;i++){
+        for(j=i+1;j<10;j++){
+            if(pp[i].ComputerScore > pp[j].ComputerScore){
+                temp = pp[i].ComputerScore;
+                pp[i] = pp[j];
+                pp[j] = temp;
+            }
+        }
+    }
+}
 
 
 
