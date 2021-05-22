@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named StudentScoreMangeSystem
+
+# Build rule for target.
+StudentScoreMangeSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StudentScoreMangeSystem
+.PHONY : StudentScoreMangeSystem
+
+# fast build rule for target.
+StudentScoreMangeSystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/build
+.PHONY : StudentScoreMangeSystem/fast
+
+#=============================================================================
 # Target rules for targets named static_use_3
 
 # Build rule for target.
@@ -221,6 +234,33 @@ C++测试/main.s: C++测试/main.cpp.s
 C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
+
+StudentScoreMangeSystem.o: StudentScoreMangeSystem.cpp.o
+
+.PHONY : StudentScoreMangeSystem.o
+
+# target to build an object file
+StudentScoreMangeSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.o
+.PHONY : StudentScoreMangeSystem.cpp.o
+
+StudentScoreMangeSystem.i: StudentScoreMangeSystem.cpp.i
+
+.PHONY : StudentScoreMangeSystem.i
+
+# target to preprocess a source file
+StudentScoreMangeSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.i
+.PHONY : StudentScoreMangeSystem.cpp.i
+
+StudentScoreMangeSystem.s: StudentScoreMangeSystem.cpp.s
+
+.PHONY : StudentScoreMangeSystem.s
+
+# target to generate assembly for a file
+StudentScoreMangeSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.s
+.PHONY : StudentScoreMangeSystem.cpp.s
 
 作用域/static_use_1.o: 作用域/static_use_1.cpp.o
 
@@ -348,6 +388,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Code"
+	@echo "... StudentScoreMangeSystem"
 	@echo "... static_use_1"
 	@echo "... static_use_2"
 	@echo "... static_use_3"
@@ -355,6 +396,9 @@ help:
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
+	@echo "... StudentScoreMangeSystem.o"
+	@echo "... StudentScoreMangeSystem.i"
+	@echo "... StudentScoreMangeSystem.s"
 	@echo "... 作用域/static_use_1.o"
 	@echo "... 作用域/static_use_1.i"
 	@echo "... 作用域/static_use_1.s"

@@ -11,7 +11,7 @@ struct student{    //学生基本信息的结构体
     int ComputerScore;
     struct student *next;
 };
-/*void InforOut(){   //控制台输出的函数
+/*void IntorOut(){   //控制台输出的函数
     printf("********************************");
     printf("欢迎来到学生成绩管理系统");
     printf("");
@@ -53,12 +53,12 @@ int main(void){
     struct student *head;
     struct student *tail,*start;
     head = tail = new (struct student);
-    cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:";
+    cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
     cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
 
     for(i = 2;i <= StudentCount;i++){
         start = new (struct student);
-        cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，ID，数学成绩，英语成绩，计算机成绩:";
+        cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
         cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
         tail->next = start;
         tail = start;
@@ -67,7 +67,7 @@ int main(void){
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
 
 
-    /*以下代码是学生学号的查询
+    /*//以下代码是学生学号的查询
     cout<<"请输入您要查询的学号:";
     cin>>CheckID;
     cout<<endl;
@@ -85,9 +85,9 @@ int main(void){
         start = start->next;
     }*/
 
-
-    /*以下代码是学生姓名查询*//*
-    cout<<"请输入您要查询的姓名:";
+    //start = head;
+    //以下代码是学生姓名查询
+    /*cout<<"请输入您要查询的姓名:";
     cin>>CheckName;
     cout<<endl;
     while(start != NULL){
@@ -103,6 +103,8 @@ int main(void){
 
         start = start->next;
     }*/
+    //start = head;
+
 
     /*以下代码是对平均成绩的排序*//*
     while(start != NULL){

@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/StudentScoreMangeSystem.dir/all
 all: CMakeFiles/static_use_3.dir/all
 all: CMakeFiles/static_use_2.dir/all
 all: CMakeFiles/static_use_1.dir/all
@@ -96,6 +97,7 @@ preinstall: 作用域/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/StudentScoreMangeSystem.dir/clean
 clean: CMakeFiles/static_use_3.dir/clean
 clean: CMakeFiles/static_use_2.dir/clean
 clean: CMakeFiles/static_use_1.dir/clean
@@ -200,13 +202,40 @@ C语言测试/clean:
 .PHONY : 派生与继承/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/StudentScoreMangeSystem.dir
+
+# All Build rule for target.
+CMakeFiles/StudentScoreMangeSystem.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target StudentScoreMangeSystem"
+.PHONY : CMakeFiles/StudentScoreMangeSystem.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/StudentScoreMangeSystem.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/StudentScoreMangeSystem.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/StudentScoreMangeSystem.dir/rule
+
+# Convenience name for target.
+StudentScoreMangeSystem: CMakeFiles/StudentScoreMangeSystem.dir/rule
+
+.PHONY : StudentScoreMangeSystem
+
+# clean rule for target.
+CMakeFiles/StudentScoreMangeSystem.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/clean
+.PHONY : CMakeFiles/StudentScoreMangeSystem.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/static_use_3.dir
 
 # All Build rule for target.
 CMakeFiles/static_use_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_3.dir/build.make CMakeFiles/static_use_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_3.dir/build.make CMakeFiles/static_use_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target static_use_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target static_use_3"
 .PHONY : CMakeFiles/static_use_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -233,7 +262,7 @@ CMakeFiles/static_use_3.dir/clean:
 CMakeFiles/static_use_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target static_use_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target static_use_2"
 .PHONY : CMakeFiles/static_use_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +289,7 @@ CMakeFiles/static_use_2.dir/clean:
 CMakeFiles/static_use_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_1.dir/build.make CMakeFiles/static_use_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_1.dir/build.make CMakeFiles/static_use_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target static_use_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target static_use_1"
 .PHONY : CMakeFiles/static_use_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -287,7 +316,7 @@ CMakeFiles/static_use_1.dir/clean:
 CMakeFiles/static_use_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target static_use_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target static_use_4"
 .PHONY : CMakeFiles/static_use_4.dir/all
 
 # Build rule for subdir invocation for target.
