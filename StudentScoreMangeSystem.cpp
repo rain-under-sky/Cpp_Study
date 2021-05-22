@@ -12,7 +12,7 @@ struct student{    //学生基本信息的结构体
 };
 void checkid(student *pstart);
 void checkname(student *pstart);
-void Int();
+void Tip();
 void Out(student *pstart);
 
 int main(){
@@ -38,7 +38,7 @@ int main(){
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
     /*成绩输入结束*/
 
-    Out(start);
+
 
 
 
@@ -87,7 +87,7 @@ void checkname(student *pstart){   //通过姓名查询的函数
     }
 }
 
-void IntorOut(){   //控制台输出的函数
+void Tip(){   //控制台输出的函数
     cout<<"********************************"<<endl;
     cout<<"欢迎来到学生成绩管理系统"<<endl;
 
