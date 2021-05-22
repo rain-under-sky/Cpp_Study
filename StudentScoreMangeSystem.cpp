@@ -12,7 +12,8 @@ struct student{    //学生基本信息的结构体
 };
 void checkid(student *pstart);
 void checkname(student *pstart);
-void IntorOut();
+void Int();
+void Out(student *pstart);
 
 int main(){
     int StudentCount; //学生人数
@@ -37,7 +38,7 @@ int main(){
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
     /*成绩输入结束*/
 
-
+    Out(start);
 
 
 
@@ -94,6 +95,16 @@ void IntorOut(){   //控制台输出的函数
 
 }
 
+void Out(student *pstart){
+    cout<<"所有学生信息如下"<<endl;
+    cout<<"姓名 "<<"学号 "<<"班级 "<<"数学成绩 "<<"英语成绩 "<<"计算机成绩"<<endl;
+    while(pstart != NULL){
+        cout<<pstart->name<<"  "<<pstart->ID<<"  "<<pstart->classs<<"   "<<pstart->MathScore<<"     "<<pstart->EnglishScore<<"       "<<pstart->ComputerScore<<endl;
+        pstart = pstart->next;
+    }
+
+
+}
 
 
 
