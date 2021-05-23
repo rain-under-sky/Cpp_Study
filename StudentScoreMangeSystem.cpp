@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include<algorithm>
 using namespace std;
 struct student{    //学生基本信息的结构体
     string name;
@@ -162,26 +163,28 @@ void ClassNalyse(student *pstart,student *phead,int pCount){  //成绩分析函�
     cout<<"该班计算机平均成绩为:"<<MathAverage<<"  "<<"及格率:"<<MathRate<<"  "<<"最高分:"<<"这里填最高分的"<<"最低分:"<<"这里填最低分的"<<endl;
 }
 
-void order(student *pstart,int StudentCount){
-    int i,j,temp; //方法选择控制变量
-    student pp[StudentCount];
-    for(i=0;i<StudentCount;i++){
-        if(pstart != NULL){
-            pp[i] = *pstart;
-        }
+void order(student *pstart,int StudentCount) {
+    student *temp[StudentCount];   //用来装形参pstart中各个节点的值
+    student *change;     //用于交换算法的时候交换
+    int i,j;
+    for(i=0;i<StudentCount;i++){  //将每个节点的值装进结构体数组指针中
+        *temp[i] = *pstart;
         pstart = pstart->next;
     }
-    for(i=0;i<10;i++){
-        for(j=i+1;j<10;j++){
-            if(pp[i].ComputerScore > pp[j].ComputerScore){
-                temp = pp[i].ComputerScore;
-                pp[i] = pp[j];
-                pp[j] = temp;
+    /*这里等下写个if判断用于判断用平均成绩或者计算机成绩排序*/
+    for(i=0;i<StudentCount;i++){  //按计算机成绩排序
+        for(j=i+1;j<StudentCount;j++){
+            if(temp[i]->ComputerScore > temp[j]->ComputerScore){
+                change = temp[i];
+                temp[i] = temp[j];
+                temp[j] = change;
             }
         }
     }
-}
 
+
+
+}
 
 
 
