@@ -157,6 +157,19 @@ static_use_3/fast:
 .PHONY : static_use_3/fast
 
 #=============================================================================
+# Target rules for targets named StudentAddressBook
+
+# Build rule for target.
+StudentAddressBook: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StudentAddressBook
+.PHONY : StudentAddressBook
+
+# fast build rule for target.
+StudentAddressBook/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/build
+.PHONY : StudentAddressBook/fast
+
+#=============================================================================
 # Target rules for targets named static_use_2
 
 # Build rule for target.
@@ -234,6 +247,39 @@ C++测试/main.s: C++测试/main.cpp.s
 C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
+
+StudentAddressBook.o: StudentAddressBook.cpp.o
+
+.PHONY : StudentAddressBook.o
+
+# target to build an object file
+StudentAddressBook.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentAddressBook.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/StudentAddressBook.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentAddressBook.cpp.o
+.PHONY : StudentAddressBook.cpp.o
+
+StudentAddressBook.i: StudentAddressBook.cpp.i
+
+.PHONY : StudentAddressBook.i
+
+# target to preprocess a source file
+StudentAddressBook.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentAddressBook.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/StudentAddressBook.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentAddressBook.cpp.i
+.PHONY : StudentAddressBook.cpp.i
+
+StudentAddressBook.s: StudentAddressBook.cpp.s
+
+.PHONY : StudentAddressBook.s
+
+# target to generate assembly for a file
+StudentAddressBook.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentAddressBook.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/StudentAddressBook.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentAddressBook.cpp.s
+.PHONY : StudentAddressBook.cpp.s
 
 StudentScoreMangeSystem.o: StudentScoreMangeSystem.cpp.o
 
@@ -388,6 +434,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Code"
+	@echo "... StudentAddressBook"
 	@echo "... StudentScoreMangeSystem"
 	@echo "... static_use_1"
 	@echo "... static_use_2"
@@ -396,6 +443,9 @@ help:
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
+	@echo "... StudentAddressBook.o"
+	@echo "... StudentAddressBook.i"
+	@echo "... StudentAddressBook.s"
 	@echo "... StudentScoreMangeSystem.o"
 	@echo "... StudentScoreMangeSystem.i"
 	@echo "... StudentScoreMangeSystem.s"

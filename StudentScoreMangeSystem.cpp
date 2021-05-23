@@ -15,29 +15,11 @@ void Checkid(student *pstart);
 void Checkname(student *pstart);
 void Menu();
 void Out(student *pstart);
-void order(student *pstart,int StudentCount);
 
 int main(){
     int StudentCount; //学生人数
-    int i = 1;  //链表控制变量
-    /*以下代码是成绩的输入*/
-    cout<<"请输入您的学生个数:";
-    cin>>StudentCount;
-    struct student *head;  //定义链表头指针
-    struct student *tail,*start;  //定义循环节点
-    head = tail = new (struct student);
-    cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
-    cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
-    for(i = 2;i <= StudentCount;i++){
-        start = new (struct student);
-        cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
-        cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
-        tail->next = start;
-        tail = start;
-    }
-    tail->next = NULL;
-    start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
-    /*成绩输入结束*/
+
+
 
 
 
@@ -165,25 +147,25 @@ void ClassNalyse(student *pstart,student *phead,int pCount){  //成绩分析函�
     cout<<"该班计算机平均成绩为:"<<MathAverage<<"  "<<"及格率:"<<MathRate<<"  "<<"最高分:"<<"这里填最高分的"<<"最低分:"<<"这里填最低分的"<<endl;
 }
 
-void order(student *pstart,int StudentCount) {
-    student *temp[StudentCount];   //用来装形参pstart中各个节点的值
-    student *change;     //用于交换算法的时候交换
-    int i,j;
-    for(i=0;i<StudentCount;i++){  //将每个节点的值装进结构体数组指针中
-        *temp[i] = *pstart;
-        pstart = pstart->next;
+student* add(){
+    int i = 1;  //链表控制变量
+    /*以下代码是成绩的输入*/
+    cout<<"请输入您的学生个数:";
+    cin>>StudentCount;
+    struct student *head;  //定义链表头指针
+    struct student *tail,*start;  //定义循环节点
+    head = tail = new (struct student);
+    cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
+    cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
+    for(i = 2;i <= StudentCount;i++){
+        start = new (struct student);
+        cout<<"请依次输入第"<<i<<"个学生的姓名，学号，班级，数学成绩，英语成绩，计算机成绩:";
+        cin>>tail->name>>tail->ID>>tail->classs>>tail->MathScore>>tail->EnglishScore>>tail->ComputerScore;
+        tail->next = start;
+        tail = start;
     }
-    /*这里等下写个if判断用于判断用平均成绩或者计算机成绩排序*/
-    for(i=0;i<StudentCount;i++){  //按计算机成绩排序
-        for(j=i+1;j<StudentCount;j++){
-            if(temp[i]->ComputerScore > temp[j]->ComputerScore){
-
-            }
-        }
-    }
-
-
-
+    tail->next = NULL;
+    start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
 }
 
 

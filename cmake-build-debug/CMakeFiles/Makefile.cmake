@@ -64,6 +64,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/StudentScoreMangeSystem.dir/DependInfo.cmake"
   "CMakeFiles/static_use_3.dir/DependInfo.cmake"
+  "CMakeFiles/StudentAddressBook.dir/DependInfo.cmake"
   "CMakeFiles/static_use_2.dir/DependInfo.cmake"
   "CMakeFiles/static_use_1.dir/DependInfo.cmake"
   "CMakeFiles/static_use_4.dir/DependInfo.cmake"

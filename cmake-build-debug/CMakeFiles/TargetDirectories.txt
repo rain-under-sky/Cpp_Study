@@ -1,6 +1,7 @@
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/StudentScoreMangeSystem.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/static_use_3.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/StudentAddressBook.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/static_use_2.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/static_use_1.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/static_use_4.dir

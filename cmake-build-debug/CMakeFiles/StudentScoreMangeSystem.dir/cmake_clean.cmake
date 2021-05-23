@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/StudentScoreMangeSystem.dir/StudentAddressBook.cpp.o"
   "CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.o"
   "StudentScoreMangeSystem"
   "StudentScoreMangeSystem.pdb"
