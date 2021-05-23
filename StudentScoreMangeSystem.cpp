@@ -39,7 +39,7 @@ int main(){
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
     /*成绩输入结束*/
 
-    order(start,StudentCount);
+
 
 
 
@@ -177,9 +177,7 @@ void order(student *pstart,int StudentCount) {
     for(i=0;i<StudentCount;i++){  //按计算机成绩排序
         for(j=i+1;j<StudentCount;j++){
             if(temp[i]->ComputerScore > temp[j]->ComputerScore){
-                change = temp[i];
-                temp[i] = temp[j];
-                temp[j] = change;
+
             }
         }
     }
