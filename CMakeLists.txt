@@ -21,3 +21,4 @@ add_executable(static_use_4 作用域/static_use_4.cpp)
 add_executable(StudentScoreMangeSystem StudentScoreMangeSystem.cpp StudentAddressBook.cpp)
 
 add_executable(StudentAddressBook StudentAddressBook.cpp)
+add_executable(test C语言测试/test.c)

@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
 # Target rules for targets named StudentScoreMangeSystem
 
 # Build rule for target.
@@ -247,6 +260,33 @@ C++测试/main.s: C++测试/main.cpp.s
 C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
+
+C语言测试/test.o: C语言测试/test.c.o
+
+.PHONY : C语言测试/test.o
+
+# target to build an object file
+C语言测试/test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.o
+.PHONY : C语言测试/test.c.o
+
+C语言测试/test.i: C语言测试/test.c.i
+
+.PHONY : C语言测试/test.i
+
+# target to preprocess a source file
+C语言测试/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.i
+.PHONY : C语言测试/test.c.i
+
+C语言测试/test.s: C语言测试/test.c.s
+
+.PHONY : C语言测试/test.s
+
+# target to generate assembly for a file
+C语言测试/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.s
+.PHONY : C语言测试/test.c.s
 
 StudentAddressBook.o: StudentAddressBook.cpp.o
 
@@ -440,9 +480,13 @@ help:
 	@echo "... static_use_2"
 	@echo "... static_use_3"
 	@echo "... static_use_4"
+	@echo "... test"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
+	@echo "... C语言测试/test.o"
+	@echo "... C语言测试/test.i"
+	@echo "... C语言测试/test.s"
 	@echo "... StudentAddressBook.o"
 	@echo "... StudentAddressBook.i"
 	@echo "... StudentAddressBook.s"
