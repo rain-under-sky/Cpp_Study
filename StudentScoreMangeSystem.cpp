@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include<algorithm>
+
 using namespace std;
 struct student{    //学生基本信息的结构体
     string name;
@@ -15,6 +15,7 @@ void Checkid(student *pstart);
 void Checkname(student *pstart);
 void Menu();
 void Out(student *pstart);
+void order(student *pstart,int StudentCount);
 
 int main(){
     int StudentCount; //学生人数
@@ -38,6 +39,7 @@ int main(){
     start = head; //将start指针指到head指针上，等下用start指针进行循环遍历
     /*成绩输入结束*/
 
+    order(start,StudentCount);
 
 
 
