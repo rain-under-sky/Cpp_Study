@@ -8,7 +8,7 @@ ADD_SUBDIRECTORY(C语言测试)
 ADD_SUBDIRECTORY(函数)
 ADD_SUBDIRECTORY(作用域)
 
-add_executable(Code C++测试/main.cpp 作用域/static_use_2.cpp 作用域/static_use_3.cpp 作用域/static_use_4.cpp StudentAddressBook.cpp)
+add_executable(Code C++测试/main.cpp 作用域/static_use_2.cpp 作用域/static_use_3.cpp 作用域/static_use_4.cpp StudentAddressBook.cpp 作用域/static_use_5.cpp 作用域/static_use_6.cpp)
 
 
 
@@ -22,3 +22,5 @@ add_executable(StudentScoreMangeSystem StudentScoreMangeSystem.cpp StudentAddres
 
 add_executable(StudentAddressBook StudentAddressBook.cpp)
 add_executable(test C语言测试/test.c)
+add_executable(static_use_5 作用域/static_use_5.cpp)
+add_executable(static_use_6 作用域/static_use_6.cpp)

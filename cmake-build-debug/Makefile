@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named static_use_6
+
+# Build rule for target.
+static_use_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_6
+.PHONY : static_use_6
+
+# fast build rule for target.
+static_use_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/build
+.PHONY : static_use_6/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -155,6 +168,19 @@ StudentScoreMangeSystem: cmake_check_build_system
 StudentScoreMangeSystem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/build
 .PHONY : StudentScoreMangeSystem/fast
+
+#=============================================================================
+# Target rules for targets named static_use_5
+
+# Build rule for target.
+static_use_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_5
+.PHONY : static_use_5
+
+# fast build rule for target.
+static_use_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/build
+.PHONY : static_use_5/fast
 
 #=============================================================================
 # Target rules for targets named static_use_3
@@ -465,6 +491,66 @@ StudentScoreMangeSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_4.cpp.s
 .PHONY : 作用域/static_use_4.cpp.s
 
+作用域/static_use_5.o: 作用域/static_use_5.cpp.o
+
+.PHONY : 作用域/static_use_5.o
+
+# target to build an object file
+作用域/static_use_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/作用域/static_use_5.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_5.cpp.o
+.PHONY : 作用域/static_use_5.cpp.o
+
+作用域/static_use_5.i: 作用域/static_use_5.cpp.i
+
+.PHONY : 作用域/static_use_5.i
+
+# target to preprocess a source file
+作用域/static_use_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/作用域/static_use_5.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_5.cpp.i
+.PHONY : 作用域/static_use_5.cpp.i
+
+作用域/static_use_5.s: 作用域/static_use_5.cpp.s
+
+.PHONY : 作用域/static_use_5.s
+
+# target to generate assembly for a file
+作用域/static_use_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/作用域/static_use_5.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_5.cpp.s
+.PHONY : 作用域/static_use_5.cpp.s
+
+作用域/static_use_6.o: 作用域/static_use_6.cpp.o
+
+.PHONY : 作用域/static_use_6.o
+
+# target to build an object file
+作用域/static_use_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/作用域/static_use_6.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_6.cpp.o
+.PHONY : 作用域/static_use_6.cpp.o
+
+作用域/static_use_6.i: 作用域/static_use_6.cpp.i
+
+.PHONY : 作用域/static_use_6.i
+
+# target to preprocess a source file
+作用域/static_use_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/作用域/static_use_6.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_6.cpp.i
+.PHONY : 作用域/static_use_6.cpp.i
+
+作用域/static_use_6.s: 作用域/static_use_6.cpp.s
+
+.PHONY : 作用域/static_use_6.s
+
+# target to generate assembly for a file
+作用域/static_use_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/作用域/static_use_6.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_6.cpp.s
+.PHONY : 作用域/static_use_6.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -480,6 +566,8 @@ help:
 	@echo "... static_use_2"
 	@echo "... static_use_3"
 	@echo "... static_use_4"
+	@echo "... static_use_5"
+	@echo "... static_use_6"
 	@echo "... test"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
@@ -505,6 +593,12 @@ help:
 	@echo "... 作用域/static_use_4.o"
 	@echo "... 作用域/static_use_4.i"
 	@echo "... 作用域/static_use_4.s"
+	@echo "... 作用域/static_use_5.o"
+	@echo "... 作用域/static_use_5.i"
+	@echo "... 作用域/static_use_5.s"
+	@echo "... 作用域/static_use_6.o"
+	@echo "... 作用域/static_use_6.i"
+	@echo "... 作用域/static_use_6.s"
 .PHONY : help
 
 
