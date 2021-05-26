@@ -40,6 +40,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.5/CMakeSystem.cmake"
   "../作用域/CMakeLists.txt"
   "../函数/CMakeLists.txt"
+  "../多态/CMakeLists.txt"
   "../实验题/CMakeLists.txt"
   "../派生与继承/CMakeLists.txt"
   )
@@ -58,6 +59,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "C语言测试/CMakeFiles/CMakeDirectoryInformation.cmake"
   "函数/CMakeFiles/CMakeDirectoryInformation.cmake"
   "作用域/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "多态/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -67,6 +69,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/StudentScoreMangeSystem.dir/DependInfo.cmake"
   "CMakeFiles/static_use_5.dir/DependInfo.cmake"
   "CMakeFiles/static_use_3.dir/DependInfo.cmake"
+  "CMakeFiles/moreuse_1.dir/DependInfo.cmake"
   "CMakeFiles/StudentAddressBook.dir/DependInfo.cmake"
   "CMakeFiles/static_use_2.dir/DependInfo.cmake"
   "CMakeFiles/static_use_1.dir/DependInfo.cmake"

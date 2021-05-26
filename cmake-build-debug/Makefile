@@ -196,6 +196,19 @@ static_use_3/fast:
 .PHONY : static_use_3/fast
 
 #=============================================================================
+# Target rules for targets named moreuse_1
+
+# Build rule for target.
+moreuse_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moreuse_1
+.PHONY : moreuse_1
+
+# fast build rule for target.
+moreuse_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/build
+.PHONY : moreuse_1/fast
+
+#=============================================================================
 # Target rules for targets named StudentAddressBook
 
 # Build rule for target.
@@ -551,6 +564,36 @@ StudentScoreMangeSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_6.cpp.s
 .PHONY : 作用域/static_use_6.cpp.s
 
+多态/moreuse_1.o: 多态/moreuse_1.cpp.o
+
+.PHONY : 多态/moreuse_1.o
+
+# target to build an object file
+多态/moreuse_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/多态/moreuse_1.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/moreuse_1.cpp.o
+.PHONY : 多态/moreuse_1.cpp.o
+
+多态/moreuse_1.i: 多态/moreuse_1.cpp.i
+
+.PHONY : 多态/moreuse_1.i
+
+# target to preprocess a source file
+多态/moreuse_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/多态/moreuse_1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/moreuse_1.cpp.i
+.PHONY : 多态/moreuse_1.cpp.i
+
+多态/moreuse_1.s: 多态/moreuse_1.cpp.s
+
+.PHONY : 多态/moreuse_1.s
+
+# target to generate assembly for a file
+多态/moreuse_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/多态/moreuse_1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/moreuse_1.cpp.s
+.PHONY : 多态/moreuse_1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -562,6 +605,7 @@ help:
 	@echo "... Code"
 	@echo "... StudentAddressBook"
 	@echo "... StudentScoreMangeSystem"
+	@echo "... moreuse_1"
 	@echo "... static_use_1"
 	@echo "... static_use_2"
 	@echo "... static_use_3"
@@ -599,6 +643,9 @@ help:
 	@echo "... 作用域/static_use_6.o"
 	@echo "... 作用域/static_use_6.i"
 	@echo "... 作用域/static_use_6.s"
+	@echo "... 多态/moreuse_1.o"
+	@echo "... 多态/moreuse_1.i"
+	@echo "... 多态/moreuse_1.s"
 .PHONY : help
 
 

@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/作用域/static_use_4.cpp.o"
   "CMakeFiles/Code.dir/作用域/static_use_5.cpp.o"
   "CMakeFiles/Code.dir/作用域/static_use_6.cpp.o"
+  "CMakeFiles/Code.dir/多态/moreuse_1.cpp.o"
   "Code"
   "Code.pdb"
 )
