@@ -155,23 +155,23 @@ void check(student *phead){
     cin>>methodID;
     switch (methodID) {
         case 1:
+            cout<<"请输入该生学号：";
             while(phead != NULL){
-                cout<<"请输入该生学号：";
                 cin>>CheckID;
                 if(CheckID == phead->ID){
                     cout<<"该学生信息如下"<<endl;
-                    cout<<"姓名"<<phead->name<<endl;
-                    cout<<"学号"<<phead->ID<<endl;
-                    cout<<"班级"<<phead->classes<<endl;
-                    cout<<"电话号码"<<phead->PhoneNum<<endl;
-                    cout<<"寝室地址"<<phead->HomeAddress<<endl;
+                    cout<<"姓名："<<phead->name<<endl;
+                    cout<<"学号："<<phead->ID<<endl;
+                    cout<<"班级："<<phead->classes<<endl;
+                    cout<<"电话号码："<<phead->PhoneNum<<endl;
+                    cout<<"寝室地址："<<phead->HomeAddress<<endl;
                 }
                 phead = phead->next;
             }
             break;
         case 2:
+            cout<<"请输入该生班级：";
             while(phead != NULL){
-                cout<<"请输入该生班级：";
                 cin>>CheckClasses;
                 if(CheckClasses == phead->classes){
                     cout<<"该学生信息如下"<<endl;
