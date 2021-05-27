@@ -22,7 +22,7 @@ add_executable(static_use_4 作用域/static_use_4.cpp)
 add_executable(StudentScoreMangeSystem StudentScoreMangeSystem.cpp StudentAddressBook.cpp)
 
 add_executable(StudentAddressBook StudentAddressBook.cpp)
-add_executable(test C语言测试/test.c)
+add_executable(test test.cpp)
 add_executable(static_use_5 作用域/static_use_5.cpp)
 add_executable(static_use_6 作用域/static_use_6.cpp)
 add_executable(moreuse_1 多态/moreuse_1.cpp)

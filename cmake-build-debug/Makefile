@@ -300,33 +300,6 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
 
-C语言测试/test.o: C语言测试/test.c.o
-
-.PHONY : C语言测试/test.o
-
-# target to build an object file
-C语言测试/test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.o
-.PHONY : C语言测试/test.c.o
-
-C语言测试/test.i: C语言测试/test.c.i
-
-.PHONY : C语言测试/test.i
-
-# target to preprocess a source file
-C语言测试/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.i
-.PHONY : C语言测试/test.c.i
-
-C语言测试/test.s: C语言测试/test.c.s
-
-.PHONY : C语言测试/test.s
-
-# target to generate assembly for a file
-C语言测试/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.s
-.PHONY : C语言测试/test.c.s
-
 StudentAddressBook.o: StudentAddressBook.cpp.o
 
 .PHONY : StudentAddressBook.o
@@ -386,6 +359,33 @@ StudentScoreMangeSystem.s: StudentScoreMangeSystem.cpp.s
 StudentScoreMangeSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.s
 .PHONY : StudentScoreMangeSystem.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 作用域/static_use_1.o: 作用域/static_use_1.cpp.o
 
@@ -616,15 +616,15 @@ help:
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
-	@echo "... C语言测试/test.o"
-	@echo "... C语言测试/test.i"
-	@echo "... C语言测试/test.s"
 	@echo "... StudentAddressBook.o"
 	@echo "... StudentAddressBook.i"
 	@echo "... StudentAddressBook.s"
 	@echo "... StudentScoreMangeSystem.o"
 	@echo "... StudentScoreMangeSystem.i"
 	@echo "... StudentScoreMangeSystem.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 	@echo "... 作用域/static_use_1.o"
 	@echo "... 作用域/static_use_1.i"
 	@echo "... 作用域/static_use_1.s"

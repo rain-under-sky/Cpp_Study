@@ -503,9 +503,6 @@
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp">
 			<Option target="Code"/>
 		</Unit>
-		<Unit filename="/Users/aomsir/MyStudy/C++/Code/C语言测试/test.c">
-			<Option target="test"/>
-		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/StudentAddressBook.cpp">
 			<Option target="StudentScoreMangeSystem"/>
 			<Option target="StudentAddressBook"/>
@@ -513,6 +510,9 @@
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/StudentScoreMangeSystem.cpp">
 			<Option target="StudentScoreMangeSystem"/>
+		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/test.cpp">
+			<Option target="test"/>
 		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/作用域/static_use_1.cpp">
 			<Option target="static_use_1"/>
