@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/more_use_3.dir/all
 all: CMakeFiles/moreuse_2.dir/all
 all: CMakeFiles/StudentScoreMangeSystem.dir/all
 all: CMakeFiles/StudentAddressBook.dir/all
@@ -98,6 +99,7 @@ preinstall: 多态/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/more_use_3.dir/clean
 clean: CMakeFiles/moreuse_2.dir/clean
 clean: CMakeFiles/StudentScoreMangeSystem.dir/clean
 clean: CMakeFiles/StudentAddressBook.dir/clean
@@ -221,13 +223,40 @@ C语言测试/clean:
 .PHONY : 派生与继承/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/more_use_3.dir
+
+# All Build rule for target.
+CMakeFiles/more_use_3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target more_use_3"
+.PHONY : CMakeFiles/more_use_3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/more_use_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_use_3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/more_use_3.dir/rule
+
+# Convenience name for target.
+more_use_3: CMakeFiles/more_use_3.dir/rule
+
+.PHONY : more_use_3
+
+# clean rule for target.
+CMakeFiles/more_use_3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/clean
+.PHONY : CMakeFiles/more_use_3.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/moreuse_2.dir
 
 # All Build rule for target.
 CMakeFiles/moreuse_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target moreuse_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target moreuse_2"
 .PHONY : CMakeFiles/moreuse_2.dir/all
 
 # Build rule for subdir invocation for target.

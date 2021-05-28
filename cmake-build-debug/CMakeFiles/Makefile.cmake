@@ -64,6 +64,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/more_use_3.dir/DependInfo.cmake"
   "CMakeFiles/moreuse_2.dir/DependInfo.cmake"
   "CMakeFiles/StudentScoreMangeSystem.dir/DependInfo.cmake"
   "CMakeFiles/StudentAddressBook.dir/DependInfo.cmake"

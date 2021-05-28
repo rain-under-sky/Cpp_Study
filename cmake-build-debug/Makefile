@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named more_use_3
+
+# Build rule for target.
+more_use_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 more_use_3
+.PHONY : more_use_3
+
+# fast build rule for target.
+more_use_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/build
+.PHONY : more_use_3/fast
+
+#=============================================================================
 # Target rules for targets named moreuse_2
 
 # Build rule for target.
@@ -282,6 +295,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to build an object file
 多态/more_use_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.o
 .PHONY : 多态/more_use_3.cpp.o
 
@@ -291,6 +305,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to preprocess a source file
 多态/more_use_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.i
 .PHONY : 多态/more_use_3.cpp.i
 
@@ -300,6 +315,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to generate assembly for a file
 多态/more_use_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.s
 .PHONY : 多态/more_use_3.cpp.s
 
@@ -369,6 +385,7 @@ help:
 	@echo "... StudentAddressBook"
 	@echo "... StudentScoreMangeSystem"
 	@echo "... derive_more_1"
+	@echo "... more_use_3"
 	@echo "... moreuse_2"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
