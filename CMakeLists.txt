@@ -9,7 +9,7 @@ ADD_SUBDIRECTORY(函数)
 ADD_SUBDIRECTORY(作用域)
 ADD_SUBDIRECTORY(多态)
 
-add_executable(Code C++测试/main.cpp)
+add_executable(Code C++测试/main.cpp 多态/more_use_4.cpp)
 
 
 
