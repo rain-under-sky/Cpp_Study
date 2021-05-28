@@ -131,30 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named static_use_6
+# Target rules for targets named moreuse_2
 
 # Build rule for target.
-static_use_6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_6
-.PHONY : static_use_6
+moreuse_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moreuse_2
+.PHONY : moreuse_2
 
 # fast build rule for target.
-static_use_6/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/build
-.PHONY : static_use_6/fast
-
-#=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
+moreuse_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/build
+.PHONY : moreuse_2/fast
 
 #=============================================================================
 # Target rules for targets named StudentScoreMangeSystem
@@ -170,45 +157,6 @@ StudentScoreMangeSystem/fast:
 .PHONY : StudentScoreMangeSystem/fast
 
 #=============================================================================
-# Target rules for targets named static_use_5
-
-# Build rule for target.
-static_use_5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_5
-.PHONY : static_use_5
-
-# fast build rule for target.
-static_use_5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/build
-.PHONY : static_use_5/fast
-
-#=============================================================================
-# Target rules for targets named static_use_3
-
-# Build rule for target.
-static_use_3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_3
-.PHONY : static_use_3
-
-# fast build rule for target.
-static_use_3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_3.dir/build.make CMakeFiles/static_use_3.dir/build
-.PHONY : static_use_3/fast
-
-#=============================================================================
-# Target rules for targets named moreuse_1
-
-# Build rule for target.
-moreuse_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moreuse_1
-.PHONY : moreuse_1
-
-# fast build rule for target.
-moreuse_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/build
-.PHONY : moreuse_1/fast
-
-#=============================================================================
 # Target rules for targets named StudentAddressBook
 
 # Build rule for target.
@@ -222,43 +170,17 @@ StudentAddressBook/fast:
 .PHONY : StudentAddressBook/fast
 
 #=============================================================================
-# Target rules for targets named static_use_2
+# Target rules for targets named derive_more_1
 
 # Build rule for target.
-static_use_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_2
-.PHONY : static_use_2
+derive_more_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 derive_more_1
+.PHONY : derive_more_1
 
 # fast build rule for target.
-static_use_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/build
-.PHONY : static_use_2/fast
-
-#=============================================================================
-# Target rules for targets named static_use_1
-
-# Build rule for target.
-static_use_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_1
-.PHONY : static_use_1
-
-# fast build rule for target.
-static_use_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_1.dir/build.make CMakeFiles/static_use_1.dir/build
-.PHONY : static_use_1/fast
-
-#=============================================================================
-# Target rules for targets named static_use_4
-
-# Build rule for target.
-static_use_4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 static_use_4
-.PHONY : static_use_4
-
-# fast build rule for target.
-static_use_4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/build
-.PHONY : static_use_4/fast
+derive_more_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/build
+.PHONY : derive_more_1/fast
 
 #=============================================================================
 # Target rules for targets named Code
@@ -306,9 +228,7 @@ StudentAddressBook.o: StudentAddressBook.cpp.o
 
 # target to build an object file
 StudentAddressBook.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentAddressBook.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/StudentAddressBook.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentAddressBook.cpp.o
 .PHONY : StudentAddressBook.cpp.o
 
 StudentAddressBook.i: StudentAddressBook.cpp.i
@@ -317,9 +237,7 @@ StudentAddressBook.i: StudentAddressBook.cpp.i
 
 # target to preprocess a source file
 StudentAddressBook.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentAddressBook.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/StudentAddressBook.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentAddressBook.cpp.i
 .PHONY : StudentAddressBook.cpp.i
 
 StudentAddressBook.s: StudentAddressBook.cpp.s
@@ -328,9 +246,7 @@ StudentAddressBook.s: StudentAddressBook.cpp.s
 
 # target to generate assembly for a file
 StudentAddressBook.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentAddressBook.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/StudentAddressBook.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/StudentAddressBook.cpp.s
 .PHONY : StudentAddressBook.cpp.s
 
 StudentScoreMangeSystem.o: StudentScoreMangeSystem.cpp.o
@@ -360,239 +276,59 @@ StudentScoreMangeSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.s
 .PHONY : StudentScoreMangeSystem.cpp.s
 
-test.o: test.cpp.o
+多态/moreuse_2.o: 多态/moreuse_2.cpp.o
 
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
-
-作用域/static_use_1.o: 作用域/static_use_1.cpp.o
-
-.PHONY : 作用域/static_use_1.o
+.PHONY : 多态/moreuse_2.o
 
 # target to build an object file
-作用域/static_use_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_1.dir/build.make CMakeFiles/static_use_1.dir/作用域/static_use_1.cpp.o
-.PHONY : 作用域/static_use_1.cpp.o
+多态/moreuse_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/moreuse_2.cpp.o
+.PHONY : 多态/moreuse_2.cpp.o
 
-作用域/static_use_1.i: 作用域/static_use_1.cpp.i
+多态/moreuse_2.i: 多态/moreuse_2.cpp.i
 
-.PHONY : 作用域/static_use_1.i
+.PHONY : 多态/moreuse_2.i
 
 # target to preprocess a source file
-作用域/static_use_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_1.dir/build.make CMakeFiles/static_use_1.dir/作用域/static_use_1.cpp.i
-.PHONY : 作用域/static_use_1.cpp.i
+多态/moreuse_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/moreuse_2.cpp.i
+.PHONY : 多态/moreuse_2.cpp.i
 
-作用域/static_use_1.s: 作用域/static_use_1.cpp.s
+多态/moreuse_2.s: 多态/moreuse_2.cpp.s
 
-.PHONY : 作用域/static_use_1.s
+.PHONY : 多态/moreuse_2.s
 
 # target to generate assembly for a file
-作用域/static_use_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_1.dir/build.make CMakeFiles/static_use_1.dir/作用域/static_use_1.cpp.s
-.PHONY : 作用域/static_use_1.cpp.s
+多态/moreuse_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/moreuse_2.cpp.s
+.PHONY : 多态/moreuse_2.cpp.s
 
-作用域/static_use_2.o: 作用域/static_use_2.cpp.o
+派生与继承/derive_more_1.o: 派生与继承/derive_more_1.cpp.o
 
-.PHONY : 作用域/static_use_2.o
+.PHONY : 派生与继承/derive_more_1.o
 
 # target to build an object file
-作用域/static_use_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.o
-.PHONY : 作用域/static_use_2.cpp.o
+派生与继承/derive_more_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.o
+.PHONY : 派生与继承/derive_more_1.cpp.o
 
-作用域/static_use_2.i: 作用域/static_use_2.cpp.i
+派生与继承/derive_more_1.i: 派生与继承/derive_more_1.cpp.i
 
-.PHONY : 作用域/static_use_2.i
-
-# target to preprocess a source file
-作用域/static_use_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.i
-.PHONY : 作用域/static_use_2.cpp.i
-
-作用域/static_use_2.s: 作用域/static_use_2.cpp.s
-
-.PHONY : 作用域/static_use_2.s
-
-# target to generate assembly for a file
-作用域/static_use_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_2.dir/build.make CMakeFiles/static_use_2.dir/作用域/static_use_2.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_2.cpp.s
-.PHONY : 作用域/static_use_2.cpp.s
-
-作用域/static_use_3.o: 作用域/static_use_3.cpp.o
-
-.PHONY : 作用域/static_use_3.o
-
-# target to build an object file
-作用域/static_use_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_3.dir/build.make CMakeFiles/static_use_3.dir/作用域/static_use_3.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_3.cpp.o
-.PHONY : 作用域/static_use_3.cpp.o
-
-作用域/static_use_3.i: 作用域/static_use_3.cpp.i
-
-.PHONY : 作用域/static_use_3.i
+.PHONY : 派生与继承/derive_more_1.i
 
 # target to preprocess a source file
-作用域/static_use_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_3.dir/build.make CMakeFiles/static_use_3.dir/作用域/static_use_3.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_3.cpp.i
-.PHONY : 作用域/static_use_3.cpp.i
+派生与继承/derive_more_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.i
+.PHONY : 派生与继承/derive_more_1.cpp.i
 
-作用域/static_use_3.s: 作用域/static_use_3.cpp.s
+派生与继承/derive_more_1.s: 派生与继承/derive_more_1.cpp.s
 
-.PHONY : 作用域/static_use_3.s
-
-# target to generate assembly for a file
-作用域/static_use_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_3.dir/build.make CMakeFiles/static_use_3.dir/作用域/static_use_3.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_3.cpp.s
-.PHONY : 作用域/static_use_3.cpp.s
-
-作用域/static_use_4.o: 作用域/static_use_4.cpp.o
-
-.PHONY : 作用域/static_use_4.o
-
-# target to build an object file
-作用域/static_use_4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/作用域/static_use_4.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_4.cpp.o
-.PHONY : 作用域/static_use_4.cpp.o
-
-作用域/static_use_4.i: 作用域/static_use_4.cpp.i
-
-.PHONY : 作用域/static_use_4.i
-
-# target to preprocess a source file
-作用域/static_use_4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/作用域/static_use_4.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_4.cpp.i
-.PHONY : 作用域/static_use_4.cpp.i
-
-作用域/static_use_4.s: 作用域/static_use_4.cpp.s
-
-.PHONY : 作用域/static_use_4.s
+.PHONY : 派生与继承/derive_more_1.s
 
 # target to generate assembly for a file
-作用域/static_use_4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_4.dir/build.make CMakeFiles/static_use_4.dir/作用域/static_use_4.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_4.cpp.s
-.PHONY : 作用域/static_use_4.cpp.s
-
-作用域/static_use_5.o: 作用域/static_use_5.cpp.o
-
-.PHONY : 作用域/static_use_5.o
-
-# target to build an object file
-作用域/static_use_5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/作用域/static_use_5.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_5.cpp.o
-.PHONY : 作用域/static_use_5.cpp.o
-
-作用域/static_use_5.i: 作用域/static_use_5.cpp.i
-
-.PHONY : 作用域/static_use_5.i
-
-# target to preprocess a source file
-作用域/static_use_5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/作用域/static_use_5.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_5.cpp.i
-.PHONY : 作用域/static_use_5.cpp.i
-
-作用域/static_use_5.s: 作用域/static_use_5.cpp.s
-
-.PHONY : 作用域/static_use_5.s
-
-# target to generate assembly for a file
-作用域/static_use_5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_5.dir/build.make CMakeFiles/static_use_5.dir/作用域/static_use_5.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_5.cpp.s
-.PHONY : 作用域/static_use_5.cpp.s
-
-作用域/static_use_6.o: 作用域/static_use_6.cpp.o
-
-.PHONY : 作用域/static_use_6.o
-
-# target to build an object file
-作用域/static_use_6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/作用域/static_use_6.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_6.cpp.o
-.PHONY : 作用域/static_use_6.cpp.o
-
-作用域/static_use_6.i: 作用域/static_use_6.cpp.i
-
-.PHONY : 作用域/static_use_6.i
-
-# target to preprocess a source file
-作用域/static_use_6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/作用域/static_use_6.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_6.cpp.i
-.PHONY : 作用域/static_use_6.cpp.i
-
-作用域/static_use_6.s: 作用域/static_use_6.cpp.s
-
-.PHONY : 作用域/static_use_6.s
-
-# target to generate assembly for a file
-作用域/static_use_6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/static_use_6.dir/build.make CMakeFiles/static_use_6.dir/作用域/static_use_6.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/作用域/static_use_6.cpp.s
-.PHONY : 作用域/static_use_6.cpp.s
-
-多态/moreuse_1.o: 多态/moreuse_1.cpp.o
-
-.PHONY : 多态/moreuse_1.o
-
-# target to build an object file
-多态/moreuse_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/多态/moreuse_1.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/moreuse_1.cpp.o
-.PHONY : 多态/moreuse_1.cpp.o
-
-多态/moreuse_1.i: 多态/moreuse_1.cpp.i
-
-.PHONY : 多态/moreuse_1.i
-
-# target to preprocess a source file
-多态/moreuse_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/多态/moreuse_1.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/moreuse_1.cpp.i
-.PHONY : 多态/moreuse_1.cpp.i
-
-多态/moreuse_1.s: 多态/moreuse_1.cpp.s
-
-.PHONY : 多态/moreuse_1.s
-
-# target to generate assembly for a file
-多态/moreuse_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_1.dir/build.make CMakeFiles/moreuse_1.dir/多态/moreuse_1.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/moreuse_1.cpp.s
-.PHONY : 多态/moreuse_1.cpp.s
+派生与继承/derive_more_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.s
+.PHONY : 派生与继承/derive_more_1.cpp.s
 
 # Help Target
 help:
@@ -605,14 +341,8 @@ help:
 	@echo "... Code"
 	@echo "... StudentAddressBook"
 	@echo "... StudentScoreMangeSystem"
-	@echo "... moreuse_1"
-	@echo "... static_use_1"
-	@echo "... static_use_2"
-	@echo "... static_use_3"
-	@echo "... static_use_4"
-	@echo "... static_use_5"
-	@echo "... static_use_6"
-	@echo "... test"
+	@echo "... derive_more_1"
+	@echo "... moreuse_2"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
@@ -622,30 +352,12 @@ help:
 	@echo "... StudentScoreMangeSystem.o"
 	@echo "... StudentScoreMangeSystem.i"
 	@echo "... StudentScoreMangeSystem.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
-	@echo "... 作用域/static_use_1.o"
-	@echo "... 作用域/static_use_1.i"
-	@echo "... 作用域/static_use_1.s"
-	@echo "... 作用域/static_use_2.o"
-	@echo "... 作用域/static_use_2.i"
-	@echo "... 作用域/static_use_2.s"
-	@echo "... 作用域/static_use_3.o"
-	@echo "... 作用域/static_use_3.i"
-	@echo "... 作用域/static_use_3.s"
-	@echo "... 作用域/static_use_4.o"
-	@echo "... 作用域/static_use_4.i"
-	@echo "... 作用域/static_use_4.s"
-	@echo "... 作用域/static_use_5.o"
-	@echo "... 作用域/static_use_5.i"
-	@echo "... 作用域/static_use_5.s"
-	@echo "... 作用域/static_use_6.o"
-	@echo "... 作用域/static_use_6.i"
-	@echo "... 作用域/static_use_6.s"
-	@echo "... 多态/moreuse_1.o"
-	@echo "... 多态/moreuse_1.i"
-	@echo "... 多态/moreuse_1.s"
+	@echo "... 多态/moreuse_2.o"
+	@echo "... 多态/moreuse_2.i"
+	@echo "... 多态/moreuse_2.s"
+	@echo "... 派生与继承/derive_more_1.o"
+	@echo "... 派生与继承/derive_more_1.i"
+	@echo "... 派生与继承/derive_more_1.s"
 .PHONY : help
 
 

@@ -64,15 +64,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/static_use_6.dir/DependInfo.cmake"
-  "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/moreuse_2.dir/DependInfo.cmake"
   "CMakeFiles/StudentScoreMangeSystem.dir/DependInfo.cmake"
-  "CMakeFiles/static_use_5.dir/DependInfo.cmake"
-  "CMakeFiles/static_use_3.dir/DependInfo.cmake"
-  "CMakeFiles/moreuse_1.dir/DependInfo.cmake"
   "CMakeFiles/StudentAddressBook.dir/DependInfo.cmake"
-  "CMakeFiles/static_use_2.dir/DependInfo.cmake"
-  "CMakeFiles/static_use_1.dir/DependInfo.cmake"
-  "CMakeFiles/static_use_4.dir/DependInfo.cmake"
+  "CMakeFiles/derive_more_1.dir/DependInfo.cmake"
   "CMakeFiles/Code.dir/DependInfo.cmake"
   )

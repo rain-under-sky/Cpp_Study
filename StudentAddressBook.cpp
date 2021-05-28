@@ -116,26 +116,32 @@ void change(student *phead) {
 
 student* Delete(student *phead) {        //删除函数
     {
-        long num;
+        long DelID;
         student *p3 = NULL;
         student *p1 = NULL, *p2 = NULL;
         if (phead != NULL) {
             cout << "请输入想要删除的学生学号:" << endl;
-            cin >> num;
-            p1 = phead;
-            while (num != p1->ID && p1->next != NULL) {
+            cin >> DelID;
+            p1 = phead;    //将p1指针指向链表头指针
+            while (DelID != p1->ID && p1->next != NULL) {
                 p2 = p1;
                 p1 = p1->next;
             }
-            if (num == p1->ID) {
-                if (p1 == phead) { p3 = p1->next; }
-                else {
+            if (DelID == p1->ID)
+            {
+                if (p1 == phead)
+                {
+                    p3 = p1->next;
+                }
+                else
+                    {
                     p2->next = p1->next;
                     p3 = phead;
-                }
-                cout << "删除编号：" << num << "成功" << endl;
+                    }
+                cout << "删除编号：" << DelID << "成功" << endl;
                 delete (p1);
-            } else {
+            }
+            else {
                 p3 = phead;
                 cout << "查无此人" << endl;
             }
