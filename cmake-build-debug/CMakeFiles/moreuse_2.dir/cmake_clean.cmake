@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.o"
   "CMakeFiles/moreuse_2.dir/多态/moreuse_2.cpp.o"
   "moreuse_2"
   "moreuse_2.pdb"

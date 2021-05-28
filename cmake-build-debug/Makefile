@@ -276,6 +276,33 @@ StudentScoreMangeSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/StudentScoreMangeSystem.cpp.s
 .PHONY : StudentScoreMangeSystem.cpp.s
 
+多态/more_use_3.o: 多态/more_use_3.cpp.o
+
+.PHONY : 多态/more_use_3.o
+
+# target to build an object file
+多态/more_use_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.o
+.PHONY : 多态/more_use_3.cpp.o
+
+多态/more_use_3.i: 多态/more_use_3.cpp.i
+
+.PHONY : 多态/more_use_3.i
+
+# target to preprocess a source file
+多态/more_use_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.i
+.PHONY : 多态/more_use_3.cpp.i
+
+多态/more_use_3.s: 多态/more_use_3.cpp.s
+
+.PHONY : 多态/more_use_3.s
+
+# target to generate assembly for a file
+多态/more_use_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.s
+.PHONY : 多态/more_use_3.cpp.s
+
 多态/moreuse_2.o: 多态/moreuse_2.cpp.o
 
 .PHONY : 多态/moreuse_2.o
@@ -352,6 +379,9 @@ help:
 	@echo "... StudentScoreMangeSystem.o"
 	@echo "... StudentScoreMangeSystem.i"
 	@echo "... StudentScoreMangeSystem.s"
+	@echo "... 多态/more_use_3.o"
+	@echo "... 多态/more_use_3.i"
+	@echo "... 多态/more_use_3.s"
 	@echo "... 多态/moreuse_2.o"
 	@echo "... 多态/moreuse_2.i"
 	@echo "... 多态/moreuse_2.s"

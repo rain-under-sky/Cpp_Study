@@ -17,6 +17,6 @@ add_executable(Code C++测试/main.cpp)
 
 
 add_executable(derive_more_1 派生与继承/derive_more_1.cpp)
-add_executable(moreuse_2 多态/moreuse_2.cpp)
+add_executable(moreuse_2 多态/moreuse_2.cpp 多态/more_use_3.cpp)
 add_executable(StudentAddressBook StudentAddressBook.cpp)
 add_executable(StudentScoreMangeSystem StudentScoreMangeSystem.cpp)
