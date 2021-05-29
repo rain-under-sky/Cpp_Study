@@ -4,7 +4,7 @@ class complex{
 private:
     double real,image;
 public:
-    complex(double r,double i):real(r),image(i){};
+    complex(double r=0.0,double i=0.0):real(r),image(i){};
     ~complex(){};
     friend complex operator+ (double c1,const complex & c2);
     friend complex operator- (double c1,const complex & c2);

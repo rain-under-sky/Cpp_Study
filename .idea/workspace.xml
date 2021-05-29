@@ -87,7 +87,7 @@
       <recent name="$PROJECT_DIR$/类" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.Code">
+  <component name="RunManager" selected="CMake 应用程序.more_use_5">
     <configuration name="Code" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="Code" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="Code">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -99,11 +99,6 @@
       </method>
     </configuration>
     <configuration name="StudentScoreMangeSystem" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Code" TARGET_NAME="StudentScoreMangeSystem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Code" RUN_TARGET_NAME="StudentScoreMangeSystem">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -134,13 +129,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Code" />
-      <item itemvalue="CMake Application.StudentAddressBook" />
-      <item itemvalue="CMake Application.StudentScoreMangeSystem" />
-      <item itemvalue="CMake Application.derive_more_1" />
-      <item itemvalue="CMake Application.more_use_3" />
-      <item itemvalue="CMake Application.more_use_5" />
-      <item itemvalue="CMake Application.moreuse_2" />
+      <item itemvalue="CMake 应用程序.Code" />
+      <item itemvalue="CMake 应用程序.StudentAddressBook" />
+      <item itemvalue="CMake 应用程序.StudentScoreMangeSystem" />
+      <item itemvalue="CMake 应用程序.derive_more_1" />
+      <item itemvalue="CMake 应用程序.more_use_3" />
+      <item itemvalue="CMake 应用程序.more_use_5" />
+      <item itemvalue="CMake 应用程序.moreuse_2" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
