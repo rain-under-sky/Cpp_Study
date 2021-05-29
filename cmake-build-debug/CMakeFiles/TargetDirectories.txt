@@ -3,6 +3,7 @@
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/moreuse_2.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/StudentScoreMangeSystem.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/StudentAddressBook.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/more_use_6.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/derive_more_1.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/more_use_5.dir

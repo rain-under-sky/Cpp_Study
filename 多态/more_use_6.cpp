@@ -5,10 +5,12 @@ class Point{
 private:
     int x,y;
 public:
-    Point(int px = 0,int py = 0):x(px),y(py){};
+    Point(int px = 0,int py = 0):x(px),y(py){
+        //xxxx
+    };
     void print();
-    Point operator++();
-    Point operator--();
+    Point operator++();  //前缀++运算符重载
+    Point operator++(int); //后缀++的运算符重载
 };
 
 void Point::print() {
@@ -16,15 +18,15 @@ void Point::print() {
 }
 
 Point Point::operator++() {
-    x++;
+    x++;   //前缀++，先返回++后的值
     y++;
     return *this;
 }
 
-Point Point::operator--() {
-    Point old = *this;
-    x--;
-    y--;
+Point Point::operator++(int) {
+    Point old = *this;   //后缀++，返回++前的值
+    x++;
+    y++;
     return old;
 }
 
