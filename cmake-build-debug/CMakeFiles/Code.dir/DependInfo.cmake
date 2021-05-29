@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/aomsir/MyStudy/C++/Code/C++测试/main.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/C++测试/main.cpp.o"
   "/Users/aomsir/MyStudy/C++/Code/多态/more_use_4.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/多态/more_use_4.cpp.o"
+  "/Users/aomsir/MyStudy/C++/Code/多态/more_use_5.cpp" "/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/Code.dir/多态/more_use_5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
