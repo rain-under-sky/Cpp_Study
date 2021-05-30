@@ -529,6 +529,33 @@ StudentScoreMangeSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_18.c.s
 .PHONY : 题目/5_18.c.s
 
+题目/5_26.o: 题目/5_26.c.o
+
+.PHONY : 题目/5_26.o
+
+# target to build an object file
+题目/5_26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_26.c.o
+.PHONY : 题目/5_26.c.o
+
+题目/5_26.i: 题目/5_26.c.i
+
+.PHONY : 题目/5_26.i
+
+# target to preprocess a source file
+题目/5_26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_26.c.i
+.PHONY : 题目/5_26.c.i
+
+题目/5_26.s: 题目/5_26.c.s
+
+.PHONY : 题目/5_26.s
+
+# target to generate assembly for a file
+题目/5_26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_26.c.s
+.PHONY : 题目/5_26.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -576,6 +603,9 @@ help:
 	@echo "... 题目/5_18.o"
 	@echo "... 题目/5_18.i"
 	@echo "... 题目/5_18.s"
+	@echo "... 题目/5_26.o"
+	@echo "... 题目/5_26.i"
+	@echo "... 题目/5_26.s"
 .PHONY : help
 
 

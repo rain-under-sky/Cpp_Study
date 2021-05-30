@@ -450,6 +450,9 @@
 			<Option target="5_18"/>
 			<Option target="Code"/>
 		</Unit>
+		<Unit filename="/Users/aomsir/MyStudy/C++/Code/题目/5_26.c">
+			<Option target="Code"/>
+		</Unit>
 		<Unit filename="/Users/aomsir/MyStudy/C++/Code/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
