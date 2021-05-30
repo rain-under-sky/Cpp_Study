@@ -486,6 +486,33 @@ StudentScoreMangeSystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.s
 .PHONY : 派生与继承/derive_more_1.cpp.s
 
+题目/5_18.o: 题目/5_18.c.o
+
+.PHONY : 题目/5_18.o
+
+# target to build an object file
+题目/5_18.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_18.c.o
+.PHONY : 题目/5_18.c.o
+
+题目/5_18.i: 题目/5_18.c.i
+
+.PHONY : 题目/5_18.i
+
+# target to preprocess a source file
+题目/5_18.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_18.c.i
+.PHONY : 题目/5_18.c.i
+
+题目/5_18.s: 题目/5_18.c.s
+
+.PHONY : 题目/5_18.s
+
+# target to generate assembly for a file
+题目/5_18.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_18.c.s
+.PHONY : 题目/5_18.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -529,6 +556,9 @@ help:
 	@echo "... 派生与继承/derive_more_1.o"
 	@echo "... 派生与继承/derive_more_1.i"
 	@echo "... 派生与继承/derive_more_1.s"
+	@echo "... 题目/5_18.o"
+	@echo "... 题目/5_18.i"
+	@echo "... 题目/5_18.s"
 .PHONY : help
 
 
