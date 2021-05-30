@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 5_18
+
+# Build rule for target.
+5_18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5_18
+.PHONY : 5_18
+
+# fast build rule for target.
+5_18/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_18.dir/build.make CMakeFiles/5_18.dir/build
+.PHONY : 5_18/fast
+
+#=============================================================================
 # Target rules for targets named more_use_3
 
 # Build rule for target.
@@ -492,6 +505,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to build an object file
 题目/5_18.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_18.dir/build.make CMakeFiles/5_18.dir/题目/5_18.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_18.c.o
 .PHONY : 题目/5_18.c.o
 
@@ -501,6 +515,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to preprocess a source file
 题目/5_18.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_18.dir/build.make CMakeFiles/5_18.dir/题目/5_18.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_18.c.i
 .PHONY : 题目/5_18.c.i
 
@@ -510,6 +525,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to generate assembly for a file
 题目/5_18.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_18.dir/build.make CMakeFiles/5_18.dir/题目/5_18.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_18.c.s
 .PHONY : 题目/5_18.c.s
 
@@ -521,6 +537,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 5_18"
 	@echo "... Code"
 	@echo "... StudentAddressBook"
 	@echo "... StudentScoreMangeSystem"
