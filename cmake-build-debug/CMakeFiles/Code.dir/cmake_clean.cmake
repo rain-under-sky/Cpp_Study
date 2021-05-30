@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Code.dir/多态/more_use_6.cpp.o"
   "CMakeFiles/Code.dir/题目/5_18.c.o"
   "CMakeFiles/Code.dir/题目/5_26.c.o"
+  "CMakeFiles/Code.dir/题目/6_13.cpp.o"
+  "CMakeFiles/Code.dir/题目/6_24.c.o"
   "Code"
   "Code.pdb"
 )

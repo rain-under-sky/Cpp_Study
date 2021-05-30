@@ -73,15 +73,17 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/5_18.dir/all
-all: CMakeFiles/more_use_3.dir/all
+all: CMakeFiles/5_26.dir/all
+all: CMakeFiles/6_24.dir/all
 all: CMakeFiles/moreuse_2.dir/all
+all: CMakeFiles/5_18.dir/all
+all: CMakeFiles/Code.dir/all
+all: CMakeFiles/derive_more_1.dir/all
+all: CMakeFiles/more_use_3.dir/all
+all: CMakeFiles/more_use_5.dir/all
 all: CMakeFiles/StudentScoreMangeSystem.dir/all
 all: CMakeFiles/StudentAddressBook.dir/all
 all: CMakeFiles/more_use_6.dir/all
-all: CMakeFiles/derive_more_1.dir/all
-all: CMakeFiles/more_use_5.dir/all
-all: CMakeFiles/Code.dir/all
 all: 实验题/all
 all: 派生与继承/all
 all: C语言测试/all
@@ -102,15 +104,17 @@ preinstall: 多态/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/5_18.dir/clean
-clean: CMakeFiles/more_use_3.dir/clean
+clean: CMakeFiles/5_26.dir/clean
+clean: CMakeFiles/6_24.dir/clean
 clean: CMakeFiles/moreuse_2.dir/clean
+clean: CMakeFiles/5_18.dir/clean
+clean: CMakeFiles/Code.dir/clean
+clean: CMakeFiles/derive_more_1.dir/clean
+clean: CMakeFiles/more_use_3.dir/clean
+clean: CMakeFiles/more_use_5.dir/clean
 clean: CMakeFiles/StudentScoreMangeSystem.dir/clean
 clean: CMakeFiles/StudentAddressBook.dir/clean
 clean: CMakeFiles/more_use_6.dir/clean
-clean: CMakeFiles/derive_more_1.dir/clean
-clean: CMakeFiles/more_use_5.dir/clean
-clean: CMakeFiles/Code.dir/clean
 clean: 实验题/clean
 clean: 派生与继承/clean
 clean: C语言测试/clean
@@ -229,6 +233,87 @@ C语言测试/clean:
 .PHONY : 派生与继承/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/5_26.dir
+
+# All Build rule for target.
+CMakeFiles/5_26.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_26.dir/build.make CMakeFiles/5_26.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_26.dir/build.make CMakeFiles/5_26.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 5_26"
+.PHONY : CMakeFiles/5_26.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/5_26.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/5_26.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/5_26.dir/rule
+
+# Convenience name for target.
+5_26: CMakeFiles/5_26.dir/rule
+
+.PHONY : 5_26
+
+# clean rule for target.
+CMakeFiles/5_26.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_26.dir/build.make CMakeFiles/5_26.dir/clean
+.PHONY : CMakeFiles/5_26.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6_24.dir
+
+# All Build rule for target.
+CMakeFiles/6_24.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_24.dir/build.make CMakeFiles/6_24.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_24.dir/build.make CMakeFiles/6_24.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 6_24"
+.PHONY : CMakeFiles/6_24.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6_24.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/6_24.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/6_24.dir/rule
+
+# Convenience name for target.
+6_24: CMakeFiles/6_24.dir/rule
+
+.PHONY : 6_24
+
+# clean rule for target.
+CMakeFiles/6_24.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_24.dir/build.make CMakeFiles/6_24.dir/clean
+.PHONY : CMakeFiles/6_24.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/moreuse_2.dir
+
+# All Build rule for target.
+CMakeFiles/moreuse_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=28,29,30 "Built target moreuse_2"
+.PHONY : CMakeFiles/moreuse_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/moreuse_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moreuse_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/moreuse_2.dir/rule
+
+# Convenience name for target.
+moreuse_2: CMakeFiles/moreuse_2.dir/rule
+
+.PHONY : moreuse_2
+
+# clean rule for target.
+CMakeFiles/moreuse_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/clean
+.PHONY : CMakeFiles/moreuse_2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/5_18.dir
 
 # All Build rule for target.
@@ -256,13 +341,67 @@ CMakeFiles/5_18.dir/clean:
 .PHONY : CMakeFiles/5_18.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Code.dir
+
+# All Build rule for target.
+CMakeFiles/Code.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15 "Built target Code"
+.PHONY : CMakeFiles/Code.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Code.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Code.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Code.dir/rule
+
+# Convenience name for target.
+Code: CMakeFiles/Code.dir/rule
+
+.PHONY : Code
+
+# clean rule for target.
+CMakeFiles/Code.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/clean
+.PHONY : CMakeFiles/Code.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/derive_more_1.dir
+
+# All Build rule for target.
+CMakeFiles/derive_more_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target derive_more_1"
+.PHONY : CMakeFiles/derive_more_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/derive_more_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/derive_more_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/derive_more_1.dir/rule
+
+# Convenience name for target.
+derive_more_1: CMakeFiles/derive_more_1.dir/rule
+
+.PHONY : derive_more_1
+
+# clean rule for target.
+CMakeFiles/derive_more_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/clean
+.PHONY : CMakeFiles/derive_more_1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/more_use_3.dir
 
 # All Build rule for target.
 CMakeFiles/more_use_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target more_use_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target more_use_3"
 .PHONY : CMakeFiles/more_use_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -283,31 +422,31 @@ CMakeFiles/more_use_3.dir/clean:
 .PHONY : CMakeFiles/more_use_3.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/moreuse_2.dir
+# Target rules for target CMakeFiles/more_use_5.dir
 
 # All Build rule for target.
-CMakeFiles/moreuse_2.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=22,23,24 "Built target moreuse_2"
-.PHONY : CMakeFiles/moreuse_2.dir/all
+CMakeFiles/more_use_5.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target more_use_5"
+.PHONY : CMakeFiles/more_use_5.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/moreuse_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/moreuse_2.dir/all
+CMakeFiles/more_use_5.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_use_5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/moreuse_2.dir/rule
+.PHONY : CMakeFiles/more_use_5.dir/rule
 
 # Convenience name for target.
-moreuse_2: CMakeFiles/moreuse_2.dir/rule
+more_use_5: CMakeFiles/more_use_5.dir/rule
 
-.PHONY : moreuse_2
+.PHONY : more_use_5
 
 # clean rule for target.
-CMakeFiles/moreuse_2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/clean
-.PHONY : CMakeFiles/moreuse_2.dir/clean
+CMakeFiles/more_use_5.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/clean
+.PHONY : CMakeFiles/more_use_5.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/StudentScoreMangeSystem.dir
@@ -316,7 +455,7 @@ CMakeFiles/moreuse_2.dir/clean:
 CMakeFiles/StudentScoreMangeSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentScoreMangeSystem.dir/build.make CMakeFiles/StudentScoreMangeSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target StudentScoreMangeSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target StudentScoreMangeSystem"
 .PHONY : CMakeFiles/StudentScoreMangeSystem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -343,7 +482,7 @@ CMakeFiles/StudentScoreMangeSystem.dir/clean:
 CMakeFiles/StudentAddressBook.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target StudentAddressBook"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target StudentAddressBook"
 .PHONY : CMakeFiles/StudentAddressBook.dir/all
 
 # Build rule for subdir invocation for target.
@@ -370,7 +509,7 @@ CMakeFiles/StudentAddressBook.dir/clean:
 CMakeFiles/more_use_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target more_use_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target more_use_6"
 .PHONY : CMakeFiles/more_use_6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -389,87 +528,6 @@ more_use_6: CMakeFiles/more_use_6.dir/rule
 CMakeFiles/more_use_6.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/clean
 .PHONY : CMakeFiles/more_use_6.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/derive_more_1.dir
-
-# All Build rule for target.
-CMakeFiles/derive_more_1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target derive_more_1"
-.PHONY : CMakeFiles/derive_more_1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/derive_more_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/derive_more_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/derive_more_1.dir/rule
-
-# Convenience name for target.
-derive_more_1: CMakeFiles/derive_more_1.dir/rule
-
-.PHONY : derive_more_1
-
-# clean rule for target.
-CMakeFiles/derive_more_1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/clean
-.PHONY : CMakeFiles/derive_more_1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/more_use_5.dir
-
-# All Build rule for target.
-CMakeFiles/more_use_5.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target more_use_5"
-.PHONY : CMakeFiles/more_use_5.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/more_use_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_use_5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/more_use_5.dir/rule
-
-# Convenience name for target.
-more_use_5: CMakeFiles/more_use_5.dir/rule
-
-.PHONY : more_use_5
-
-# clean rule for target.
-CMakeFiles/more_use_5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/clean
-.PHONY : CMakeFiles/more_use_5.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Code.dir
-
-# All Build rule for target.
-CMakeFiles/Code.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8,9 "Built target Code"
-.PHONY : CMakeFiles/Code.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Code.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Code.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Code.dir/rule
-
-# Convenience name for target.
-Code: CMakeFiles/Code.dir/rule
-
-.PHONY : Code
-
-# clean rule for target.
-CMakeFiles/Code.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/clean
-.PHONY : CMakeFiles/Code.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

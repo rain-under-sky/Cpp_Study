@@ -131,6 +131,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 5_26
+
+# Build rule for target.
+5_26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 5_26
+.PHONY : 5_26
+
+# fast build rule for target.
+5_26/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_26.dir/build.make CMakeFiles/5_26.dir/build
+.PHONY : 5_26/fast
+
+#=============================================================================
+# Target rules for targets named 6_24
+
+# Build rule for target.
+6_24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6_24
+.PHONY : 6_24
+
+# fast build rule for target.
+6_24/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_24.dir/build.make CMakeFiles/6_24.dir/build
+.PHONY : 6_24/fast
+
+#=============================================================================
+# Target rules for targets named moreuse_2
+
+# Build rule for target.
+moreuse_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moreuse_2
+.PHONY : moreuse_2
+
+# fast build rule for target.
+moreuse_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/build
+.PHONY : moreuse_2/fast
+
+#=============================================================================
 # Target rules for targets named 5_18
 
 # Build rule for target.
@@ -142,6 +181,32 @@ depend:
 5_18/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_18.dir/build.make CMakeFiles/5_18.dir/build
 .PHONY : 5_18/fast
+
+#=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
+
+#=============================================================================
+# Target rules for targets named derive_more_1
+
+# Build rule for target.
+derive_more_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 derive_more_1
+.PHONY : derive_more_1
+
+# fast build rule for target.
+derive_more_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/build
+.PHONY : derive_more_1/fast
 
 #=============================================================================
 # Target rules for targets named more_use_3
@@ -157,17 +222,17 @@ more_use_3/fast:
 .PHONY : more_use_3/fast
 
 #=============================================================================
-# Target rules for targets named moreuse_2
+# Target rules for targets named more_use_5
 
 # Build rule for target.
-moreuse_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moreuse_2
-.PHONY : moreuse_2
+more_use_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 more_use_5
+.PHONY : more_use_5
 
 # fast build rule for target.
-moreuse_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/build
-.PHONY : moreuse_2/fast
+more_use_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/build
+.PHONY : more_use_5/fast
 
 #=============================================================================
 # Target rules for targets named StudentScoreMangeSystem
@@ -207,45 +272,6 @@ more_use_6: cmake_check_build_system
 more_use_6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/build
 .PHONY : more_use_6/fast
-
-#=============================================================================
-# Target rules for targets named derive_more_1
-
-# Build rule for target.
-derive_more_1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 derive_more_1
-.PHONY : derive_more_1
-
-# fast build rule for target.
-derive_more_1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/build
-.PHONY : derive_more_1/fast
-
-#=============================================================================
-# Target rules for targets named more_use_5
-
-# Build rule for target.
-more_use_5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 more_use_5
-.PHONY : more_use_5
-
-# fast build rule for target.
-more_use_5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/build
-.PHONY : more_use_5/fast
-
-#=============================================================================
-# Target rules for targets named Code
-
-# Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
-
-# fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -334,8 +360,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to build an object file
 多态/more_use_3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.o
 .PHONY : 多态/more_use_3.cpp.o
 
 多态/more_use_3.i: 多态/more_use_3.cpp.i
@@ -344,8 +370,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to preprocess a source file
 多态/more_use_3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.i
 .PHONY : 多态/more_use_3.cpp.i
 
 多态/more_use_3.s: 多态/more_use_3.cpp.s
@@ -354,8 +380,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to generate assembly for a file
 多态/more_use_3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moreuse_2.dir/build.make CMakeFiles/moreuse_2.dir/多态/more_use_3.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_3.dir/build.make CMakeFiles/more_use_3.dir/多态/more_use_3.cpp.s
 .PHONY : 多态/more_use_3.cpp.s
 
 多态/more_use_4.o: 多态/more_use_4.cpp.o
@@ -391,8 +417,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to build an object file
 多态/more_use_5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/多态/more_use_5.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/more_use_5.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/多态/more_use_5.cpp.o
 .PHONY : 多态/more_use_5.cpp.o
 
 多态/more_use_5.i: 多态/more_use_5.cpp.i
@@ -401,8 +427,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to preprocess a source file
 多态/more_use_5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/多态/more_use_5.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/more_use_5.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/多态/more_use_5.cpp.i
 .PHONY : 多态/more_use_5.cpp.i
 
 多态/more_use_5.s: 多态/more_use_5.cpp.s
@@ -411,8 +437,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to generate assembly for a file
 多态/more_use_5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/多态/more_use_5.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/more_use_5.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_5.dir/build.make CMakeFiles/more_use_5.dir/多态/more_use_5.cpp.s
 .PHONY : 多态/more_use_5.cpp.s
 
 多态/more_use_6.o: 多态/more_use_6.cpp.o
@@ -421,8 +447,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to build an object file
 多态/more_use_6.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/多态/more_use_6.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/more_use_6.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/多态/more_use_6.cpp.o
 .PHONY : 多态/more_use_6.cpp.o
 
 多态/more_use_6.i: 多态/more_use_6.cpp.i
@@ -431,8 +457,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to preprocess a source file
 多态/more_use_6.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/多态/more_use_6.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/more_use_6.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/多态/more_use_6.cpp.i
 .PHONY : 多态/more_use_6.cpp.i
 
 多态/more_use_6.s: 多态/more_use_6.cpp.s
@@ -441,8 +467,8 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to generate assembly for a file
 多态/more_use_6.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/多态/more_use_6.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/多态/more_use_6.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_use_6.dir/build.make CMakeFiles/more_use_6.dir/多态/more_use_6.cpp.s
 .PHONY : 多态/more_use_6.cpp.s
 
 多态/moreuse_2.o: 多态/moreuse_2.cpp.o
@@ -535,6 +561,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to build an object file
 题目/5_26.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_26.dir/build.make CMakeFiles/5_26.dir/题目/5_26.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_26.c.o
 .PHONY : 题目/5_26.c.o
 
@@ -544,6 +571,7 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to preprocess a source file
 题目/5_26.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_26.dir/build.make CMakeFiles/5_26.dir/题目/5_26.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_26.c.i
 .PHONY : 题目/5_26.c.i
 
@@ -553,8 +581,66 @@ StudentScoreMangeSystem.cpp.s:
 
 # target to generate assembly for a file
 题目/5_26.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/5_26.dir/build.make CMakeFiles/5_26.dir/题目/5_26.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/5_26.c.s
 .PHONY : 题目/5_26.c.s
+
+题目/6_13.o: 题目/6_13.cpp.o
+
+.PHONY : 题目/6_13.o
+
+# target to build an object file
+题目/6_13.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/6_13.cpp.o
+.PHONY : 题目/6_13.cpp.o
+
+题目/6_13.i: 题目/6_13.cpp.i
+
+.PHONY : 题目/6_13.i
+
+# target to preprocess a source file
+题目/6_13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/6_13.cpp.i
+.PHONY : 题目/6_13.cpp.i
+
+题目/6_13.s: 题目/6_13.cpp.s
+
+.PHONY : 题目/6_13.s
+
+# target to generate assembly for a file
+题目/6_13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/6_13.cpp.s
+.PHONY : 题目/6_13.cpp.s
+
+题目/6_24.o: 题目/6_24.c.o
+
+.PHONY : 题目/6_24.o
+
+# target to build an object file
+题目/6_24.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_24.dir/build.make CMakeFiles/6_24.dir/题目/6_24.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/6_24.c.o
+.PHONY : 题目/6_24.c.o
+
+题目/6_24.i: 题目/6_24.c.i
+
+.PHONY : 题目/6_24.i
+
+# target to preprocess a source file
+题目/6_24.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_24.dir/build.make CMakeFiles/6_24.dir/题目/6_24.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/6_24.c.i
+.PHONY : 题目/6_24.c.i
+
+题目/6_24.s: 题目/6_24.c.s
+
+.PHONY : 题目/6_24.s
+
+# target to generate assembly for a file
+题目/6_24.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6_24.dir/build.make CMakeFiles/6_24.dir/题目/6_24.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/6_24.c.s
+.PHONY : 题目/6_24.c.s
 
 # Help Target
 help:
@@ -565,6 +651,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 5_18"
+	@echo "... 5_26"
+	@echo "... 6_24"
 	@echo "... Code"
 	@echo "... StudentAddressBook"
 	@echo "... StudentScoreMangeSystem"
@@ -606,6 +694,12 @@ help:
 	@echo "... 题目/5_26.o"
 	@echo "... 题目/5_26.i"
 	@echo "... 题目/5_26.s"
+	@echo "... 题目/6_13.o"
+	@echo "... 题目/6_13.i"
+	@echo "... 题目/6_13.s"
+	@echo "... 题目/6_24.o"
+	@echo "... 题目/6_24.i"
+	@echo "... 题目/6_24.s"
 .PHONY : help
 
 

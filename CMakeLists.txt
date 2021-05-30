@@ -9,7 +9,7 @@ ADD_SUBDIRECTORY(函数)
 ADD_SUBDIRECTORY(作用域)
 ADD_SUBDIRECTORY(多态)
 
-add_executable(Code C++测试/main.cpp 多态/more_use_4.cpp 多态/more_use_5.cpp 多态/more_use_6.cpp 题目/5_18.c 题目/5_26.c)
+add_executable(Code C++测试/main.cpp 多态/more_use_4.cpp 多态/more_use_5.cpp 多态/more_use_6.cpp 题目/5_18.c 题目/5_26.c 题目/6_13.cpp 题目/6_24.c)
 
 
 
@@ -24,3 +24,5 @@ add_executable(more_use_3 多态/more_use_3.cpp)
 add_executable(more_use_5 多态/more_use_5.cpp)
 add_executable(more_use_6 多态/more_use_6.cpp)
 add_executable(5_18 题目/5_18.c)
+add_executable(5_26 题目/5_26.c)
+add_executable(6_24 题目/6_24.c)
