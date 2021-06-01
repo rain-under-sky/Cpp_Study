@@ -1,5 +1,6 @@
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/test.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/5_26.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/6_24.dir
 /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles/moreuse_2.dir

@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 /Users/aomsir/MyStudy/C++/Code/test.cpp
-stdio.h
-/Users/aomsir/MyStudy/C++/Code/stdio.h
-string.h
+iostream
 -
 
