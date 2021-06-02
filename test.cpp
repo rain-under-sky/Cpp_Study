@@ -3,17 +3,21 @@ using namespace std;
 
 class A{
 public:
-    static int a;
-    void init(){
-        a = 1;
-    }
-    A(int a= 2){
-        init();
-        a++;
+    A(int i){
+        cout<<i;
     }
 };
-int A::a = 0;
-A obj;
+
+class B:virtual public A{
+    B():A(1){};
+};
+
+class C: public B{
+public:
+    C():A(2){};
+};
+
 int main(){
-    cout<<obj.a;
+    C c;
+    return 0;
 }
