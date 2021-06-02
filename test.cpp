@@ -9,12 +9,16 @@ public:
 };
 
 class B:virtual public A{
-    B():A(1){};
+public:
+    B():A(1){
+    };
 };
 
 class C: public B{
 public:
-    C():A(2){};
+    C():A(2){
+
+    };
 };
 
 int main(){
