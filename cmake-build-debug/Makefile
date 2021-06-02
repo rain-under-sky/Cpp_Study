@@ -144,6 +144,19 @@ test/fast:
 .PHONY : test/fast
 
 #=============================================================================
+# Target rules for targets named derive_more_2
+
+# Build rule for target.
+derive_more_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 derive_more_2
+.PHONY : derive_more_2
+
+# fast build rule for target.
+derive_more_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/build
+.PHONY : derive_more_2/fast
+
+#=============================================================================
 # Target rules for targets named 5_26
 
 # Build rule for target.
@@ -565,6 +578,33 @@ test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_1.dir/build.make CMakeFiles/derive_more_1.dir/派生与继承/derive_more_1.cpp.s
 .PHONY : 派生与继承/derive_more_1.cpp.s
 
+派生与继承/derive_more_2.o: 派生与继承/derive_more_2.cpp.o
+
+.PHONY : 派生与继承/derive_more_2.o
+
+# target to build an object file
+派生与继承/derive_more_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/派生与继承/derive_more_2.cpp.o
+.PHONY : 派生与继承/derive_more_2.cpp.o
+
+派生与继承/derive_more_2.i: 派生与继承/derive_more_2.cpp.i
+
+.PHONY : 派生与继承/derive_more_2.i
+
+# target to preprocess a source file
+派生与继承/derive_more_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/派生与继承/derive_more_2.cpp.i
+.PHONY : 派生与继承/derive_more_2.cpp.i
+
+派生与继承/derive_more_2.s: 派生与继承/derive_more_2.cpp.s
+
+.PHONY : 派生与继承/derive_more_2.s
+
+# target to generate assembly for a file
+派生与继承/derive_more_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/derive_more_2.dir/build.make CMakeFiles/derive_more_2.dir/派生与继承/derive_more_2.cpp.s
+.PHONY : 派生与继承/derive_more_2.cpp.s
+
 题目/5_18.o: 题目/5_18.c.o
 
 .PHONY : 题目/5_18.o
@@ -697,6 +737,7 @@ help:
 	@echo "... StudentAddressBook"
 	@echo "... StudentScoreMangeSystem"
 	@echo "... derive_more_1"
+	@echo "... derive_more_2"
 	@echo "... more_use_3"
 	@echo "... more_use_5"
 	@echo "... more_use_6"
@@ -732,6 +773,9 @@ help:
 	@echo "... 派生与继承/derive_more_1.o"
 	@echo "... 派生与继承/derive_more_1.i"
 	@echo "... 派生与继承/derive_more_1.s"
+	@echo "... 派生与继承/derive_more_2.o"
+	@echo "... 派生与继承/derive_more_2.i"
+	@echo "... 派生与继承/derive_more_2.s"
 	@echo "... 题目/5_18.o"
 	@echo "... 题目/5_18.i"
 	@echo "... 题目/5_18.s"
