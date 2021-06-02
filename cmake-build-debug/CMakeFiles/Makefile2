@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/test1.dir/all
 all: CMakeFiles/Code.dir/all
 all: 实验题/all
 all: 派生与继承/all
@@ -94,6 +95,7 @@ preinstall: 多态/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/test1.dir/clean
 clean: CMakeFiles/Code.dir/clean
 clean: 实验题/clean
 clean: 派生与继承/clean
@@ -211,6 +213,33 @@ C语言测试/clean:
 派生与继承/clean:
 
 .PHONY : 派生与继承/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test1.dir
+
+# All Build rule for target.
+CMakeFiles/test1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target test1"
+.PHONY : CMakeFiles/test1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test1.dir/rule
+
+# Convenience name for target.
+test1: CMakeFiles/test1.dir/rule
+
+.PHONY : test1
+
+# clean rule for target.
+CMakeFiles/test1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/clean
+.PHONY : CMakeFiles/test1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Code.dir
