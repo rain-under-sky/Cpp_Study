@@ -1,20 +1,17 @@
-#include <stdio.h>
-#include <string.h>
+#include <iostream>   //这是输入和输出的头文件，知道要写就行
+using namespace std;   //这是命名空间作用域，知道要写在这里就行
+class A{
+private:
+    int a;  //这是数据成员
+    float b;
+public:
+    void fun(){ //这是函数成员
+        cout<<"我爱C++";
+    }
+};
 
 int main(void){
-    char num[3];  //数字字符
-    int change_num[3];  //ASCII转换后的值
-    int sum = 0;     //和，已初始化
-    int i;   //循环控制变量
-    printf("请输入您的数字字符:");
-    scanf("%s",num);
-    for(i=0;i<3;i++){
-        change_num[i] = num[i] - 48;   //此步骤将每个元素的值转换为十进制的值，比如字符1的十进制是49
-    }
-
-    for(i=0;i<3;i++){
-        sum += change_num[i];
-    }
-    printf("您输入的三个字符的和为:");
-    printf("%d",sum);
+    A test;   //换个方式理解，这里和 int test;一个道理
+    test.a;  //这个调用方式是不对的，因为这是对象调用私有区域的东西
+    test.fun();  //这个是可以的，因为他在公有区域
 }
