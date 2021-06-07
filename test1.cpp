@@ -9,9 +9,15 @@ public:
         cout<<"我爱C++";
     }
 };
-
+class B:public A{
+private:
+    int aa;
+public:
+    void fun(){ //这是函数成员
+        cout<<"我爱C";
+    }
+};
 int main(void){
-    A test;   //换个方式理解，这里和 int test;一个道理
-    test.a;  //这个调用方式是不对的，因为这是对象调用私有区域的东西
-    test.fun();  //这个是可以的，因为他在公有区域
+    B a;
+    a.fun();
 }
