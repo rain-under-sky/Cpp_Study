@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aomsir/MyStudy/C++/Code/派生与继承
+# Install script for directory: /Users/aomsir/MyStudy/专业课/C++/Code/派生与继承
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -12,10 +12,5 @@ ADD_SUBDIRECTORY(多态)
 add_executable(Code C++测试/main.cpp)
 
 
-
-
-
-
-
 add_executable(test1 test1.cpp)
 add_executable(test test.cpp)

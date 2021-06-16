@@ -1,4 +1,4 @@
-# Install script for directory: /Users/aomsir/MyStudy/C++/Code/实验题
+# Install script for directory: /Users/aomsir/MyStudy/专业课/C++/Code/实验题
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

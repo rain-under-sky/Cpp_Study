@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aomsir/MyStudy/C++/Code
+CMAKE_SOURCE_DIR = /Users/aomsir/MyStudy/专业课/C++/Code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/C++/Code/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/作用域/CMakeFiles/progress.marks
-	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/C++/Code/cmake-build-debug/CMakeFiles 0
+	cd /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug/CMakeFiles /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug/作用域/CMakeFiles/progress.marks
+	cd /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/clean
+	cd /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,17 +117,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/preinstall
+	cd /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/preinstall
+	cd /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作用域/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -149,6 +149,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/aomsir/MyStudy/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/aomsir/MyStudy/专业课/C++/Code/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
