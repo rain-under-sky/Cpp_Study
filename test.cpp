@@ -1,27 +1,9 @@
 #include <iostream>
-using namespace std;
-
-class A{
-public:
-    A(int i){
-        cout<<i;
-    }
-};
-
-class B:virtual public A{
-public:
-    B():A(1){
-    };
-};
-
-class C: public B{
-public:
-    C():A(2){
-
-    };
-};
 
 int main(){
-    C c;
-    return 0;
+    int k = 0;
+    while(k=1){
+        k=k+1;
+        printf("%d\n",k);
+    }
 }
