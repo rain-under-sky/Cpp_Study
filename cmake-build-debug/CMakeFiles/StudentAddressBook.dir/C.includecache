@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aomsir/MyStudy/专业课/C++/Code/题目/StudentAddressBook.c
+stdio.h
+-
+stdlib.h
+-
+sys/malloc.h
+-
+string.h
+-
+

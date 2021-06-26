@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Code
+
+# Build rule for target.
+Code: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
+.PHONY : Code
+
+# fast build rule for target.
+Code/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
+.PHONY : Code/fast
+
+#=============================================================================
+# Target rules for targets named StudentAddressBook
+
+# Build rule for target.
+StudentAddressBook: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StudentAddressBook
+.PHONY : StudentAddressBook
+
+# fast build rule for target.
+StudentAddressBook/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/build
+.PHONY : StudentAddressBook/fast
+
+#=============================================================================
 # Target rules for targets named test1
 
 # Build rule for target.
@@ -155,19 +181,6 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named Code
-
-# Build rule for target.
-Code: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Code
-.PHONY : Code
-
-# fast build rule for target.
-Code/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/build
-.PHONY : Code/fast
 
 C++测试/main.o: C++测试/main.cpp.o
 
@@ -196,32 +209,32 @@ C++测试/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/C++测试/main.cpp.s
 .PHONY : C++测试/main.cpp.s
 
-test.o: test.cpp.o
+C语言测试/test.o: C语言测试/test.c.o
 
-.PHONY : test.o
+.PHONY : C语言测试/test.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
-.PHONY : test.cpp.o
+C语言测试/test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.o
+.PHONY : C语言测试/test.c.o
 
-test.i: test.cpp.i
+C语言测试/test.i: C语言测试/test.c.i
 
-.PHONY : test.i
+.PHONY : C语言测试/test.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
+C语言测试/test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.i
+.PHONY : C语言测试/test.c.i
 
-test.s: test.cpp.s
+C语言测试/test.s: C语言测试/test.c.s
 
-.PHONY : test.s
+.PHONY : C语言测试/test.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
+C语言测试/test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/C语言测试/test.c.s
+.PHONY : C语言测试/test.c.s
 
 test1.o: test1.cpp.o
 
@@ -250,6 +263,36 @@ test1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/test1.cpp.s
 .PHONY : test1.cpp.s
 
+题目/StudentAddressBook.o: 题目/StudentAddressBook.c.o
+
+.PHONY : 题目/StudentAddressBook.o
+
+# target to build an object file
+题目/StudentAddressBook.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/StudentAddressBook.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/题目/StudentAddressBook.c.o
+.PHONY : 题目/StudentAddressBook.c.o
+
+题目/StudentAddressBook.i: 题目/StudentAddressBook.c.i
+
+.PHONY : 题目/StudentAddressBook.i
+
+# target to preprocess a source file
+题目/StudentAddressBook.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/StudentAddressBook.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/题目/StudentAddressBook.c.i
+.PHONY : 题目/StudentAddressBook.c.i
+
+题目/StudentAddressBook.s: 题目/StudentAddressBook.c.s
+
+.PHONY : 题目/StudentAddressBook.s
+
+# target to generate assembly for a file
+题目/StudentAddressBook.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Code.dir/build.make CMakeFiles/Code.dir/题目/StudentAddressBook.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StudentAddressBook.dir/build.make CMakeFiles/StudentAddressBook.dir/题目/StudentAddressBook.c.s
+.PHONY : 题目/StudentAddressBook.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -259,17 +302,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Code"
+	@echo "... StudentAddressBook"
 	@echo "... test"
 	@echo "... test1"
 	@echo "... C++测试/main.o"
 	@echo "... C++测试/main.i"
 	@echo "... C++测试/main.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... C语言测试/test.o"
+	@echo "... C语言测试/test.i"
+	@echo "... C语言测试/test.s"
 	@echo "... test1.o"
 	@echo "... test1.i"
 	@echo "... test1.s"
+	@echo "... 题目/StudentAddressBook.o"
+	@echo "... 题目/StudentAddressBook.i"
+	@echo "... 题目/StudentAddressBook.s"
 .PHONY : help
 
 
